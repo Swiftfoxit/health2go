@@ -14,6 +14,8 @@
  * @package 	JobBoard/Templates
  * @version     1.0.0
  */
+ 
+
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
@@ -21,11 +23,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 wp_enqueue_style('zinput');
 ?>
 
+<div style="padding:0 0 20px 0;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d463876.939713476!2d46.542343215050785!3d24.72555534467799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh+Saudi+Arabia!5e0!3m2!1sen!2sin!4v1534855062932" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
 <form class="jobboard-form post-form" action="" method="post" enctype="multipart/form-data">
 
     
 	
-	<ul class="nav nav-tabs">
+	<ul class="nav nav-tabs nav-justified">
 		<li class="active"><a href="#tab-category" data-toggle="tab">Categories</a></li>
 		<li><a href="#tab-speciality" data-toggle="tab">Speciality</a></li>
 		<li><a href="#tab-filter" data-toggle="tab">Filter</a></li>
@@ -37,7 +43,7 @@ wp_enqueue_style('zinput');
 	  <div class="row">
 			<div class="field col-xs-12 col-sm-12 col-md-12 field-checkbox">
 				
-				 <div class="field-content">
+				 <div class="field-content check-list">
 		<?php
 			$categories = get_terms( 'jobboard-tax-categories', array(
 				'hide_empty' => false,
@@ -69,7 +75,7 @@ wp_enqueue_style('zinput');
 					) );
 					
 					if(!empty($sub_categories))
-					{?>
+					{ ?>
 						<div class="zInputWrapper sub_cat" id="sub_cat_<?php echo $category->term_id;?>" style="display:none">
 						<?php
 						foreach($sub_categories as $sub_category){
@@ -85,18 +91,22 @@ wp_enqueue_style('zinput');
 			}
 			?>
 			<!--sub category-->
+            
+            <div class="btnn-bg"><a href="javascript:void(0);" onclick="toggle_nav('speciality');" class="btn btn-default btn-sm">Next</a></div>
+            
 			</div>
 			
 			
 			
 			</div>
 			</div>
+            
 	  </div>
 	  <div id="tab-speciality" class="tab-pane fade">
 		<div class="row">
 			<div class="field col-xs-12 col-sm-12 col-md-12 field-checkbox">
 				
-				 <div class="field-content">
+				 <div class="field-content check-list">
 
 					<ul class="checkbox-style field-checkbox">
 						<?php
@@ -116,12 +126,20 @@ wp_enqueue_style('zinput');
 							}
 						}
 						?>
+                    <br clear="all" />
 					</ul>
-				</div>
+                    
+                    <div class="btnn-bg">                
+                    <a href="javascript:void(0);" onclick="toggle_nav('category');" class="btn btn-default btn-sm">Previous</a>
+                    <a href="javascript:void(0);" onclick="toggle_nav('filter');" class="btn btn-default btn-sm">Next</a>                
+                    </div>
+				</div>                
 			</div>
 		</div>
+        
 	  </div>
 	  <div id="tab-filter" class="tab-pane fade">
+      <div class="check-list2">
 		<div class="row">
 			<div class="field col-xs-2 col-sm-2 col-md-2">
 				
@@ -143,6 +161,24 @@ wp_enqueue_style('zinput');
 			<div class="field col-xs-2 col-sm-2 col-md-2">				
 				 <div class="field-content">
 					<h5>Rating</h5>
+                    
+                    <ul class="checkbox-style field-checkbox">
+                        <li><input id="location_27" name="locations[]" class="checkbox" value="27" type="checkbox">
+                        <label class="str-5"></label>
+                        </li>
+                        <li><input id="location_27" name="locations[]" class="checkbox" value="27" type="checkbox">
+                        <label class="str-4"></label>
+                        </li>                        
+                        <li><input id="location_27" name="locations[]" class="checkbox" value="27" type="checkbox">
+                        <label class="str-3"></label>
+                        </li>                        
+                        <li><input id="location_27" name="locations[]" class="checkbox" value="27" type="checkbox">
+                        <label class="str-2"></label>
+                        </li>                        
+                        <li><input id="location_27" name="locations[]" class="checkbox" value="27" type="checkbox">
+                        <label class="str-1"></label>
+                        </li>
+					</ul>
 					
 				 </div>
 			</div>
@@ -228,15 +264,42 @@ wp_enqueue_style('zinput');
 				 </div>
 			</div>
 		</div>
+        
+       			<div class="btnn-bg">                       
+        		<a href="javascript:void(0);" onclick="toggle_nav('speciality');" class="btn btn-default btn-sm">Previous</a>
+                <a href="javascript:void(0);" onclick="toggle_nav('time');" class="btn btn-default btn-sm">Next</a>
+                </div>
 	  </div>
+      </div>
+      
 	  <div id="tab-time" class="tab-pane fade">
+      <div class="row">
+      <div class="check-list2">
 		<h3>Menu 1</h3>
 		<p>Some content in menu 1.</p>
+        
+        <div class="btnn-bg">                       
+               
+                <a href="javascript:void(0);" onclick="toggle_nav('filter');" class="btn btn-default btn-sm">Previous</a>
+                <a href="javascript:void(0);" onclick="toggle_nav('cost');" class="btn btn-default btn-sm">Next</a>
+                </div>
+        
+      </div>
+      </div>
+       
 	  </div>
 	  <div id="tab-cost" class="tab-pane fade">
+      <div class="row">
+      <div class="check-list2">
 		<h3>Menu 1</h3>
 		<p>Some content in menu 1.</p>
+        
+        <div class="btnn-bg"><a href="javascript:void(0);" onclick="toggle_nav('time');" class="btn btn-default btn-sm">Previous</a></div>
+        
 	  </div>
+      </div>
+      
+      </div>
 	</div>
 <?php do_action("jobboard_form_post", $fields); ?>
 </form>
@@ -259,4 +322,7 @@ jQuery(document).ready(function($){
 	});
 	 
 });
+function toggle_nav(item){
+jQuery('.nav-tabs a[href="#tab-'+item+'"]').tab('show');
+}
 </script>

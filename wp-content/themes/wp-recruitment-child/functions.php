@@ -160,9 +160,10 @@ function jobboard_employer_navigation_change($args){
 
 add_action('wp','remove_package_for_employer');
 function remove_package_for_employer(){
+if(class_exists('JB_Package')){
 	$JB_Package = JB_Package::instance();
 	remove_filter( 'jobboard_employer_navigation_args', array( $JB_Package, 'add_endpoint_menu' ) );
-	
+	}
 }
 add_action( 'admin_menu', 'remove_employer_package_menu_item');
 function remove_employer_package_menu_item(){
@@ -382,3 +383,10 @@ function create_job_category(){
 			register_taxonomy( 'jobboard-tax-boards', array( 'jobboard-post-jobs' ), $job_board );
 }
 /*create job category taxonomy*/
+
+/*Change dashboard page title*/
+add_filter('jobboard_query_endpoint_new_title','change_dashboard_page_new_title');
+function change_dashboard_page_new_title()
+{
+	return 'Create Job Request';
+}

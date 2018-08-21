@@ -14,3 +14,41 @@
 /*
 -------------------------------------------------------------- */
 .menu-main-menu-container{float:right;}
+
+
+form.jobboard-form{}
+form.jobboard-form .nav-tabs{}
+form.jobboard-form .nav-tabs li{text-transform:uppercase;}
+form.jobboard-form .nav-tabs li a{font-size:14px; line-height:32px;}
+
+.check-list{padding:20px; background:#f9f9f9;}
+.check-list ul{}
+.check-list ul li{width:20%; float:left;}
+
+.check-list2{padding:20px; background:#f9f9f9;}
+.check-list2 ul{}
+.check-list2 ul li{width:100%; float:left; display:block;}
+.check-list2 h5{border-bottom:1px solid #ccc; padding:0 0 10px 0; margin:0 0 10px 0; text-transform:uppercase;}
+
+.btnn-bg{text-align:right; padding:10px 0 0 0;}
+
+.str-5{width:107px; margin:5px 0 0 0!important; height:14px; background:url(images/5star.png) no-repeat 100% 100%;}
+.str-4{width:107px; margin:5px 0 0 0!important; height:14px; background:url(images/4star.png) no-repeat 100% 100%;}
+.str-3{width:107px; margin:5px 0 0 0!important; height:14px; background:url(images/3star.png) no-repeat 100% 100%;}
+.str-2{width:107px; margin:5px 0 0 0!important; height:14px; background:url(images/2star.png) no-repeat 100% 100%;}
+.str-1{width:107px; margin:5px 0 0 0!important; height:14px; background:url(images/1star.png) no-repeat 100% 100%;}
+
+.is-jobboard .dashboard-navigations .navigations li a{font-size:14px!important;}
+
+.jobboard-form .radio-style li label, .jobboard-form .checkbox-style li label{font-size:11px!important;}
+
+
+
+@media screen and (min-width: 1280px) {  
+
+  .is-jobboard .dashboard-navigations {
+    padding-right: 40px!important; }
+    .is-jobboard .dashboard-sidebar {
+      padding-left: 40px!important; }
+	  
+}

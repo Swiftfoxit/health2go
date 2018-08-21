@@ -1,23 +1,56 @@
-.zInputWrapper{
-background-color:#E4E8E8;
-padding: 4px;
-margin: 2px;
-border-radius:12px;
-display:inline-block;
-}
+.zInputWrapper{display:block; width:100%;}
 
 .zInput{
-display:inline-block;
-width: 200px;
+display:inline-block; width:23%;
 height:50px;
 background-color: white;
 margin:4px;
 padding: 12px;
 text-align:center;
 cursor:default;
-color: #336600;
-border: #336600 1px solid;
-border-radius:10px;
+color: #4e007a;
+border: #4e007a 1px solid;
+border-radius:5px;
+font-size:13px; text-transform:uppercase;
+overflow:hidden;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+line-height:14px; cursor:pointer;
+}
+
+
+.zCheckbox{
+color: #4e007a;
+border: #4e007a 1px solid;
+}
+
+.zSelected{
+color: white;
+background-color:#4e007a;
+}
+
+.zSelected.zCheckbox{
+background-color: #4e007a;
+
+}
+
+.sub_cat{margin-top:10px;}
+
+.sub_cat .zInput{
+display:inline-block; width:23%;
+height:40px;
+background-color:#f6e6ff;
+margin:4px;
+padding: 5px 12px;
+text-align:center;
+cursor:default;
+color: #000;
+border: #4e007a 1px solid;
+border-radius:5px;
 font-size: 12px;
 overflow:hidden;
 -webkit-touch-callout: none;
@@ -26,20 +59,21 @@ overflow:hidden;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
+line-height:12px; cursor:pointer;
 }
 
 
-.zCheckbox{
-color: #000099;
-border: #000099 1px solid;
+.sub_cat .zCheckbox{
+color: #4e007a;
+border: #4e007a 1px solid;
 }
 
-.zSelected{
+.sub_cat .zSelected{
 color: white;
-background-color:#336600;
+background-color:#4e007a;
 }
 
-.zSelected.zCheckbox{
-background-color: #000099;
+.sub_cat .zSelected.zCheckbox{
+background-color: #4e007a;
 
 }

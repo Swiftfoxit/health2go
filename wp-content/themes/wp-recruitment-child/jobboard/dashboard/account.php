@@ -1,8 +1,8 @@
 <?php
 /**
- * The Template for displaying add job actions.
+ * The Template for displaying account dashboard.
  *
- * This template can be overridden by copying it to yourtheme/jobboard/dashboard/employer/add-actions.php.
+ * This template can be overridden by copying it to yourtheme/jobboard/dashboard/account.php.
  *
  * HOWEVER, on occasion JobBoard will need to update template files and you
  * (the theme developer) will need to copy the new files to your theme to
@@ -18,16 +18,15 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
-
 ?>
 
-<div class="form-actions post-actions">
+<div class="dashboard-navigations col-xs-12 col-md-2">
 
-    <?php do_action('jobboard_form_post_actions'); ?>
+    <?php do_action("jobboard_dashboard_".jb_account_type()."_navigation"); ?>
 
-    <?php wp_nonce_field( 'add_job' ); ?>
+</div>
+<div class="dashboard-content col-xs-12 col-md-10">
 
-    <!--<input type="submit" class="button" value="<?php esc_attr_e('Push Request', JB_TEXT_DOMAIN); ?>">-->
-    <input type="hidden" name="action" value="add_job">
-    <input type="hidden" name="form" value="jobboard-form">
+    <?php do_action("jobboard_dashboard_".jb_account_type()."_content"); ?>
+
 </div>
