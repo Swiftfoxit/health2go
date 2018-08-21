@@ -1,0 +1,49 @@
+.wp-list-table tbody tr{
+    display: table-row!important;
+}
+
+.redux-container .redux-main{
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.redux-container{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.redux-container .redux-main td{
+    width: 100%;
+}
+
+#edittag .redux-main{
+    width: 96.5%;
+}
+
+#edittag .redux-main th, #edittag .redux-main td{
+    padding-left: 0px!important;
+}
+
+#addtag .redux-main{
+    width: 98%;
+}
+
+#addtag .redux-main th{
+    width: 100%;
+    padding: 0;
+}
+#addtag .redux-main th .redux_field_th{
+    padding: 0;
+}
+
+#addtag .redux-main th, #addtag .redux-main td{
+    display: inline-block;
+    padding-left: 0px!important;
+}
+
+.redux-container .redux-sidebar, .redux-container .redux-main{
+    min-height: 0px;
+}

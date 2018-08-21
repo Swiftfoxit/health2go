@@ -1,0 +1,21 @@
+.wpb_el_type_cms_template_img img.cms-img-select {
+    display: inline-block;
+    margin: 10px;
+    width: 44.2%;
+    border: 4px solid #fff;
+}
+.wpb_el_type_cms_template_img img.cms-img-select:hover {
+    cursor: pointer;
+}
+.wpb_el_type_cms_template_img img.selected,
+.wpb_el_type_cms_template_img img.cms-img-select:hover {
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+        -ms-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+         -o-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+            border: 4px solid #4e007a;
+}
+body .redux-container .redux-group-menu li.active:not(.hasSubSections) {
+    border-left: 4px solid #4e007a !important;
+}

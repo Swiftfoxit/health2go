@@ -1,0 +1,48 @@
+/* field. */
+@media screen and (min-width: 782px) {
+    .wpl-redux-icon {
+        width: 200px !important;
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 7px 10px;
+    }
+}
+
+.redux-main .button.wpl-redux-icon-button{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0;
+}
+.redux-main .button.wpl-redux-icon-button i{
+    line-height: 36px;
+    font-size: 15px;
+}
+
+/** popup. */
+.wpl-redux-font li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+}
+
+.wpl-redux-font li:hover{
+    background-color: #000;
+    color: white;
+}
+
+#wpl-redux-icon-search{
+    float: right;
+}
+
+.wpl-redux-font-title{
+    background-color: #efefef;
+    text-transform: UPPERCASE;
+    padding: 10px 56px 10px 56px;
+}

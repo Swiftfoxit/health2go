@@ -1,0 +1,67 @@
+.cms-table {
+  display: table;
+  max-width: none;
+  min-width: 100%;
+  table-layout: fixed;
+  width: auto;
+}
+.cms-table-cell {
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+}
+.cms-flex {
+	display: flex;
+}
+.cms-flex-col {
+	align-items: center;
+    display: flex;
+    &.cshero-header-navigation {
+    	width: 100%;
+    	.cshero-header-navigation-inner {
+    		width: 100%;
+    	}
+    }
+}
+
+
+@font-face {
+    font-family: 'sf_ui_textlight';
+    src: url('../fonts/sf-ui-text-light-webfont.woff2') format('woff2'),
+         url('../fonts/sf-ui-text-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf_ui_textbold';
+    src: url('../fonts/sf-ui-text-bold-webfont.woff2') format('woff2'),
+         url('../fonts/sf-ui-text-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_ui_textmedium';
+    src: url('../fonts/sf-ui-text-medium-webfont.woff2') format('woff2'),
+         url('../fonts/sf-ui-text-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_ui_textregular';
+    src: url('../fonts/sf-ui-text-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sf-ui-text-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_ui_textsemibold';
+    src: url('../fonts/sf-ui-text-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/sf-ui-text-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

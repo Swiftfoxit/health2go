@@ -1,0 +1,167 @@
+/* ==========================================================================
+   [Start] All Style Footer Top & Footer Bottom
+========================================================================== */
+.contact-info span {
+	font-weight: 600;
+	color: $primary_color;
+}
+#cms-footer-top {
+	padding-top: 80px;
+	padding-bottom: 65px;
+	color: #363636;
+	font-size: 13px;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	font-weight: 500;
+	border-top: 1px solid #e8e8e8;
+	.wg-title {
+		font-size: 17px;
+		line-height: 32px;
+		color: $primary_color;
+		letter-spacing: 0.05em;
+	}
+	.wg-title2 {
+		font-size: 22px;
+		line-height: 32px;
+		color: $primary_color;
+		letter-spacing: 0.05em;
+		margin-bottom: 18px;
+		span {
+			color: $color_dark;
+		}
+	}
+	ul.menu {
+		li {
+			a {
+				color: #616161;
+				&:hover {
+					color: $primary_color;
+				}
+			}
+		}
+	}
+	.widget_newsletterwidget {
+		max-width: 340px;
+		position: relative;
+		label {
+			display: none;
+		}
+		.tnp-email {
+			background-color: #f5f5f5;
+		    border: 1px solid #e8e8e8 !important;
+		    font-size: 11px;
+		    height: 40px;
+		    line-height: 40px;
+		    padding: 0 15px;
+		    text-transform: none;
+		    @include box-shadow(none);
+		    @include border-radius(5px);
+		    &:focus {
+		    	border-color: $primary_color !important;
+		    }
+		}
+		.tnp-field-button {
+			position: absolute;
+		    right: 0;
+		    top: 0;
+			.tnp-submit {
+				border: none !important;
+			    @include border-radius(0 5px 5px 0);
+			    font-size: 11px;
+			    font-weight: 500;
+			    letter-spacing: 0.035em;
+			    line-height: 22px;
+			    padding: 0 25px !important;
+			    background-color: $primary_color !important;
+			    position: initial !important;
+			    height: 40px !important;
+			    line-height: 40px;
+			    &:hover {
+			    	background-color: $color_dark !important;
+			    	color: #fff;
+			    }
+			}
+		}
+	}
+}
+#cms-footer-bottom {
+	background-color: #f5f5f5;
+	border-top: 1px solid #e8e8e8;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 28px;
+	letter-spacing: 0.035em;
+	color: $color_dark;
+	a {
+		color: $color_dark;
+		&:hover {
+			color: $primary_color;
+		}
+	}
+	.no-container {
+		padding: 0 15px;
+		max-width: 1665px;
+		margin: auto;
+	}
+	.logo-footer {
+		float: left;
+		margin-right: 23px;
+		img {
+			max-height: 75px;
+		}
+	}
+	.cms-copyright {
+		padding: 24px 0;
+	}
+	#back_to_top {
+		padding: 24px 0;
+		cursor: pointer;
+		i {
+			padding-left: 10px;
+			@include transition(all 280ms linear 0ms);
+		}
+		.go_up {
+			@include transition(all 280ms linear 0ms);
+			&:hover {
+				color: $primary_color;
+			}
+		}
+	}
+	.cms-footer-bottom-col {
+		padding: 20px 0;
+	}
+}
+
+.cms-footer2 {
+	#cms-footer-bottom {
+		font-size: 13px;
+		font-weight: normal;
+		color: rgba(0,0,0,0.67);
+	}
+	.cms-copyright div {
+		display: inline-block;
+	}
+	.cms-footer-payment {
+		a {
+			margin-right: 10px;
+		}
+		padding-right: 10px;
+	}
+}
+@media screen and (min-width: 1360px) {
+	.width_column_change #cms-footer-top .col-lg-3 {
+		&:nth-child(1) {
+			width: 48%;
+			padding-right: 18%;
+		}
+		&:nth-child(2) {
+			width: 17.33%;
+		}
+		&:nth-child(3) {
+			width: 17.33%;
+		}
+		&:nth-child(4) {
+			width: 17.33%;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+input.large-text, textarea.large-text {
+    width: 100%;
+}
+
+input.regular-text{
+    width: 40%;
+}
+
+#jobboard_meta .ui-sortable-handle{
+    border: none;
+}
+
+#jobboard_meta .redux-sidebar{
+    width: 100%;
+    float: inherit;
+    margin-left: 0;
+    min-height: 30px;
+}
+
+#jobboard_meta .redux-sidebar > ul{
+    margin: 0;
+}
+
+#jobboard_meta .redux-sidebar > ul > li{
+    display: inline-block;
+}
+
+#jobboard_meta .redux-container .redux-main{
+    margin-left: 0px;
+}
+
+#jobboard_meta .redux-sidebar .redux-group-menu li a{
+    padding-right: 14px;
+    border: none;
+}

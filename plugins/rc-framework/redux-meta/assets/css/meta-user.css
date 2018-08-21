@@ -1,0 +1,17 @@
+.redux-container, .redux-container .redux-main{
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+.redux-container .redux-option-image{
+    max-height: 70px;
+}
+
+.redux-container .form-table{
+    max-width: 700px;
+}
+
+.redux-container .redux-main .form-table tr{
+    border: none;
+}

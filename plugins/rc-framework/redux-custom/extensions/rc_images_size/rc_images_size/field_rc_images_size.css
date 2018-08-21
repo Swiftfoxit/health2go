@@ -1,0 +1,12 @@
+.wpl-crop-images .crop-width, .wpl-crop-images .crop-height{
+    max-width: 58px;
+}
+
+.wpl-crop-images label.crop{
+    margin-left: 10px!important;
+}
+
+.wpl-crop-images li.title{
+    font-weight: 600;
+    margin-top: 5px;
+}

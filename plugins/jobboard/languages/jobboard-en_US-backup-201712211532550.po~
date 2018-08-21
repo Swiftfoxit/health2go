@@ -1,0 +1,5809 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JobBoard\n"
+"POT-Creation-Date: 2017-12-21 21:55+0700\n"
+"PO-Revision-Date: 2017-12-21 15:31+0000\n"
+"Last-Translator: Administrator <admin@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Poedit-SearchPath-0: jobboard\n"
+"X-Poedit-SearchPath-1: jobboard-alerts\n"
+"X-Poedit-SearchPath-2: jobboard-alphabeta\n"
+"X-Poedit-SearchPath-3: jobboard-basket\n"
+"X-Poedit-SearchPath-4: jobboard-deadline\n"
+"X-Poedit-SearchPath-5: jobboard-demo\n"
+"X-Poedit-SearchPath-6: jobboard-event\n"
+"X-Poedit-SearchPath-7: jobboard-external-link\n"
+"X-Poedit-SearchPath-8: jobboard-guest-apply\n"
+"X-Poedit-SearchPath-9: jobboard-map\n"
+"X-Poedit-SearchPath-10: jobboard-package\n"
+"X-Poedit-SearchPath-11: jobboard-profile-widget\n"
+"X-Poedit-SearchPath-12: jobboard-protect\n"
+"X-Poedit-SearchPath-13: jobboard-razorpay\n"
+"X-Poedit-SearchPath-14: jobboard-register\n"
+"X-Poedit-SearchPath-15: jobboard-resources\n"
+"X-Poedit-SearchPath-16: jobboard-search\n"
+"X-Poedit-SearchPath-17: jobboard-similar\n"
+"X-Poedit-SearchPath-18: jobboard-social-login\n"
+"Report-Msgid-Bugs-To: "
+
+#: jobboard-alerts/inc/class.ja-admin.php:28
+msgid "Alerts & Newsletter"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:31
+msgid "Manager subscribe"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:37
+msgid "Important!"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:38
+msgid ""
+"Before enable 'Alerts Cron' you can add define('ALTERNATE_WP_CRON', true); "
+"to file wp-config.php, and your server support wp_mail() function."
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:43
+msgid "Alerts Cron"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:44
+msgid "For every job Approved, a cron job is created and email send to users."
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:50
+msgid "Alerts For Employer"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:51
+msgid ""
+"For every job Approved, a cron job is created and email send to employers."
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:58
+msgid "Alerts For Candidate"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:59
+msgid ""
+"For every job Approved, a cron job is created and email send to candidates."
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:66
+msgid "Emails / Seconds"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:67
+msgid ""
+"The total number of emails will be sent in 30 seconds. On average, a server "
+"will handle 3 - 6 emails per second."
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:68
+msgid "Emails"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:78
+msgid "Schedule"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:79
+msgid ""
+"Time interval for each email submission, optimized for sites with multiple "
+"users."
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:80
+msgid "Seconds"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:90
+msgid "Alerts Email"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:97
+#: jobboard-register/inc/class.jr-admin.php:80
+#: jobboard-register/inc/class.jr-admin.php:147
+#: jobboard-register/inc/class.jr-admin.php:200
+#: jobboard-social-login/inc/class.js-admin.php:93
+#: jobboard/inc/class.jb-admin.php:488 jobboard/inc/class.jb-admin.php:524
+#: jobboard/inc/class.jb-admin.php:563
+msgid "From"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:103
+#: jobboard-register/inc/class.jr-admin.php:86
+#: jobboard-register/inc/class.jr-admin.php:153
+#: jobboard-register/inc/class.jr-admin.php:206
+#: jobboard-social-login/inc/class.js-admin.php:99
+#: jobboard/inc/class.jb-admin.php:494 jobboard/inc/class.jb-admin.php:530
+#: jobboard/inc/class.jb-admin.php:569
+msgid "Reply"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:110
+#: jobboard-register/inc/class.jr-admin.php:99
+#: jobboard-register/inc/class.jr-admin.php:106
+#: jobboard-register/inc/class.jr-admin.php:166
+#: jobboard-register/inc/class.jr-admin.php:173
+#: jobboard-register/inc/class.jr-admin.php:219
+#: jobboard-social-login/inc/class.js-admin.php:112
+#: jobboard/inc/class.jb-admin.php:507 jobboard/inc/class.jb-admin.php:543
+#: jobboard/inc/class.jb-admin.php:582
+msgid "Email Template."
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:111
+msgid ""
+"This template can be overridden by copying it to yourtheme/jobboard/add-"
+"ons/alerts/emails/alerts.php."
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:130
+msgid "Alerts & Notices"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:136
+#: jobboard-alerts/inc/template-functions.php:103
+#: jobboard-alerts/jobboard-alerts.php:140
+msgid "Job Alerts"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:137
+msgid "Endpoint for the employer & candidate → view job alerts page"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:138
+msgid "alerts"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:143
+#: jobboard-alerts/jobboard-alerts.php:145
+msgid "Manage Notifications"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:144
+msgid "Endpoint for the & employer candidate → view manage notifications page"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-admin.php:145
+msgid "notices"
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-formhandler.php:62
+#: jobboard-alerts/inc/class.ja-formhandler.php:93
+msgid "Successfully Alerts Updated."
+msgstr ""
+
+#: jobboard-alerts/inc/class.ja-formhandler.php:118
+msgid "Success : You have subscribed!"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:42
+msgid "Job Sector"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:51
+msgid "Keywords"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:59
+#: jobboard-alphabeta/jobboard-alphabeta.php:155
+#: jobboard/inc/class.jb-admin.php:274 jobboard/inc/class.jb-post.php:146
+#: jobboard/inc/class.jb-post.php:156
+msgid "Locations"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:68
+msgid "Employment Types"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:113
+msgid "Email me when a new job is posted"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:122
+msgid "Email me when a job of interest is posted"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:127
+msgid "Newsletter"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:136
+msgid "Subscribe to newsletter?"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:145
+msgid "Daily"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:146
+msgid "Weekly"
+msgstr ""
+
+#: jobboard-alerts/inc/template-functions.php:147
+msgid "Monthly"
+msgstr ""
+
+#: jobboard-alerts/jobboard-alerts.php:346
+msgid "Once a Minute"
+msgstr ""
+
+#: jobboard-alerts/templates/alerts-actions.php:29
+msgid "Save Job Alerts"
+msgstr ""
+
+#: jobboard-alerts/templates/alerts-sections.php:27
+msgid "Add Job Alert"
+msgstr ""
+
+#: jobboard-alerts/templates/alerts-sections.php:34
+#: jobboard-basket/inc/template-functions.php:95
+#: jobboard-resources/inc/class.jr-post.php:128
+msgid "Remove"
+msgstr ""
+
+#: jobboard-alerts/templates/emails/alerts.php:23
+msgid "Job Alert"
+msgstr ""
+
+#: jobboard-alerts/templates/emails/alerts.php:24
+msgid "A job of interest is posted"
+msgstr ""
+
+#: jobboard-alerts/templates/emails/alerts.php:28
+#: jobboard-alerts/widgets/class-ja-widget-newsletter.php:30
+#: jobboard-basket/widgets/class-jb-widget-basket.php:30
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:30
+#: jobboard/inc/functions-core.php:801
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:30
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:46
+#: jobboard/inc/widgets/class-jb-widget-salary-filters.php:32
+#: jobboard/inc/widgets/class-jb-widget-search.php:30
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:30
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:44
+#: jobboard/inc/widgets/class-jb-widget-type.php:44
+msgid "Title"
+msgstr ""
+
+#: jobboard-alerts/templates/emails/alerts.php:32
+#: jobboard/inc/widgets/class-jb-widget-salary-filters.php:31
+msgid "Salary"
+msgstr ""
+
+#: jobboard-alerts/templates/emails/alerts.php:36
+#: jobboard-basket/inc/template-functions.php:52
+#: jobboard-event/inc/class.je-post.php:46
+#: jobboard-package/inc/class.jp-post.php:601
+#: jobboard/inc/class.jb-admin.php:945 jobboard/inc/class.jb-admin.php:970
+#: jobboard/inc/template-functions.php:846
+msgid "Type"
+msgstr ""
+
+#: jobboard-alerts/templates/emails/alerts.php:40
+#: jobboard/inc/class.jb-post.php:114
+msgid "Specialism"
+msgstr ""
+
+#: jobboard-alerts/templates/emails/alerts.php:44
+#: jobboard-map/inc/class.jm-admin.php:263 jobboard/inc/class.jb-post.php:147
+#: jobboard/inc/class.jb-post.php:684
+msgid "Location"
+msgstr ""
+
+#: jobboard-alerts/templates/emails/alerts.php:48
+#: jobboard/templates/emails/application.php:32
+#: jobboard/templates/emails/candidate-applied.php:32
+msgid "By"
+msgstr ""
+
+#: jobboard-alerts/templates/emails/alerts.php:52
+#: jobboard-package/inc/class.jp-admin.php:86
+#: jobboard-razorpay/jobboard-razorpay.php:144
+msgid "Description"
+msgstr ""
+
+#: jobboard-alerts/templates/newsletter-form.php:24
+msgid "Enter email address"
+msgstr ""
+
+#: jobboard-alerts/templates/newsletter-form.php:25
+msgid "Submit"
+msgstr ""
+
+#: jobboard-alerts/templates/notices-actions.php:29
+msgid "Apply Changes"
+msgstr ""
+
+#: jobboard-alerts/widgets/class-ja-widget-newsletter.php:23
+msgid "A Newsletter box for JobBoard only."
+msgstr ""
+
+#: jobboard-alerts/widgets/class-ja-widget-newsletter.php:25
+msgid "JobBoard Newsletter"
+msgstr ""
+
+#: jobboard-alerts/widgets/class-ja-widget-newsletter.php:29
+msgid "Job Newsletter"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:66
+msgid "A"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:67
+msgid "B"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:68
+msgid "C"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:69
+msgid "D"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:70
+msgid "E"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:71
+msgid "F"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:72
+msgid "G"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:73
+msgid "H"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:74
+msgid "I"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:75
+msgid "J"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:76
+msgid "K"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:77
+msgid "L"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:78
+msgid "M"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:79
+msgid "N"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:80
+msgid "O"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:81
+msgid "P"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:82
+msgid "Q"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:83
+msgid "R"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:84
+msgid "S"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:85
+msgid "T"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:86
+msgid "U"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:87
+msgid "V"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:88
+msgid "W"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:89
+msgid "X"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:90
+msgid "Y"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:91
+msgid "Z"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:142
+msgid "Taxonomy Listing"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:144
+#: jobboard-alphabeta/jobboard-alphabeta.php:177
+#: jobboard-map/inc/class.jm-shortcodes.php:55
+#: jobboard-map/inc/class.jm-shortcodes.php:61
+#: jobboard-register/inc/class.jr-shortcodes.php:62
+#: jobboard-register/inc/class.jr-shortcodes.php:69
+#: jobboard-search/inc/class.js-shortcodes.php:48
+#: jobboard/inc/class.jb-post.php:53 jobboard/inc/class.jb-post.php:54
+#: jobboard/inc/class.jb-post.php:55 jobboard/inc/class.jb-post.php:56
+#: jobboard/inc/templates/redux/menu_container.tpl.php:15
+msgid "JobBoard"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:145
+#: jobboard-alphabeta/jobboard-alphabeta.php:178
+msgid "Listing Alpha Beta"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:148
+#: jobboard-package/inc/class.jp-post.php:431
+msgid "Listing"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:149
+msgid "Select Listing source."
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:154
+#: jobboard-register/jobboard-register.php:230
+#: jobboard-register/jobboard-register.php:232
+#: jobboard/inc/class.jb-admin.php:723 jobboard/inc/class.jb-admin.php:725
+#: jobboard/inc/class.jb-post.php:113 jobboard/inc/class.jb-post.php:123
+msgid "Specialisms"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:156
+#: jobboard/inc/functions-employer.php:155
+#: jobboard/inc/functions-employer.php:157
+msgid "Tags"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:160
+msgid "First Level"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:161
+msgid "Show first level, default show all."
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:166
+msgid "Hide Empty"
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:167
+msgid "Hide terms not assigned to any jobs."
+msgstr ""
+
+#: jobboard-alphabeta/jobboard-alphabeta.php:175
+msgid "Company Listing"
+msgstr ""
+
+#: jobboard-alphabeta/templates/terms-alphabeta.php:57
+#: jobboard-alphabeta/templates/users-alphabeta.php:56
+#, php-format
+msgid "(%s) positions"
+msgstr ""
+
+#: jobboard-basket/inc/class.jb-admin.php:28
+msgid "Cart & Basket"
+msgstr ""
+
+#: jobboard-basket/inc/class.jb-admin.php:35
+msgid "Items Limit"
+msgstr ""
+
+#: jobboard-basket/inc/class.jb-admin.php:36
+msgid "Limit the maximum number of jobs that are in the basket per user."
+msgstr ""
+
+#: jobboard-basket/inc/class.jb-admin.php:37
+msgid "items/account"
+msgstr ""
+
+#: jobboard-basket/inc/class.jb-admin.php:53
+#: jobboard-basket/jobboard-basket.php:145
+#: jobboard-basket/widgets/class-jb-widget-basket.php:29
+msgid "Job Basket"
+msgstr "LOL"
+
+#: jobboard-basket/inc/class.jb-admin.php:54
+#: jobboard-package/inc/class.jp-admin.php:170
+#: jobboard-package/inc/class.jp-admin.php:178
+msgid "Endpoint for the candidate → view manage job basket page"
+msgstr ""
+
+#: jobboard-basket/inc/class.jb-admin.php:55
+msgid "basket"
+msgstr ""
+
+#: jobboard-basket/inc/template-functions.php:51
+#: jobboard/inc/template-functions.php:845
+msgid "Job Title"
+msgstr ""
+
+#: jobboard-basket/inc/template-functions.php:53
+msgid "Date Added"
+msgstr ""
+
+#: jobboard-basket/inc/template-functions.php:54
+#: jobboard/inc/template-functions.php:968
+#: jobboard/inc/template-functions.php:1057
+#: jobboard/templates/dashboard/employer/applications.php:59
+msgid "Actions"
+msgstr ""
+
+#: jobboard-basket/inc/template-functions.php:73
+#: jobboard-event/inc/class.je-post.php:26 jobboard/inc/class.jb-post.php:57
+#: jobboard/inc/template-functions.php:868
+msgid "New"
+msgstr ""
+
+#: jobboard-basket/inc/template-functions.php:87
+msgid "Quick Apply"
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:160
+#: jobboard-basket/jobboard-basket.php:181
+#: jobboard-basket/jobboard-basket.php:285
+msgid "Error : 404"
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:167
+#: jobboard/inc/class.jb-formhandler.php:339
+#, php-format
+msgid "Successfully Added for '%s'"
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:172
+#: jobboard-basket/jobboard-basket.php:234
+#: jobboard-basket/jobboard-basket.php:277
+#: jobboard-basket/jobboard-basket.php:306
+#: jobboard/inc/class.jb-formhandler.php:173
+#: jobboard/inc/class.jb-formhandler.php:323
+#: jobboard/inc/class.jb-formhandler.php:364
+#, php-format
+msgid "Error : %s"
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:193
+#: jobboard-basket/jobboard-basket.php:263
+#: jobboard-basket/jobboard-basket.php:292
+msgid "Error : Access denied."
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:201
+msgid "Error : You must complete your profile."
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:214
+msgid "Quick apply"
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:228
+#: jobboard-guest-apply/jobboard-guest-apply.php:101
+#: jobboard/inc/class.jb-formhandler.php:169
+#, php-format
+msgid "Successfully Applied for '%s'"
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:270
+msgid "Successfully Clear All Basket."
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:299
+#, php-format
+msgid "Successfully Removed for '%s'"
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:353
+msgid "Cannot remove all items."
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:367
+msgid "Item does not exist."
+msgstr ""
+
+#: jobboard-basket/jobboard-basket.php:381
+msgid "Cannot remove this item."
+msgstr ""
+
+#: jobboard-basket/templates/actions/clear.php:24
+msgid "Clear All"
+msgstr ""
+
+#: jobboard-basket/templates/actions/manage.php:24
+msgid "Manager Basket"
+msgstr ""
+
+#: jobboard-basket/templates/basket-items.php:45
+msgid "No Jobs!"
+msgstr ""
+
+#: jobboard-basket/templates/buttons/loop-add.php:27
+#: jobboard-basket/templates/buttons/loop-added.php:25
+msgid "Added"
+msgstr ""
+
+#: jobboard-basket/templates/buttons/loop-applied.php:25
+#: jobboard-package/inc/class.jp-post.php:441
+#: jobboard/inc/class.jb-admin.php:473
+#: jobboard/templates/emails/candidate-applied.php:44
+msgid "Applied"
+msgstr ""
+
+#: jobboard-basket/templates/buttons/single-add.php:26
+msgid "Add To Job Basket"
+msgstr ""
+
+#: jobboard-basket/templates/buttons/single-add.php:27
+#: jobboard-basket/templates/buttons/single-added.php:25
+msgid "Ready In Job Basket"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:23
+msgid "A Basket box for JobBoard only."
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:25
+msgid "JobBoard Basket"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:35
+msgid "Header Title"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:40
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:35
+msgid "Drop Down"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:42
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:37
+msgid "Normal"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:43
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:38
+msgid "Click"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:44
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:39
+msgid "Hover"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:51
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:47
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:59
+msgid "Hide"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:52
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:60
+msgid "Before Title"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:53
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:61
+msgid "After Title"
+msgstr ""
+
+#: jobboard-basket/widgets/class-jb-widget-basket.php:55
+msgid "Basket Counts"
+msgstr ""
+
+#: jobboard-deadline/jobboard-deadline.php:85
+#, php-format
+msgid "%s have Expired!"
+msgstr ""
+
+#: jobboard-deadline/jobboard-deadline.php:133
+#: jobboard-deadline/jobboard-deadline.php:151
+#: jobboard-deadline/templates/countdown.php:24
+msgid "Deadline"
+msgstr ""
+
+#: jobboard-deadline/jobboard-deadline.php:134
+#: jobboard-deadline/jobboard-deadline.php:152
+msgid "Select job deadline (m/d/Y H:i)."
+msgstr ""
+
+#: jobboard-deadline/jobboard-deadline.php:135
+#: jobboard-deadline/jobboard-deadline.php:153
+msgid "m/d/Y H:i"
+msgstr ""
+
+#: jobboard-deadline/jobboard-deadline.php:144
+msgid "Job Deadline"
+msgstr ""
+
+#: jobboard-deadline/jobboard-deadline.php:145
+msgid "Recruitment limited time, Candidate cannot apply after job expired."
+msgstr ""
+
+#: jobboard-deadline/templates/apply-expired.php:25
+msgid "have Expired!"
+msgstr ""
+
+#: jobboard-deadline/templates/apply-expired.php:27
+msgid ""
+"The Employer has set deadline for job, sorry you cannot apply for jobs at "
+"this time."
+msgstr ""
+
+#: jobboard-deadline/templates/countdown.php:23
+msgid "Deadline :"
+msgstr ""
+
+#: jobboard-deadline/templates/countdown.php:24
+msgid "Expired"
+msgstr ""
+
+#: jobboard-demo/inc/class.jd-admin.php:27
+msgid "Demo Mode"
+msgstr ""
+
+#: jobboard-demo/inc/class.jd-admin.php:34
+msgid "Candidate User"
+msgstr ""
+
+#: jobboard-demo/inc/class.jd-admin.php:35
+msgid "Select candidate demo user."
+msgstr ""
+
+#: jobboard-demo/inc/class.jd-admin.php:36
+#: jobboard-demo/inc/class.jd-admin.php:45
+#: jobboard-package/inc/class.jp-post.php:308
+#: jobboard/inc/class.jb-post.php:714
+msgid "Enter user ID, user email, user display name..."
+msgstr ""
+
+#: jobboard-demo/inc/class.jd-admin.php:43
+msgid "Employer User"
+msgstr ""
+
+#: jobboard-demo/inc/class.jd-admin.php:44
+msgid "Select employer demo user."
+msgstr ""
+
+#: jobboard-demo/jobboard-demo.php:111
+msgid ""
+"Sorry this is demo mode, You can't update profile. These functions will "
+"available on real site."
+msgstr ""
+
+#: jobboard-demo/jobboard-demo.php:124
+msgid ""
+"Sorry this is demo mode, You can't add new job. These functions will "
+"available on real site."
+msgstr ""
+
+#: jobboard-demo/jobboard-demo.php:136
+msgid ""
+"Sorry this is demo mode, You can't update this job. These functions will "
+"available on real site."
+msgstr ""
+
+#: jobboard-demo/jobboard-demo.php:149
+msgid ""
+"Sorry this is demo mode, You can't delete this job. These functions will "
+"available on real site."
+msgstr ""
+
+#: jobboard-demo/jobboard-demo.php:160 jobboard-demo/jobboard-demo.php:173
+msgid ""
+"Sorry this is demo mode, You can't apply this job. These functions will "
+"available on real site."
+msgstr ""
+
+#: jobboard-demo/jobboard-demo.php:190
+msgid "Login Using Demo Account"
+msgstr ""
+
+#: jobboard-demo/jobboard-demo.php:192
+#: jobboard-package/inc/class.jp-post.php:85
+#: jobboard-register/jobboard-register.php:224
+#: jobboard-register/templates/emails/candidate-active.php:38
+#: jobboard-register/templates/emails/candidate-welcome.php:37
+#: jobboard/inc/class.jb-admin.php:482 jobboard/inc/class.jb-admin.php:893
+#: jobboard/inc/class.jb-install.php:51 jobboard/inc/functions-account.php:359
+msgid "Candidate"
+msgstr ""
+
+#: jobboard-demo/jobboard-demo.php:196
+#: jobboard-package/inc/class.jp-post.php:52
+#: jobboard-register/jobboard-register.php:225
+#: jobboard-register/templates/emails/employer-active.php:38
+#: jobboard-register/templates/emails/employer-welcome.php:37
+#: jobboard/inc/class.jb-admin.php:518 jobboard/inc/class.jb-admin.php:870
+#: jobboard/inc/class.jb-install.php:47 jobboard/inc/class.jb-post.php:712
+#: jobboard/inc/functions-account.php:361
+msgid "Employer"
+msgstr ""
+
+#: jobboard-demo/jobboard-demo.php:201
+msgid "Existing User Login Below"
+msgstr ""
+
+#: jobboard-event/inc/class.je-admin.php:24
+#: jobboard-event/inc/class.je-post.php:22
+#: jobboard-event/inc/class.je-post.php:23
+#: jobboard-event/inc/class.je-post.php:25
+#: jobboard-event/inc/class.je-post.php:84
+msgid "Events"
+msgstr ""
+
+#: jobboard-event/inc/class.je-admin.php:25
+msgid "Page for Event listing."
+msgstr ""
+
+#: jobboard-event/inc/class.je-admin.php:26 jobboard/inc/class.jb-admin.php:240
+msgid "(search, archive, taxonomy, location, tags)"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:24
+msgid "JB Event"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:27
+#: jobboard-event/inc/class.je-post.php:87
+#: jobboard-event/inc/class.je-post.php:88
+msgid "New Event"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:28
+#: jobboard-event/inc/class.je-post.php:89
+msgid "Edit Event"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:29 jobboard/inc/class.jb-post.php:59
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:55
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:29
+msgid "All"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:45
+#: jobboard-event/inc/class.je-post.php:55 jobboard/inc/class.jb-post.php:82
+#: jobboard/inc/class.jb-post.php:92
+msgid "Types"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:47 jobboard/inc/class.jb-post.php:84
+msgid "Search Types"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:48 jobboard/inc/class.jb-post.php:85
+msgid "All Types"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:49
+msgid "Parent Type"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:50
+msgid "Parent Type:"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:51
+msgid "Edit Type"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:52
+msgid "Update Type"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:53
+msgid "Add New Type"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:54
+msgid "New Type"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:75
+#: jobboard-package/inc/class.jp-post.php:96
+#: jobboard-resources/inc/class.jr-post.php:35
+#: jobboard-resources/inc/class.jr-post.php:96
+#: jobboard/inc/template-functions.php:989
+#: jobboard/templates/dashboard/global/account.php:26
+#: jobboard/templates/emails/employer-applied.php:45
+msgid "Edit"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:82
+#, php-format
+msgid "Events Registered %s"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:86
+msgid "Show Event"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:118
+msgid "Start"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:119
+#: jobboard-event/inc/class.je-post.php:125
+msgid "Choose datetime."
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:124
+msgid "End"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:130 jobboard/inc/class.jb-post.php:698
+#: jobboard/inc/functions-employer.php:193
+#: jobboard/inc/functions-employer.php:196
+msgid "Complete Address"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:131 jobboard/inc/class.jb-post.php:699
+msgid "Enter you complete address with city, state or country."
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:142
+msgid "Avatar"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:143
+msgid "Choose avatar."
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:152
+#: jobboard-register/templates/emails/candidate-active.php:29
+#: jobboard-register/templates/emails/candidate-welcome.php:28
+#: jobboard-register/templates/emails/employer-active.php:29
+#: jobboard-register/templates/emails/employer-welcome.php:28
+#: jobboard-register/templates/emails/forgot-password.php:29
+#: jobboard-social-login/templates/emails/new-connect.php:28
+#: jobboard/inc/class.jb-post.php:722
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:38
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:52
+#: jobboard/inc/widgets/class-jb-widget-type.php:52
+msgid "Name"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:153
+msgid "Input Event Speaker name."
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:158
+#: jobboard/templates/user/contact.php:42
+msgid "Address"
+msgstr ""
+
+#: jobboard-event/inc/class.je-post.php:159
+msgid "Input Event Speaker address"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:17
+#: jobboard-package/inc/class.jp-post.php:126
+#: jobboard-package/inc/class.jp-post.php:204
+#: jobboard-package/inc/class.jp-post.php:430
+#: jobboard-package/inc/class.jp-post.php:440
+#: jobboard/inc/class.jb-post.php:637 jobboard/inc/template-functions.php:241
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:34
+msgid "Featured"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:117
+msgid "Email invalid!"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:132
+msgid "Event not available !"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:140
+msgid "Name:"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:140
+msgid "- Event ID:"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:141
+msgid "Subscriber Information"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:142
+msgid "Name: "
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:143
+msgid "Email: "
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:144
+msgid "Phone: "
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:145
+msgid "Event Information"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:146
+msgid "ID:"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:147
+msgid "Event name:"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:155
+#: jobboard-register/inc/class.jr-install.php:30
+#: jobboard-register/templates/register-button.php:24
+msgid "Register"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:156
+msgid "You registered event"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:158
+msgid "Please wait our contact. Thank you very much!"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:159
+#: jobboard-resources/inc/class.jr-handle.php:71
+msgid "Regards, "
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:162
+msgid "Event register Successfully!"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:167
+#: jobboard-event/inc/template-functions.php:173
+msgid "Event register failed !"
+msgstr ""
+
+#: jobboard-event/inc/template-functions.php:216
+msgid "Event Speaker"
+msgstr ""
+
+#: jobboard-event/jobboard-event.php:85 jobboard/jobboard.php:330
+msgid "GitHub"
+msgstr ""
+
+#: jobboard-event/jobboard-event.php:86 jobboard/jobboard.php:332
+msgid "Support forum."
+msgstr ""
+
+#: jobboard-event/jobboard-event.php:86 jobboard/jobboard.php:332
+msgid "Support"
+msgstr ""
+
+#: jobboard-event/jobboard-event.php:87 jobboard/jobboard.php:333
+msgid "Send a email to Dev team."
+msgstr ""
+
+#: jobboard-event/jobboard-event.php:87 jobboard/jobboard.php:333
+msgid "Contact"
+msgstr ""
+
+#: jobboard-event/templates/loop/readmore.php:24
+msgid "View Event"
+msgstr ""
+
+#: jobboard-event/templates/single/register.php:16
+msgid "Register Event"
+msgstr ""
+
+#: jobboard-external-link/jobboard-external-link.php:72
+#: jobboard-external-link/jobboard-external-link.php:82
+msgid "External Link"
+msgstr ""
+
+#: jobboard-external-link/jobboard-external-link.php:73
+#: jobboard-external-link/jobboard-external-link.php:83
+msgid "External \"Apply for Job\" link."
+msgstr ""
+
+#: jobboard-external-link/jobboard-external-link.php:74
+#: jobboard-external-link/jobboard-external-link.php:84
+#: jobboard/inc/class.jb-post.php:731
+msgid "http://"
+msgstr ""
+
+#: jobboard-external-link/templates/apply.php:23
+#: jobboard/templates/single/apply.php:24
+msgid "Apply Job"
+msgstr ""
+
+#: jobboard-guest-apply/jobboard-guest-apply.php:130
+#: jobboard/inc/class.jb-formhandler.php:389
+#: jobboard/inc/class.jb-formhandler.php:472
+msgid "You need to enter all required fields."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:36
+#: jobboard-map/inc/class.jm-shortcodes.php:53
+msgid "Live Map"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:39
+msgid "Listing jobs on the location."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:44
+#: jobboard-razorpay/jobboard-razorpay.php:137
+msgid "API Key"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:45
+msgid "Google map api key."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:46
+#, php-format
+msgid "You can get Api Key %sHere →%s"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:51
+msgid "Set Default Map"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:52
+msgid ""
+"Default zoom level, map center. Search a location and right mouse click on "
+"map make a marker (right click on marker = remove marker)."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:57
+msgid "Auto Detect Location"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:58
+msgid "Auto detect client location, suggestions related jobs in the region."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:64
+msgid "Marker Icon"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:65
+msgid "Custom your map marker, you can select a image (.jpg/.png/.svg/.gif)"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:70
+msgid "Group Markers"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:71
+msgid "Select a style for group markers."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:78
+msgid "Markers Limit"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:79
+msgid "Limit jobs show in map."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:89
+msgid "Map Style"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:90
+msgid "Select a style or custom."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:94
+msgid "Standard"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:98
+msgid "Silver"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:102
+msgid "Retro"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:106
+msgid "Dark"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:110
+msgid "Night"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:114
+msgid "Aubergine"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:118
+msgid "Custom"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:126
+msgid "Custom Style (JSON)"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:127
+msgid "Custom your map style here."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:128
+msgid "Copy and paste the JSON into text field."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:135
+msgid "Controls"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:139
+msgid "Show or hide map controls."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:144
+msgid "Zoom"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:145
+msgid ""
+"The Zoom control displays \"+\" and \"-\" buttons for changing the zoom "
+"level of the map. This control appears by default in the bottom right corner "
+"of the map."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:151
+msgid "Map Type"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:152
+msgid ""
+"The Map Type control is available in a dropdown or horizontal button bar "
+"style, allowing the user to choose a map type (ROADMAP, SATELLITE, HYBRID, "
+"or TERRAIN). This control appears by default in the top left corner of the "
+"map."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:158
+msgid "Scale"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:159
+msgid ""
+"The Scale control displays a map scale element. This control is disabled by "
+"default."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:165
+msgid "Street View"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:166
+msgid ""
+"The Street View control contains a Pegman icon which can be dragged onto the "
+"map to enable Street View. This control appears by default near the bottom "
+"right of the map."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:172
+msgid "Rotate"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:173
+msgid ""
+"The Rotate control provides a combination of tilt and rotate options for "
+"maps containing oblique imagery. This control appears by default near the "
+"bottom right of the map."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:179
+msgid "Full Screen"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:180
+msgid ""
+"The Fullscreen control offers the option to open the map in fullscreen mode. "
+"This control is enabled by default on mobile devices, and is disabled by "
+"default on desktop. Note: iOS doesn't support the fullscreen feature. The "
+"fullscreen control is therefore not visible on iOS devices."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:187
+#: jobboard-map/inc/class.jm-admin.php:196 jobboard-map/jobboard-map.php:407
+#: jobboard-map/templates/search-form.php:31
+#: jobboard-search/templates/search-actions.php:23
+#: jobboard/inc/class.jb-admin.php:952
+msgid "Search"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:191
+msgid "Map search controls."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:197
+msgid ""
+"The Search control displays a search form, search all jobs in current map "
+"location."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:203
+msgid "Is Active"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:204
+msgid "Active tab search in map, default hide in tab."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:217
+#: jobboard-map/inc/class.jm-admin.php:229
+#: jobboard-map/inc/class.jm-admin.php:241
+#: jobboard-map/inc/class.jm-admin.php:253
+#: jobboard-map/inc/class.jm-admin.php:271 jobboard-map/jobboard-map.php:247
+#: jobboard-map/templates/search-form.php:26
+msgid "Geo Location"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:218
+#: jobboard-map/inc/class.jm-admin.php:272 jobboard-map/jobboard-map.php:248
+msgid "Search a location or right mouse click on map."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:230
+#: jobboard-map/inc/class.jm-admin.php:242
+#: jobboard-map/inc/class.jm-admin.php:254
+msgid ""
+"Search a location or right mouse click on map (right click on marker = "
+"remove marker)."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:264
+msgid "Add your location."
+msgstr ""
+
+#: jobboard-map/inc/class.jm-admin.php:287
+msgid "default"
+msgstr ""
+
+#: jobboard-map/inc/class.jm-shortcodes.php:59
+#: jobboard-map/jobboard-map.php:406
+msgid "Map"
+msgstr ""
+
+#: jobboard-map/jobboard-map.php:239
+msgid "Job Location"
+msgstr ""
+
+#: jobboard-map/jobboard-map.php:240
+msgid "Candidates easily find job around their area, please add a location."
+msgstr ""
+
+#: jobboard-map/templates/fields/fields/geolocation.php:24
+msgid "Enter Address"
+msgstr ""
+
+#: jobboard-map/templates/search-form.php:27
+#: jobboard-search/templates/keywords.php:23
+msgid "Keyword"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:27
+msgid "Package & Payment"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:34
+#: jobboard/inc/class.jb-post.php:662 jobboard/inc/functions-employer.php:104
+msgid "Currency"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:35
+msgid ""
+"This controls what currency prices are listed at in the catalog and which "
+"currency gateways will take payments in."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:42
+#: jobboard/inc/class.jb-admin.php:209
+msgid "Currency Position"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:43
+#: jobboard/inc/class.jb-admin.php:210
+msgid "This sets the number of decimal points shown in displayed prices."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:46
+#: jobboard/inc/class.jb-admin.php:213
+msgid "Left ($99.99)"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:47
+#: jobboard/inc/class.jb-admin.php:214
+msgid "Right (99.99$)"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:48
+#: jobboard/inc/class.jb-admin.php:215
+msgid "Left with space ($ 99.99)"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:49
+#: jobboard/inc/class.jb-admin.php:216
+msgid "Right with space (99.99 $)"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:55
+msgid "Invoice Prefix"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:56
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your PayPal "
+"account for multiple stores ensure this prefix is unique as PayPal will not "
+"allow orders with the same invoice number."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:63
+msgid "Contact Page"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:64
+msgid "Please select a contact page, billing information."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:70
+msgid "Direct Bank Tranfer"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:73
+msgid ""
+"Allows payments by BACS, more commonly known as direct bank/wire transfer."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:78
+#: jobboard-package/inc/class.jp-admin.php:135
+msgid "Enable"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:79
+msgid "Enable bank-transfer."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:87
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:88
+msgid "Enter your description"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:89
+msgid ""
+"Make your payment directly into our bank account. Please use your Order ID, "
+"your Username, your Email as the payment reference. Your order will not be "
+"shipped until the funds have cleared in our account."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:95
+msgid "Bank Account"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:96
+msgid "Add your bank account."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:100
+msgid "Account name"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:104
+#: jobboard-package/inc/template-functions.php:207
+msgid "Account number"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:108
+msgid "Bank name"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:112
+#: jobboard-package/inc/template-functions.php:225
+msgid "IBAN"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:116
+#: jobboard-package/inc/template-functions.php:234
+msgid "BIC / Swift"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:127
+msgid "Paypal"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:130
+msgid ""
+"PayPal standard sends customers to PayPal to enter their payment information."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:136
+msgid "Enable Paypal payment gateway."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:143
+msgid "PayPal Email"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:144
+msgid ""
+"Please enter your PayPal email address; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:145
+msgid "you@youremail.com"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:152
+msgid "PayPal Sandbox"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:153
+msgid "PayPal sandbox can be used to test payments."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:154
+#, php-format
+msgid "Sign up for a developer account %1$shere%2$s."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:169
+#: jobboard-package/inc/class.jp-post.php:45
+#: jobboard-package/inc/class.jp-post.php:46
+#: jobboard-package/inc/class.jp-post.php:47
+#: jobboard-package/inc/class.jp-post.php:48
+#: jobboard-package/jobboard-package.php:258
+msgid "Packages"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:171
+msgid "package"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:177
+#: jobboard-package/jobboard-package.php:262
+msgid "Transactions"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-admin.php:179
+msgid "transactions"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-formhandler.php:28
+msgid "Error: You need to select a payment method!"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-formhandler.php:34
+msgid "Error: You need to select a package!"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-formhandler.php:43
+#: jobboard-package/inc/class.jp-formhandler.php:49
+msgid "Error: Package not found!"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-formhandler.php:65
+#, php-format
+msgid "Successfully order %s package."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-formhandler.php:101
+msgid "Error: Business email not found!"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-formhandler.php:120
+#: jobboard/inc/class.jb-extension.php:104
+msgid "JB Cart"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:49
+#: jobboard-package/inc/class.jp-post.php:50
+msgid "New Package"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:51
+msgid "Edit Package"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:64
+#: jobboard-package/inc/class.jp-post.php:65
+#: jobboard-package/inc/class.jp-post.php:66
+#: jobboard-package/inc/class.jp-post.php:67
+#: jobboard-package/inc/class.jp-post.php:71
+msgid "Orders"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:68
+#: jobboard-package/inc/class.jp-post.php:69
+msgid "New Order"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:70
+msgid "Edit Order"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:93
+#: jobboard-package/inc/class.jp-post.php:94
+msgid "Package Data"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:119
+#: jobboard-package/inc/class.jp-post.php:197
+msgid "Options"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:127
+#: jobboard-package/inc/class.jp-post.php:205
+msgid "Feature package, package will display prominently."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:133
+#: jobboard-package/inc/class.jp-post.php:211
+#: jobboard-package/inc/class.jp-post.php:285
+#, php-format
+msgid "Price (%s)"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:134
+#: jobboard-package/inc/class.jp-post.php:212
+msgid "Package price, set the price for the package."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:135
+#: jobboard-package/inc/class.jp-post.php:213
+msgid "Free Package"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:142
+#: jobboard-package/inc/class.jp-post.php:219
+msgid "Membership (Month)"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:143
+#: jobboard-package/inc/class.jp-post.php:220
+msgid "Membership, limited membership time for package."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:150
+#: jobboard-package/inc/class.jp-post.php:226
+msgid "Rule"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:157
+#: jobboard-package/inc/class.jp-post.php:233
+msgid "Public Profile"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:158
+msgid "Candidate can view profile the employer, default private."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:164
+#: jobboard/inc/class.jb-admin.php:238 jobboard/inc/class.jb-breadcrumb.php:245
+#: jobboard/inc/class.jb-breadcrumb.php:321
+#: jobboard/inc/class.jb-install.php:132
+msgid "Jobs"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:165
+msgid "Limit number submit jobs, default \"0\" job."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:166
+#: jobboard-package/inc/class.jp-post.php:174
+#: jobboard-package/inc/class.jp-post.php:182
+msgid "0"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:172
+#: jobboard-package/inc/class.jp-post.php:432
+msgid "Jobs Feature"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:173
+msgid "Limit number featured jobs, default \"0\" job."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:180
+#: jobboard-package/inc/class.jp-post.php:249
+msgid "View CV"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:181
+msgid "Limit number of cv can download, default \"-1\" CV."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:234
+msgid "Employer can view profile the candidate, default private."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:240
+msgid "Apply Jobs"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:241
+msgid "Limit the number of jobs to be applied, default 0."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:242
+#: jobboard-package/inc/class.jp-post.php:251
+#: jobboard-package/inc/functions-core.php:246
+msgid "Unlimited"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:250
+msgid "Limit the number of cv can download, default -1."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:279
+#: jobboard-package/inc/class.jp-post.php:579
+msgid "Invoice"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:280
+msgid "Change invoice ID."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:286
+msgid "Change price."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:292
+msgid "Package ID"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:293
+msgid "Change Package ID."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:299
+msgid "Payment"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:300
+msgid "Change payment method."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:306
+msgid "Customer"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:307
+msgid "Change Customer."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:393
+msgid "Order"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:416
+#: jobboard-package/inc/class.jp-post.php:572
+#, php-format
+msgid "%s Order"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:417
+#: jobboard-package/inc/class.jp-post.php:573
+#, php-format
+msgid "%s Package"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:418
+#: jobboard-resources/inc/class.jr-post.php:225
+#: jobboard/inc/class.jb-post.php:375
+#, php-format
+msgid "%s Date"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:419
+#, php-format
+msgid "%s Total"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:420
+#: jobboard/inc/class.jb-post.php:376
+#, php-format
+msgid "%s Status"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:421
+#: jobboard-package/inc/class.jp-post.php:422
+#: jobboard/inc/class.jb-post.php:377
+#, php-format
+msgid "%s Actions"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:433
+#: jobboard-package/inc/class.jp-post.php:442
+#: jobboard-package/templates/package/header.php:24
+msgid "Membership"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:458
+#: jobboard-package/inc/class.jp-post.php:462
+#: jobboard-package/inc/class.jp-post.php:483
+#, php-format
+msgid "%s job"
+msgid_plural "%s jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobboard-package/inc/class.jp-post.php:466
+#: jobboard-package/inc/class.jp-post.php:487
+#, php-format
+msgid "%s / %s month"
+msgid_plural "%s / %s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobboard-package/inc/class.jp-post.php:508
+#, php-format
+msgid "%s by %s"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:521
+#: jobboard-package/inc/class.jp-post.php:563
+#: jobboard-resources/inc/class.jr-post.php:208
+#: jobboard/inc/class.jb-post.php:431
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:522
+#: jobboard-resources/inc/class.jr-post.php:209
+#: jobboard/inc/class.jb-post.php:432
+msgid "Y/m/d"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:533
+#: jobboard-package/templates/loop/via.php:23
+#, php-format
+msgid "Via %s"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:567
+#, php-format
+msgid "Order #%s details"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:569
+#, php-format
+msgid "Payment via %s."
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:574
+#, php-format
+msgid "%s Customer"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:583
+msgid "Buy Price"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:587
+#: jobboard-package/inc/template-functions.php:87
+#: jobboard/inc/class.jb-admin.php:956
+msgid "Date"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:591
+msgid "Via"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:595
+msgid "IP Address"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:605
+msgid "Base"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:611
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:45
+#: jobboard-register/jobboard-register.php:165
+#: jobboard-register/jobboard-register.php:167
+msgid "User Name"
+msgstr ""
+
+#: jobboard-package/inc/class.jp-post.php:615
+#: jobboard-register/jobboard-register.php:173
+#: jobboard-register/jobboard-register.php:175
+#: jobboard-register/templates/forgot-password.php:25
+msgid "Email Address"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:130
+msgid "PayPal"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:131
+msgid "Pay width PayPal"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:138
+#: jobboard-package/inc/template-functions.php:184
+msgid "Direct Bank Transfer"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:139
+msgid "Make your payment directly into our bank account."
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:170
+msgid "Processing"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:171
+msgid "On Hold"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:172
+msgid "Completed"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:173
+msgid "Cancelled"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:174
+msgid "Refunded"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:175
+msgid "Failed"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:176
+#: jobboard/inc/functions-candidate.php:79 jobboard/inc/functions-job.php:294
+msgid "Pending"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:183
+msgid "Other"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:194
+#, php-format
+msgid "Post Up To %s%s Job%s"
+msgid_plural "Post Up To %s%s Jobs%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobboard-package/inc/functions-core.php:195
+#, php-format
+msgid "Up To %s%s Featured Job%s"
+msgid_plural "Up To %s%s Featured Jobs%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobboard-package/inc/functions-core.php:196
+#, php-format
+msgid "Up To %s%s Month Membership%s"
+msgid_plural "Up To %s%s Months Membership%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobboard-package/inc/functions-core.php:197
+#, php-format
+msgid "Up To %s%s Job Applied%s"
+msgid_plural "Up To %s%s Jobs Applied%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobboard-package/inc/functions-core.php:198
+#, php-format
+msgid "Download CV Up To %s%s CVs%s"
+msgid_plural "Download CV Up To %s%s CVs%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobboard-package/inc/functions-core.php:266
+msgid "UNKNOWN"
+msgstr ""
+
+#: jobboard-package/inc/functions-core.php:310
+#, php-format
+msgid "%s +%d month"
+msgid_plural "%s +%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: jobboard-package/inc/template-functions.php:85
+msgid "Your Orders"
+msgstr ""
+
+#: jobboard-package/inc/template-functions.php:86
+msgid "Total"
+msgstr ""
+
+#: jobboard-package/inc/template-functions.php:88
+#: jobboard/inc/template-functions.php:848
+#: jobboard/inc/template-functions.php:967
+#: jobboard/inc/template-functions.php:1056
+#: jobboard/templates/dashboard/employer/applications.php:56
+#: jobboard/templates/emails/employer-applied.php:44
+msgid "Status"
+msgstr ""
+
+#: jobboard-package/inc/template-functions.php:191
+msgid "Bank Accounts"
+msgstr ""
+
+#: jobboard-package/inc/template-functions.php:198
+msgid "Account Name"
+msgstr ""
+
+#: jobboard-package/inc/template-functions.php:216
+msgid "Bank Name"
+msgstr ""
+
+#: jobboard-package/jobboard-package.php:230
+msgid "Update"
+msgstr ""
+
+#: jobboard-package/jobboard-package.php:284
+msgid "Error : Package not found !"
+msgstr ""
+
+#: jobboard-package/jobboard-package.php:296
+msgid "You need to purchase a package before applying job."
+msgstr ""
+
+#: jobboard-package/jobboard-package.php:304
+msgid "Apply job limited, you can update your package."
+msgstr ""
+
+#: jobboard-package/templates/account-none.php:25
+#: jobboard-package/templates/account-package.php:25
+#: jobboard-package/templates/current.php:29
+msgid "Your Package"
+msgstr ""
+
+#: jobboard-package/templates/account-none.php:26
+msgid "You are not a membership, please buy a package for unlimited features."
+msgstr ""
+
+#: jobboard-package/templates/account-none.php:27
+msgid "Select a package"
+msgstr ""
+
+#: jobboard-package/templates/account-package.php:26
+#, php-format
+msgid "You are own a %s package, You can also update up to other packages."
+msgstr ""
+
+#: jobboard-package/templates/account-package.php:27
+msgid "Update package"
+msgstr ""
+
+#: jobboard-package/templates/current.php:30
+msgid ""
+"Tokens are required to post jobs. Select the package that's right for you "
+"and choose a payment method below."
+msgstr ""
+
+#: jobboard-package/templates/current.php:31
+#, php-format
+msgid "For billing information %sContact Us%s"
+msgstr ""
+
+#: jobboard-package/templates/current.php:36
+#, php-format
+msgid "%d/ %d Tokens Remaining"
+msgstr ""
+
+#: jobboard-package/templates/current.php:39
+msgid "Add More"
+msgstr ""
+
+#: jobboard-package/templates/feature.php:25
+#, php-format
+msgid "Featured Job? %d/%d Remaining"
+msgstr ""
+
+#: jobboard-package/templates/loop/order.php:23
+#, php-format
+msgid "#%s"
+msgstr ""
+
+#: jobboard-package/templates/package/header.php:25
+msgid ""
+"Select the package that’s right for you and choose a payment method below."
+msgstr ""
+
+#: jobboard-package/templates/package/header.php:26
+#, php-format
+msgid "or billing information %sContact Us%s"
+msgstr ""
+
+#: jobboard-package/templates/package/payments.php:28
+msgid "Payment Option:"
+msgstr ""
+
+#: jobboard-package/templates/package/payments.php:66
+msgid "Process Payment"
+msgstr ""
+
+#: jobboard-package/templates/pricing/footer.php:24
+msgid "Choose Package"
+msgstr ""
+
+#: jobboard-profile-widget/templates/profile-other.php:25
+#: jobboard/inc/class.jb-admin.php:906 jobboard/inc/class.jb-query.php:71
+#: jobboard/inc/functions-candidate.php:41
+#: jobboard/inc/functions-employer.php:35
+msgid "Manage Profile"
+msgstr ""
+
+#: jobboard-profile-widget/templates/profile-other.php:28
+msgid "Add New"
+msgstr ""
+
+#: jobboard-profile-widget/templates/profile-other.php:29
+msgid "Manager Jobs"
+msgstr ""
+
+#: jobboard-profile-widget/templates/profile-other.php:30
+#: jobboard/jobboard.php:319
+msgid "JobBoard Settings"
+msgstr ""
+
+#: jobboard-profile-widget/templates/profile-other.php:33
+#: jobboard/inc/functions-candidate.php:48
+#: jobboard/inc/functions-employer.php:47
+msgid "Logout"
+msgstr ""
+
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:23
+msgid "JobBoard login/register/profile."
+msgstr ""
+
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:25
+#: jobboard/inc/class.jb-account.php:407
+msgid "JobBoard Profile"
+msgstr ""
+
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:29
+msgid "Login/Register"
+msgstr ""
+
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:48
+#: jobboard/inc/class.jb-admin.php:465 jobboard/update/update-manager.php:249
+msgid "Username"
+msgstr ""
+
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:49
+msgid "User email"
+msgstr ""
+
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:50
+msgid "User first name"
+msgstr ""
+
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:51
+msgid "User last name"
+msgstr ""
+
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:52
+msgid "User display name"
+msgstr ""
+
+#: jobboard-profile-widget/widgets/class-jb-widget-profile.php:63
+msgid "Profile Picture"
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:27
+msgid "Security & Spam"
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:30
+#, php-format
+msgid "reCAPTCHA you can get Site Key and Secret Key %1$sHere →%2$s"
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:35
+msgid "Site Key"
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:36
+msgid "6LcDtg8UAAAAAOGzbFtgv8bPBFIN-5GpMpT4bRNJ"
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:41
+msgid "Secret Key"
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:42
+msgid "6LcDtg8UAAAAABkJ1DR91hUpRLQHFw94xLeaoIr4"
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:47
+msgid "Protect Checkout"
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:48
+msgid "Enable captcha for checkout form."
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:54
+msgid "Protect Register"
+msgstr ""
+
+#: jobboard-protect/inc/class.jp-admin.php:55
+msgid "Enable captcha for register form"
+msgstr ""
+
+#: jobboard-protect/jobboard-protect.php:86
+#: jobboard-register/inc/class.jr-formhandler.php:35
+msgid "Site key or Secret key is null."
+msgstr ""
+
+#: jobboard-protect/jobboard-protect.php:91
+#: jobboard-register/inc/class.jr-formhandler.php:40
+msgid "You need to verify captcha before ordering."
+msgstr ""
+
+#: jobboard-protect/jobboard-protect.php:105
+#: jobboard-register/inc/class.jr-formhandler.php:54
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: jobboard-protect/jobboard-protect.php:114
+#: jobboard-register/inc/class.jr-formhandler.php:63
+msgid "Captcha not correct."
+msgstr ""
+
+#: jobboard-protect/jobboard-protect.php:118
+#: jobboard-register/inc/class.jr-formhandler.php:67
+msgid "Do not verify captcha."
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:117
+#: jobboard-razorpay/jobboard-razorpay.php:128
+msgid "RazorPay"
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:118
+msgid "Credit Card/Debit Card/NetBanking"
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:131
+msgid "Payment Gateway Solution for India."
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:138
+msgid ""
+"Please enter your RazorPay API keys; this is needed in order to take payment."
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:139
+msgid "rzp_test_rqyFKYGwqKOIC8"
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:145
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:150
+msgid "Theme Color"
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:151
+msgid "Brand color to alter the appearance of checkout form."
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:156
+#: jobboard/inc/class.jb-admin.php:974
+msgid "Image"
+msgstr ""
+
+#: jobboard-razorpay/jobboard-razorpay.php:157
+msgid "Link to an image (usually merchant logo) shown in the checkout form."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:32
+msgid "User Register"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:33
+msgid "Page user register."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:39
+#: jobboard-register/inc/class.jr-admin.php:185
+#: jobboard-register/inc/class.jr-install.php:35
+#: jobboard-register/inc/class.jr-shortcodes.php:67
+msgid "Forgot Password"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:40
+msgid "Page forgot password."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:45
+msgid "Manager Register"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:51
+#: jobboard/inc/class.jb-admin.php:308
+msgid "Candidates"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:59
+#: jobboard-register/inc/class.jr-admin.php:126
+msgid "Activate"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:60
+#: jobboard-register/inc/class.jr-admin.php:127
+msgid ""
+"Automatically activate the account after the user successfully registered."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:66
+#: jobboard-register/inc/class.jr-admin.php:133
+#: jobboard/inc/template-functions.php:753
+msgid "Login"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:67
+#: jobboard-register/inc/class.jr-admin.php:134
+msgid "Automatically login after the user successfully registered."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:73
+#: jobboard-register/inc/class.jr-admin.php:140
+#: jobboard-register/inc/class.jr-admin.php:193
+#: jobboard-register/templates/emails/candidate-active.php:33
+#: jobboard-register/templates/emails/candidate-welcome.php:32
+#: jobboard-register/templates/emails/employer-active.php:33
+#: jobboard-register/templates/emails/employer-welcome.php:32
+#: jobboard-register/templates/emails/forgot-password.php:33
+#: jobboard-social-login/templates/emails/new-connect.php:32
+#: jobboard/inc/class.jb-admin.php:604 jobboard/inc/class.jb-admin.php:950
+#: jobboard/inc/class.jb-post.php:736
+#: jobboard/templates/emails/application.php:36
+#: jobboard/templates/emails/candidate-applied.php:36
+#: jobboard/templates/emails/employer-applied.php:36
+#: jobboard/templates/user/contact.php:46
+msgid "Email"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:74
+#: jobboard-register/inc/class.jr-admin.php:141
+msgid "Send email notice after user successfully registered."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:92
+#: jobboard-register/inc/class.jr-admin.php:159
+#: jobboard-register/inc/class.jr-admin.php:212
+#: jobboard-social-login/inc/class.js-admin.php:105
+#: jobboard/inc/class.jb-admin.php:500 jobboard/inc/class.jb-admin.php:536
+#: jobboard/inc/class.jb-admin.php:575
+msgid "Subject"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:100
+msgid ""
+"This template can be overridden by copying it to yourtheme/jobboard/add-"
+"ons/register/emails/candidate-welcome.php."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:107
+msgid ""
+"This template can be overridden by copying it to yourtheme/jobboard/add-"
+"ons/register/emails/candidate-active.php."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:118
+#: jobboard/inc/class.jb-admin.php:285
+msgid "Employers"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:167
+msgid ""
+"This template can be overridden by copying it to yourtheme/jobboard/add-"
+"ons/register/emails/employer-welcome.php."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:174
+msgid ""
+"This template can be overridden by copying it to yourtheme/jobboard/add-"
+"ons/register/emails/employer-active.php."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:194
+msgid "Send email reset password to user."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-admin.php:220
+msgid ""
+"This template can be overridden by copying it to yourtheme/jobboard/add-"
+"ons/register/emails/forgot-password.php."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:110
+#: jobboard/inc/class.jb-formhandler.php:125
+#: jobboard/inc/class.jb-formhandler.php:291
+msgid "Error : You need to enter all required fields."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:116
+#, php-format
+msgid ""
+"Error : User email already exist, if you lost password you can click "
+"%sForgot Password%s."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:122
+#: jobboard-register/inc/class.jr-formhandler.php:326
+#: jobboard/inc/functions-account.php:129
+msgid "Error : password must be greater than 8 characters."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:128
+msgid "Error : User password not same confirm password."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:140
+#: jobboard-register/inc/class.jr-formhandler.php:331
+#, php-format
+msgid "Error : %s."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:156
+#, php-format
+msgid "Success : User %s Created!"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:174
+msgid "Notice : Your account has been removed!"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:188
+#: jobboard-register/inc/class.jr-formhandler.php:196
+msgid "Success : Your account has been activated!"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:261
+msgid "Error : You need to enter an email address."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:266
+msgid "Error : This is not an email address."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:271
+msgid "Error : Email address does not exist."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:291
+msgid "Success : New password has been sent to your email."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:321
+msgid "Error : New password not same confirm password."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-formhandler.php:338
+msgid "Success : Your password has been changed."
+msgstr ""
+
+#: jobboard-register/inc/class.jr-shortcodes.php:60
+msgid "Register Form"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-shortcodes.php:63
+msgid "Register form for JobBoard"
+msgstr ""
+
+#: jobboard-register/inc/class.jr-shortcodes.php:70
+msgid "Forgot password form for JobBoard"
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:166
+msgid "Enter your username."
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:174
+#: jobboard/inc/class.jb-admin.php:605
+msgid "Enter your email"
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:182
+#: jobboard-register/jobboard-register.php:184
+#: jobboard-social-login/templates/emails/new-connect.php:36
+#: jobboard/inc/class.jb-admin.php:466 jobboard/inc/class.jb-admin.php:951
+#: jobboard/inc/template-functions.php:751
+msgid "Password"
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:183
+msgid "Enter your password."
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:191
+#: jobboard-register/jobboard-register.php:193
+#: jobboard-register/templates/reset-password.php:27
+#: jobboard/inc/class.jb-admin.php:1096 jobboard/inc/class.jb-admin.php:1099
+msgid "Confirm Password"
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:192
+msgid "Enter confirm password."
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:200
+#: jobboard-register/jobboard-register.php:202
+#: jobboard/inc/class.jb-admin.php:613 jobboard/inc/class.jb-admin.php:618
+msgid "First Name"
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:201
+#: jobboard/inc/class.jb-admin.php:614
+msgid "Enter your first name"
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:209
+#: jobboard-register/jobboard-register.php:211
+msgid "Last Name"
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:210
+#: jobboard/inc/class.jb-admin.php:623
+msgid "Enter your last name"
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:217
+#: jobboard-register/jobboard-register.php:219
+msgid "Account Type"
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:218
+msgid "Select account type."
+msgstr ""
+
+#: jobboard-register/jobboard-register.php:231
+#: jobboard/inc/class.jb-admin.php:724
+msgid "Select your specialisms."
+msgstr ""
+
+#: jobboard-register/templates/emails/candidate-active.php:23
+#: jobboard-register/templates/emails/candidate-welcome.php:23
+#: jobboard-social-login/templates/emails/new-connect.php:23
+msgid "Welcome New Candidate!"
+msgstr ""
+
+#: jobboard-register/templates/emails/candidate-active.php:24
+#: jobboard-register/templates/emails/employer-active.php:24
+msgid ""
+"Your account has been created, you can click the following link to activate "
+"your account."
+msgstr ""
+
+#: jobboard-register/templates/emails/candidate-active.php:37
+#: jobboard-register/templates/emails/candidate-welcome.php:36
+#: jobboard-register/templates/emails/employer-active.php:37
+#: jobboard-register/templates/emails/employer-welcome.php:36
+msgid "Account"
+msgstr ""
+
+#: jobboard-register/templates/emails/candidate-welcome.php:24
+#: jobboard-register/templates/emails/employer-welcome.php:24
+#, php-format
+msgid "Your account has been activated, you can login %shere→%s"
+msgstr ""
+
+#: jobboard-register/templates/emails/employer-active.php:23
+#: jobboard-register/templates/emails/employer-welcome.php:23
+msgid "Welcome New Employer!"
+msgstr ""
+
+#: jobboard-register/templates/emails/forgot-password.php:23
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: jobboard-register/templates/emails/forgot-password.php:24
+msgid "You can click the following link to reset password your account."
+msgstr ""
+
+#: jobboard-register/templates/forgot-password.php:24
+msgid "Forgot your password?"
+msgstr ""
+
+#: jobboard-register/templates/forgot-password.php:26
+msgid "Send Me"
+msgstr ""
+
+#: jobboard-register/templates/register-actions.php:25
+msgid "Register Now"
+msgstr ""
+
+#: jobboard-register/templates/register-none.php:24
+msgid "Notice !"
+msgstr ""
+
+#: jobboard-register/templates/register-none.php:25
+msgid "Sorry register new account not available in the at this time."
+msgstr ""
+
+#: jobboard-register/templates/registered.php:24
+#: jobboard/templates/apply/other.php:24
+#, php-format
+msgid "Hi %s%s%s"
+msgstr ""
+
+#: jobboard-register/templates/registered.php:25
+msgid ""
+"Your account has been created, you can check your email and click the "
+"following link to activate your account."
+msgstr ""
+
+#: jobboard-register/templates/reset-password.php:24
+#: jobboard/inc/class.jb-admin.php:1089 jobboard/inc/class.jb-admin.php:1092
+msgid "New Password"
+msgstr ""
+
+#: jobboard-register/templates/reset-password.php:30
+msgid "Update Password"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-admin.php:24
+msgid "Recruitment Resources"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-admin.php:25
+msgid "Page for Recruitment resource listing."
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-handle.php:26
+msgid "Download failed !"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-handle.php:35
+#: jobboard-resources/inc/class.jr-handle.php:45
+msgid "Resource not available !"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-handle.php:55
+msgid "Email invalid !"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-handle.php:68
+msgid "Recruitment Resources Download"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-handle.php:69
+msgid "You have downloaded a resources on website"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-handle.php:70
+msgid "Please click on this link to download:"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-handle.php:75
+msgid "Please check the email to download the resource !"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:30
+msgid "JB Resources"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:31
+msgid "JB Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:32
+msgctxt "Admin menu name"
+msgid "JB Resources"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:33
+msgid "Add JB Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:34
+msgid "Add new Jobboard Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:36
+msgid "Edit JB Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:37
+msgid "New JB Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:38
+msgid "All JB Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:39
+#: jobboard-resources/inc/class.jr-post.php:40
+msgid "View JB Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:41
+#: jobboard-resources/inc/class.jr-post.php:53
+msgid "Search JB Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:42
+msgid "Parent JB Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:43
+msgid "Resource image"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:44
+#: jobboard-resources/inc/class.jr-post.php:54
+msgid "Filter JB Resource"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:45
+#: jobboard-resources/inc/class.jr-post.php:55
+msgid "JB Resource navigation"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:46
+#: jobboard-resources/inc/class.jr-post.php:56
+msgid "Products list"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:49
+#: jobboard-resources/inc/class.jr-post.php:50
+#: jobboard-resources/inc/class.jr-post.php:51
+#: jobboard-resources/inc/class.jr-post.php:52
+#: jobboard-resources/inc/class.jr-post.php:139
+msgid "Downloaded List"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:63
+#: jobboard-resources/inc/class.jr-post.php:77
+msgid "This is where you can add new products to your store."
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:125
+msgid "Resources File"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:126
+msgid "Choose file."
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:127
+msgid "Upload"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:222
+#, php-format
+msgid "%s ID"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:223
+#, php-format
+msgid "%s Email"
+msgstr ""
+
+#: jobboard-resources/inc/class.jr-post.php:224
+#, php-format
+msgid "%s Resource ID"
+msgstr ""
+
+#: jobboard-resources/templates/downloaded-list.php:10
+msgid "Recruitment Resources Downloaded"
+msgstr ""
+
+#: jobboard-search/inc/class.js-shortcodes.php:46
+#: jobboard/inc/widgets/class-jb-widget-search.php:25
+msgid "JobBoard Search"
+msgstr ""
+
+#: jobboard-search/inc/class.js-shortcodes.php:52
+msgid "Layout"
+msgstr ""
+
+#: jobboard-search/inc/class.js-shortcodes.php:61
+msgid "Box Background Color"
+msgstr ""
+
+#: jobboard-search/inc/class.js-shortcodes.php:67
+msgid "Search Type"
+msgstr ""
+
+#: jobboard-search/inc/class.js-shortcodes.php:76
+msgid "Search Specialism"
+msgstr ""
+
+#: jobboard-search/inc/class.js-shortcodes.php:85
+#: jobboard/inc/class.jb-post.php:148
+msgid "Search Locations"
+msgstr ""
+
+#: jobboard-search/inc/class.js-shortcodes.php:94
+#: jobboard-similar/inc/class.js-admin.php:29
+msgid "Similar Keywords"
+msgstr ""
+
+#: jobboard-search/templates/locations.php:24
+#: jobboard/inc/class.jb-post.php:149
+msgid "All Locations"
+msgstr ""
+
+#: jobboard-search/templates/specialisms.php:24
+msgid "All Specialism"
+msgstr ""
+
+#: jobboard-search/templates/types.php:24
+msgid "All Type"
+msgstr ""
+
+#: jobboard-similar/inc/class.js-admin.php:30
+msgid "Enable trending search."
+msgstr ""
+
+#: jobboard-similar/jobboard-similar.php:113
+msgid "Similar"
+msgstr ""
+
+#: jobboard-similar/templates/similar-search.php:28
+msgid "Quick Searches:"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:28
+msgid "Social Connect"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:35
+#: jobboard-social-login/templates/facebook.php:25
+msgid "Facebook"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:36
+msgid "Enable Facebook login."
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:42
+msgid "Facebook App ID"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:43
+msgid "Enter your facebook app ID."
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:44
+#, php-format
+msgid "Register and configure an app : %1$sHere →%2$s"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:45
+msgid "123230190550786"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:51
+#: jobboard-social-login/templates/google.php:25
+msgid "Google"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:52
+msgid "Enable Google login."
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:58
+msgid "Google Client ID"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:59
+#: jobboard-social-login/inc/class.js-admin.php:75
+msgid "Enter your client ID."
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:60
+#, php-format
+msgid "Creating a Google API Console project and client ID : %1$sHere →%2$s"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:61
+msgid ""
+"874159553790-reau1th488s38uteh59beu20xib9mkho.apps.googleusercontent.com"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:67
+#: jobboard-social-login/templates/linkedin.php:25
+msgid "Linkedin"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:68
+msgid "Enable Linkedin login."
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:74
+msgid "Linkedin Client ID"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:76
+#, php-format
+msgid "Creating a Linkedin API Console project and client ID : %1$sHere →%2$s"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:77
+msgid "812c5r65yg7ck6"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:84
+msgid "Email Notice"
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:85
+msgid "Send email to user after connect by social network."
+msgstr ""
+
+#: jobboard-social-login/inc/class.js-admin.php:113
+msgid ""
+"This template can be overridden by copying it to yourtheme/jobboard/add-"
+"ons/social-login/emails/new-connect.php."
+msgstr ""
+
+#: jobboard-social-login/jobboard-social-login.php:277
+msgid "Facebook App ID not found."
+msgstr ""
+
+#: jobboard-social-login/jobboard-social-login.php:282
+msgid "Google Client ID not found."
+msgstr ""
+
+#: jobboard-social-login/jobboard-social-login.php:287
+msgid "Linkedin Client ID not found."
+msgstr ""
+
+#: jobboard-social-login/jobboard-social-login.php:295
+msgid "Social login settings"
+msgstr ""
+
+#: jobboard-social-login/jobboard-social-login.php:295
+#: jobboard/inc/class.jb-admin.php:85 jobboard/inc/class.jb-admin.php:86
+#: jobboard/jobboard.php:319
+msgid "Settings"
+msgstr ""
+
+#: jobboard-social-login/templates/emails/new-connect.php:24
+msgid ""
+"You are connected with us by social networks, this is your user name and "
+"password."
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:170
+msgid "Sort by ID"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:171 jobboard/inc/template-functions.php:59
+msgid "Sort by name"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:172
+msgid "Sort by registered"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:207
+msgctxt "placeholder"
+msgid "Search Name&hellip;"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:208
+#: jobboard/inc/template-functions.php:156
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:238
+msgid "Error : Email or password incorrect!"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:388 jobboard/inc/class.jb-admin.php:690
+msgid "Avatar Image"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:389
+msgid "Select or upload a avatar image."
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:418 jobboard/inc/class.jb-account.php:419
+#: jobboard/inc/class.jb-account.php:426 jobboard/inc/class.jb-account.php:427
+#: jobboard/inc/class.jb-account.php:471 jobboard/inc/class.jb-account.php:489
+msgid "Extended Profile"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:469
+msgid "Profile"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:490
+msgctxt "user"
+msgid "Add New"
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:501
+msgid "No user found with this ID."
+msgstr ""
+
+#: jobboard/inc/class.jb-account.php:503
+msgid "Go back and try again."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:161
+msgid "General"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:168
+#: jobboard/inc/class.jb-setup-wizard.php:213
+msgid "Jobs Listing"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:169
+msgid "Number of jobs to show per page."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:179
+msgid "Companies & Candidates Listing"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:180
+msgid "Number of Companies or Candidates to show per page."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:190
+msgid "Dashboard Listing"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:191
+msgid "Number of Items in Dashboard to show per page."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:201
+msgid "Default Currency"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:202
+msgid "This sets default currency."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:222
+msgid "Load Awesome Font"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:223
+msgid ""
+"If your theme or other plugins support Awesome Font we recommend turn off "
+"options."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:229
+msgid "Pages"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:232
+msgid "This page is set in pages template drop down."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:239
+msgid "Page for Job listing."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:246
+msgid "Employer Listing"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:247
+msgid "Page for Employer listing."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:253
+msgid "Candidate Listing"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:254
+msgid "Page for Candidate listing."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:260
+#: jobboard/inc/class.jb-setup-wizard.php:247
+msgid "Account Dashboard"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:261
+msgid "Page for User Dashboard."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:267
+msgid "Specialisms List"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:268
+msgid "Page for Specialisms List."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:275
+msgid "Page for Location List."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:280 jobboard/inc/class.jb-install.php:122
+msgid "Dashboard"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:288
+msgid "Employer profile form."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:294 jobboard/inc/class.jb-admin.php:317
+msgid "Profile Fields"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:300 jobboard/inc/class.jb-admin.php:323
+#: jobboard/inc/class.jb-admin.php:819
+msgid "Social Network"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:301
+msgid "Add social network for Employer profile."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:311
+msgid "Candidates profile form."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:324
+msgid "Add social network for Candidate profile."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:331
+msgid "Endpoints"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:334
+msgid ""
+"Endpoints are appended to your page URLs to handle specific actions on the "
+"accounts pages. They should be unique and can be left blank to disable the "
+"endpoint."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:339
+msgid "SEO Optimization"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:346
+msgid "Job Slug"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:347
+msgid "Custom base slug for \"Job\" post type."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:348
+msgid "job"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:353
+msgid "Type Slug"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:354
+msgid "Custom base slug for \"Type\" taxonomy."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:355
+msgid "type"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:360
+msgid "Specialism Slug"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:361
+msgid "Custom base slug for \"Specialism\" taxonomy."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:362
+msgid "specialism"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:367
+msgid "Location Slug"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:368
+msgid "Custom base slug for \"Location\" taxonomy."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:369
+msgid "location"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:374
+msgid "Tag Slug"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:375
+msgid "Custom base slug for job tag."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:376
+msgid "job-tag"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:381
+msgid "Employer Profile Slug"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:382
+msgid "Custom base slug for employer profile."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:383
+msgid "employer"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:388
+msgid "Candidate Profile Slug"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:389
+msgid "Custom base slug for candidate profile."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:390
+msgid "candidate"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:395
+msgid "Email Config"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:402
+msgid "Email Function"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:403
+msgid "Select a email function, php mail or smtp server."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:405
+msgid "PHP Mail"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:406
+msgid "SMTP"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:414 jobboard/inc/class.jb-admin.php:422
+msgid "Warning!"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:415
+msgid ""
+"Make sure your server support php mail() function, Using php mail() will be "
+"send email fastest.."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:423
+msgid ""
+"The SMTP service will slow down the send email process, you should consider "
+"before use."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:429
+msgid "SMTP Port"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:435
+msgid "SMTP Host"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:441
+msgid "Encryption"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:442
+msgid ""
+"TLS is not the same STARTTLS. For most servers SSL is the recommended option."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:444
+msgid "No Encryption"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:445
+msgid "SSL Encryption"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:446
+msgid "TLS Encryption"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:454
+msgid "Authentication"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:455
+msgid "If you set to no, the values bellow are ignored."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:463
+msgid "User/Password"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:476
+msgid "Send email after Candidate applied a job."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:508
+msgid ""
+"This template can be overridden by copying it to "
+"yourtheme/jobboard/emails/candidate-applied.php."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:544
+msgid ""
+"This template can be overridden by copying it to "
+"yourtheme/jobboard/emails/employer-applied.php."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:554 jobboard/templates/apply/apply.php:27
+msgid "Application"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:557
+msgid "Send email after Employer approval or reject a application."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:583
+msgid ""
+"This template can be overridden by copying it to "
+"yourtheme/jobboard/emails/application.php."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:597
+msgid "Your Profile"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:598
+msgid "Edit and update your profile."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:609
+msgid "your-email@your-domain.com"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:622 jobboard/inc/class.jb-admin.php:627
+msgid "Last name"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:631 jobboard/inc/class.jb-admin.php:635
+msgid "Address 1"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:632
+msgid "Enter your address 1"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:639 jobboard/inc/class.jb-admin.php:642
+msgid "Address 2"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:640
+msgid "Enter your address 2"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:646 jobboard/inc/class.jb-admin.php:649
+#: jobboard/inc/class.jb-post.php:688 jobboard/inc/functions-employer.php:183
+msgid "City"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:647
+msgid "Enter your city"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:653 jobboard/inc/class.jb-admin.php:656
+#: jobboard/inc/class.jb-post.php:687 jobboard/inc/functions-employer.php:179
+msgid "Country"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:654
+msgid "Enter your country"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:660
+msgid "Phone"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:661
+msgid "Enter your phone number"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:664
+msgid "+1 646 4706923"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:668 jobboard/inc/class.jb-post.php:729
+msgid "Website"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:669
+msgid "Enter your website."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:672
+msgid "https://www.your-website.com"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:676
+msgid "About"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:677
+msgid "Enter your description."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:679
+msgid "Share information to fill out your profile. This may be shown publicly."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:683
+msgid "Profile Image"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:684
+msgid "Upload your image profile."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:691
+msgid "Upload your avatar image."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:700
+msgid "Cover Photo"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:701
+msgid "Upload your cover photo."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:716
+msgid "Recruitment Info"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:717
+msgid ""
+"To Candidates easily find you, you need to complete the recruitment "
+"information."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:731 jobboard/inc/class.jb-admin.php:733
+msgid "Vacancies"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:732
+msgid "Enter your vacancies."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:748
+msgid "Sex"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:749
+msgid "Select your sex."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:750
+msgid "Your sex"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:753
+msgid "Female"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:754
+msgid "Male"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:755
+msgid "Do not want to say"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:762
+msgid "Birthday"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:763
+msgid "Select your birthday (mm/dd/yyyy)."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:764
+msgid "10/05/1990"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:772
+msgid "Suggest jobs"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:773
+msgid "We will suggest work according to your wishes."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:779 jobboard/inc/class.jb-admin.php:781
+msgid "Jobs Interests"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:780
+msgid "Select your interests."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:787 jobboard/inc/class.jb-admin.php:789
+msgid "Minimum Salary"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:788
+msgid "Set minimum salary ($)."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:795
+msgid "CV"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:796
+msgid "Upload your cv file ( .pdf, .docx, .doc, .rtf )."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:802
+msgid "CV File"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:803
+msgid "Upload your CV file."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:820
+msgid "Enter your social network url."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:826
+msgid "Facebook URL"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:827
+msgid "Enter your Facebook url"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:831
+msgid "https://www.facebook.com/"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:835
+msgid "Twitter URL"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:836
+msgid "Enter your Twitter url"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:840
+msgid "https://twitter.com/"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:844
+msgid "Google+ URL"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:845
+msgid "Enter your Google+ url"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:849
+msgid "https://plus.google.com/"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:853
+msgid "Linkedin URL"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:854
+msgid "Enter your Linkedin url"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:858
+msgid "https://www.linkedin.com/"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:876 jobboard/inc/class.jb-admin.php:899
+msgid "Applications History"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:877
+msgid "Endpoint for the employer → view manage jobs page"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:878
+msgid "jobs"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:883
+msgid "Post New "
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:884
+msgid "Endpoint for the employer → view post a new job page"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:885
+msgid "new-job"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:900
+msgid "Endpoint for the candidate → view applications history page"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:901
+msgid "applied"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:907
+msgid "Endpoint for the candidate → view manager profile page"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:908
+msgid "profile"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:921
+msgid "Require"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:922
+msgid "Front-end require field (*)."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:924 jobboard/templates/notices/alert.php:27
+msgid "No"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:925 jobboard/templates/notices/alert.php:26
+msgid "Yes"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:932
+msgid "Require Notice"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:933
+msgid "Front-end field validate notice."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:946
+msgid "Front-end text, number, email, password..."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:948
+msgid "Text"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:949
+msgid "Number"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:953
+msgid "Tel"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:954
+msgid "Url"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:955
+msgid "Time"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:957
+msgid "Datetime"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:971
+msgid "Front-end file or image."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:973
+msgid "File"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:981
+msgid "Upload Types"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:982
+msgid "Front-end allow upload file types."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:989
+msgid "Upload Size (Kb)"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:990
+msgid "Front-end maximum upload size."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:1031 jobboard/templates/user/video.php:23
+msgid "Video"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:1032
+msgid "Enter your video url."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:1044
+msgid "Profile Video"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:1045
+msgid "Add your video."
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:1051 jobboard/inc/class.jb-admin.php:1054
+msgid "Enter Video Url"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:1082
+msgid "Change Password"
+msgstr ""
+
+#: jobboard/inc/class.jb-admin.php:1083
+msgid "Leave blank if you'd like your password to remain the same."
+msgstr ""
+
+#: jobboard/inc/class.jb-breadcrumb.php:118
+msgid "Error 404"
+msgstr ""
+
+#: jobboard/inc/class.jb-breadcrumb.php:213
+#, php-format
+msgid "Location: %s"
+msgstr ""
+
+#: jobboard/inc/class.jb-breadcrumb.php:234
+#, php-format
+msgid "Jobs tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: jobboard/inc/class.jb-breadcrumb.php:280
+#, php-format
+msgid "Posts tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: jobboard/inc/class.jb-breadcrumb.php:352
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: jobboard/inc/class.jb-breadcrumb.php:387
+#, php-format
+msgid "Search results for &ldquo;%s&rdquo;"
+msgstr ""
+
+#: jobboard/inc/class.jb-breadcrumb.php:396
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+#: jobboard/inc/class.jb-employer.php:310
+#, php-format
+msgid "Successfully Deleted for '%s'"
+msgstr ""
+
+#: jobboard/inc/class.jb-extension.php:22
+#: jobboard/inc/class.jb-extension.php:23
+#: jobboard/inc/class.jb-extension.php:34
+msgid "Extensions & Support"
+msgstr ""
+
+#: jobboard/inc/class.jb-extension.php:51
+msgid "Buy Now"
+msgstr ""
+
+#: jobboard/inc/class.jb-extension.php:57
+msgid "Contact Now"
+msgstr ""
+
+#: jobboard/inc/class.jb-extension.php:70
+msgid "Jobboard Stripe"
+msgstr ""
+
+#: jobboard/inc/class.jb-extension.php:71
+msgid "Support for Stripe payment gateway."
+msgstr ""
+
+#: jobboard/inc/class.jb-extension.php:76
+msgid "Jobboard Razorpay"
+msgstr ""
+
+#: jobboard/inc/class.jb-extension.php:77
+msgid "Support for Razorpay payment gateway."
+msgstr ""
+
+#: jobboard/inc/class.jb-extension.php:82
+msgid "Jobboard Import"
+msgstr ""
+
+#: jobboard/inc/class.jb-extension.php:83
+msgid "Import job from other website, googlesheet, bla, bla..."
+msgstr ""
+
+#: jobboard/inc/class.jb-formhandler.php:138
+msgid "Error : Job does not exists."
+msgstr ""
+
+#: jobboard/inc/class.jb-formhandler.php:143
+msgid "Error : Job unpublished."
+msgstr ""
+
+#: jobboard/inc/class.jb-formhandler.php:295
+msgid "Successfully Your Profile Updated."
+msgstr ""
+
+#: jobboard/inc/class.jb-formhandler.php:383
+#, php-format
+msgid "Successfully Updated for '%s'"
+msgstr ""
+
+#: jobboard/inc/class.jb-formhandler.php:396
+msgid "User does not exist."
+msgstr ""
+
+#: jobboard/inc/class.jb-formhandler.php:407
+msgid "Successfully Message sent."
+msgstr ""
+
+#: jobboard/inc/class.jb-install.php:55
+msgid "Jobs Manager"
+msgstr ""
+
+#: jobboard/inc/class.jb-install.php:126
+#: jobboard/inc/class.jb-setup-wizard.php:225
+msgid "Employer List"
+msgstr ""
+
+#: jobboard/inc/class.jb-install.php:130
+#: jobboard/inc/class.jb-setup-wizard.php:236
+msgid "Candidate List"
+msgstr ""
+
+#: jobboard/inc/class.jb-job.php:35
+msgid "Post does not exist."
+msgstr ""
+
+#: jobboard/inc/class.jb-job.php:52
+msgid "Post ready exist."
+msgstr ""
+
+#: jobboard/inc/class.jb-job.php:68
+msgid "Cannot add apply form to database."
+msgstr ""
+
+#: jobboard/inc/class.jb-job.php:75
+msgid "Cannot apply this job."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:58
+msgid "New Job"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:83
+msgid "Job Type"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:86
+msgid "Parent Job Type"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:87
+msgid "Parent Job Type:"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:88
+msgid "Edit Job Type"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:89
+msgid "Update Job Type"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:90
+msgid "Add New Job Type"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:91
+msgid "New Job Type"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:115
+msgid "Search Specialisms"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:116
+msgid "All Specialisms"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:117
+msgid "Parent Specialism"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:118
+msgid "Parent Specialism:"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:119
+msgid "Edit Specialism"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:120
+msgid "Update Specialism"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:121
+msgid "Add New Specialism"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:122
+msgid "New Specialism"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:150
+msgid "Parent Location"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:151
+msgid "Parent Location:"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:152
+msgid "Edit Location"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:153
+msgid "Update Location"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:154
+msgid "Add New Location"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:155
+msgid "New Location"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:205 jobboard/inc/class.jb-post.php:206
+#: jobboard/inc/class.jb-post.php:207 jobboard/inc/class.jb-post.php:208
+msgid "Setting"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:309
+msgid "Color"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:334
+msgid "Media"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:371
+#, php-format
+msgid "%s Job"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:372
+#, php-format
+msgid "%s By"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:373
+#, php-format
+msgid "%s Salary"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:374
+#, php-format
+msgid "%s Applications"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:414 jobboard/inc/template-functions.php:1016
+#, php-format
+msgid "%d New"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:417 jobboard/inc/template-functions.php:966
+#: jobboard/inc/template-functions.php:1054
+#: jobboard/templates/dashboard/employer/applications.php:26
+msgid "Applications"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:420
+#: jobboard/templates/dashboard/loop/application.php:25
+#, php-format
+msgid "View Applications [%s]"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:630
+msgid "Information"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:638
+msgid ""
+"Featured listings will be sticky during searches, and can be styled "
+"differently."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:644
+msgid "Min"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:645 jobboard/inc/functions-employer.php:85
+msgid "Enter min salary (number)"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:646
+msgid "1000"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:653
+msgid "Max"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:654 jobboard/inc/functions-employer.php:96
+msgid "Enter max salary (number)"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:655
+msgid "2000"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:663 jobboard/inc/functions-employer.php:105
+msgid "Select currency for salary"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:670
+msgid "Extra"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:671
+msgid "Enter extra salary"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:672
+msgid "/ Month or + Car ..."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:677
+msgid "Location & Address"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:685
+msgid "Country/City"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:689 jobboard/inc/functions-employer.php:187
+msgid "District"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:705
+msgid "Employer info"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:713
+msgid "Change employer."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:723
+msgid "Customize for employer name, default get from author."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:724
+msgid "Author name."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:730
+msgid "Customize for employer website url, default get from author."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:737
+msgid ""
+"Customize for employer email, when the candidate apply job you will receive "
+"an email."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:738
+msgid "email@your-domain.com"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:772
+msgid "Job Type Color"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:790
+msgid "Icon/Image"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:791
+msgid "You can select icon or image for specialism"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:801
+msgid "Select a image."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:816
+msgid "Add a icon class."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:834
+msgid "Thumbnail"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:835
+msgid "Upload thumbnail."
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:843
+msgid "National Flag"
+msgstr ""
+
+#: jobboard/inc/class.jb-post.php:844
+msgid "Upload National Flag."
+msgstr ""
+
+#: jobboard/inc/class.jb-query.php:68 jobboard/inc/class.jb-query.php:74
+#: jobboard/inc/functions-candidate.php:36
+#: jobboard/inc/functions-employer.php:30
+#: jobboard/templates/dashboard/candidate/account-applied.php:25
+#: jobboard/templates/dashboard/employer/account-applied.php:25
+msgid "Application History"
+msgstr ""
+
+#: jobboard/inc/class.jb-query.php:77 jobboard/inc/functions-employer.php:40
+msgid "Post New"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:72
+msgid "Introduction"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:76
+#: jobboard/inc/class.jb-setup-wizard.php:207
+msgid "Page Setup"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:80
+msgid "Ready!"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:112
+#: jobboard/inc/class.jb-setup-wizard.php:117
+msgid "JobBoard Setup Wizard"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:149
+msgid "Return to the WordPress Dashboard"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:161
+msgid "Important Information"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:163
+msgid ""
+"JobBoard needs some requests to operate. You should regularly update the "
+"plugin and add-on to the latest version to ensure security and performance."
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:167
+msgid "RC Framework"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:171
+#, php-format
+msgid "Click here : %sAutomatic install and activate framework%s"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:175
+msgid "Ready"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:180
+msgid "PHP Version"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:187
+msgid "WordPress"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:196
+#: jobboard/inc/class.jb-setup-wizard.php:260
+msgid "Continue"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:209
+#, php-format
+msgid ""
+"JobBoard needs a few essential %spages%s. The following will be created "
+"automatically (if they do not already exist):"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:219
+msgid "Select a page for job listing."
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:261
+msgid "Skip this step"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:269
+msgid "Your JobBoard is ready!"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:270
+msgid "Next steps"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:274
+msgid "Create your first job!"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:278
+msgid "Setup job types!"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:282
+msgid "Setup job Specialisms!"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:286
+msgid "Setup job Locations!"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:290
+msgid "Config your JobBoard!"
+msgstr ""
+
+#: jobboard/inc/class.jb-setup-wizard.php:308
+msgid "Select a Page"
+msgstr ""
+
+#: jobboard/inc/functions-account.php:139
+msgid "Error : new password not same confirm password."
+msgstr ""
+
+#: jobboard/inc/functions-account.php:148
+msgid "Success : Password Changed !"
+msgstr ""
+
+#: jobboard/inc/functions-account.php:364
+msgid "User"
+msgstr ""
+
+#: jobboard/inc/functions-candidate.php:31
+#: jobboard/inc/functions-employer.php:25
+msgid "My Account"
+msgstr ""
+
+#: jobboard/inc/functions-candidate.php:76 jobboard/inc/functions-job.php:293
+msgid "Approved"
+msgstr ""
+
+#: jobboard/inc/functions-candidate.php:82 jobboard/inc/functions-job.php:295
+msgid "Rejected"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:178
+msgid "1 Second Ago"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:182
+msgid "year"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:183
+msgid "month"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:184
+msgid "day"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:185
+msgid "hour"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:186
+msgid "minute"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:187
+msgid "second"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:196
+msgid "ago"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:234
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:235
+msgid "Afghan afghani"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:236
+msgid "Albanian lek"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:237
+msgid "Armenian dram"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:238
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:239
+msgid "Angolan kwanza"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:240
+msgid "Argentine peso"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:241
+msgid "Australian dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:242
+msgid "Aruban florin"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:243
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:244
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:245
+msgid "Barbadian dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:246
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:247
+msgid "Bulgarian lev"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:248
+msgid "Bahraini dinar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:249
+msgid "Burundian franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:250
+msgid "Bermudian dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:251
+msgid "Brunei dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:252
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:253
+msgid "Brazilian real"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:254
+msgid "Bahamian dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:255
+msgid "Bitcoin"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:256
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:257
+msgid "Botswana pula"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:258
+msgid "Belarusian ruble"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:259
+msgid "Belize dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:260
+msgid "Canadian dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:261
+msgid "Congolese franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:262
+msgid "Swiss franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:263
+msgid "Chilean peso"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:264
+msgid "Chinese yuan"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:265
+msgid "Colombian peso"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:266
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:267
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:268
+msgid "Cuban peso"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:269
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:270
+msgid "Czech koruna"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:271
+msgid "Djiboutian franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:272
+msgid "Danish krone"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:273
+msgid "Dominican peso"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:274
+msgid "Algerian dinar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:275
+msgid "Egyptian pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:276
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:277
+msgid "Ethiopian birr"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:278
+msgid "Euro"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:279
+msgid "Fijian dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:280
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:281
+msgid "Pound sterling"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:282
+msgid "Georgian lari"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:283
+msgid "Guernsey pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:284
+msgid "Ghana cedi"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:285
+msgid "Gibraltar pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:286
+msgid "Gambian dalasi"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:287
+msgid "Guinean franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:288
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:289
+msgid "Guyanese dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:290
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:291
+msgid "Honduran lempira"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:292
+msgid "Croatian kuna"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:293
+msgid "Haitian gourde"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:294
+msgid "Hungarian forint"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:295
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:296
+msgid "Israeli new shekel"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:297
+msgid "Manx pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:298
+msgid "Indian rupee"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:299
+msgid "Iraqi dinar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:300
+msgid "Iranian rial"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:301
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:302
+msgid "Jersey pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:303
+msgid "Jamaican dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:304
+msgid "Jordanian dinar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:305
+msgid "Japanese yen"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:306
+msgid "Kenyan shilling"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:307
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:308
+msgid "Cambodian riel"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:309
+msgid "Comorian franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:310
+msgid "North Korean won"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:311
+msgid "South Korean won"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:312
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:313
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:314
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:315
+msgid "Lao kip"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:316
+msgid "Lebanese pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:317
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:318
+msgid "Liberian dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:319
+msgid "Lesotho loti"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:320
+msgid "Libyan dinar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:321
+msgid "Moroccan dirham"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:322
+msgid "Moldovan leu"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:323
+msgid "Malagasy ariary"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:324
+msgid "Macedonian denar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:325
+msgid "Burmese kyat"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:326
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:327
+msgid "Macanese pataca"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:328
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:329
+msgid "Mauritian rupee"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:330
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:331
+msgid "Malawian kwacha"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:332
+msgid "Mexican peso"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:333
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:334
+msgid "Mozambican metical"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:335
+msgid "Namibian dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:336
+msgid "Nigerian naira"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:337
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:338
+msgid "Norwegian krone"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:339
+msgid "Nepalese rupee"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:340
+msgid "New Zealand dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:341
+msgid "Omani rial"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:342
+msgid "Panamanian balboa"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:343
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:344
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:345
+msgid "Philippine peso"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:346
+msgid "Pakistani rupee"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:347
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:348
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:349
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:350
+msgid "Qatari riyal"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:351
+msgid "Romanian leu"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:352
+msgid "Serbian dinar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:353
+msgid "Russian ruble"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:354
+msgid "Rwandan franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:355
+msgid "Saudi riyal"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:356
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:357
+msgid "Seychellois rupee"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:358
+msgid "Sudanese pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:359
+msgid "Swedish krona"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:360
+msgid "Singapore dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:361
+msgid "Saint Helena pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:362
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:363
+msgid "Somali shilling"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:364
+msgid "Surinamese dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:365
+msgid "South Sudanese pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:366
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:367
+msgid "Syrian pound"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:368
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:369
+msgid "Thai baht"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:370
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:371
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:372
+msgid "Tunisian dinar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:373
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:374
+msgid "Turkish lira"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:375
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:376
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:377
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:378
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:379
+msgid "Ugandan shilling"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:380
+msgid "United States dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:381
+msgid "Uruguayan peso"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:382
+msgid "Uzbekistani som"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:383
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:384
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:385
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:386
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:387
+msgid "Central African CFA franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:388
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:389
+msgid "West African CFA franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:390
+msgid "CFP franc"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:391
+msgid "Yemeni rial"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:392
+msgid "South African rand"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:393
+msgid "Zambian kwacha"
+msgstr ""
+
+#: jobboard/inc/functions-core.php:807
+msgid "This is a required field."
+msgstr ""
+
+#: jobboard/inc/functions-core.php:822
+msgid "Select File"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:67
+msgid "Post A Job"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:68
+msgid ""
+"Make sure you have completed all required fields (*), before job submission."
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:74
+#: jobboard/inc/functions-employer.php:80
+msgid "Job Title *"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:75
+msgid "Enter your job title"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:76
+#: jobboard/inc/functions-employer.php:86
+#: jobboard/inc/functions-employer.php:106
+#: jobboard/inc/functions-employer.php:124
+#: jobboard/inc/functions-employer.php:134
+#: jobboard/inc/functions-employer.php:144
+msgid "is required !"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:84
+#: jobboard/inc/functions-employer.php:91
+msgid "Min Salary *"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:95
+#: jobboard/inc/functions-employer.php:100
+msgid "Max Salary"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:115
+msgid "Bonus or Exception"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:116
+msgid "Enter your bonus, exception, condition..."
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:118
+msgid "+ Relocation Bonus"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:122
+msgid "Contract Type *"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:123
+msgid "Select a job type"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:132
+msgid "Job Description *"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:133
+msgid "Enter your job content."
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:137
+msgid "Job description *"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:142
+msgid "Specialisms & Skill"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:143
+msgid "Select specialisms and skill for job."
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:145
+msgid "Specialisms & Skill *"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:156
+msgid "Enter your job tags."
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:164
+msgid "Featured Image"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:173
+msgid "Job Address"
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:174
+msgid "Select job address."
+msgstr ""
+
+#: jobboard/inc/functions-employer.php:194
+msgid "Enter your job address."
+msgstr ""
+
+#: jobboard/inc/functions-job.php:24
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: jobboard/inc/functions-job.php:27
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: jobboard/inc/functions-job.php:326
+msgid "Full Name *"
+msgstr ""
+
+#: jobboard/inc/functions-job.php:327
+msgid "your name."
+msgstr ""
+
+#: jobboard/inc/functions-job.php:333
+msgid "Email Address *"
+msgstr ""
+
+#: jobboard/inc/functions-job.php:334
+msgid "name@your-domain.com."
+msgstr ""
+
+#: jobboard/inc/functions-job.php:341
+msgid "Covering Letter *"
+msgstr ""
+
+#: jobboard/inc/functions-job.php:344
+msgid "Explain to the employer why you fit the job role."
+msgstr ""
+
+#: jobboard/inc/functions-job.php:348 jobboard/inc/template-functions.php:727
+msgid "CV *"
+msgstr ""
+
+#: jobboard/inc/functions-job.php:349
+msgid "Select CV"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:36
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:60
+msgid "Sort by applied"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:61
+msgid "Sort by date posted"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:62
+msgid "Sort by salary"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:155
+msgctxt "placeholder"
+msgid "Search Jobs&hellip;"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:513
+#, php-format
+msgid "Vacancies: %s"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:514
+#, php-format
+msgid "Current Jobs : %s"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:515
+#: jobboard/inc/template-functions.php:540
+#, php-format
+msgid "Established: %s"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:518
+#: jobboard/inc/template-functions.php:543
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:523
+#: jobboard/inc/template-functions.php:548
+#, php-format
+msgid "Visit Website: %s"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:539
+#, php-format
+msgid "Minimum Salary: %s"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:750
+msgid "Username or Email Address"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:752
+msgid "Remember Me"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:847
+msgid "Date Applied"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:965
+msgid "Your Jobs"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:997
+msgid "Delete"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:1000
+msgid "Do you want to delete"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:1055
+#: jobboard/templates/dashboard/employer/applications.php:46
+#: jobboard/templates/user/cv.php:33 jobboard/templates/user/cv.php:38
+#: jobboard/templates/users/cv.php:28
+msgid "Download CV"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:1123
+msgid "Approve"
+msgstr ""
+
+#: jobboard/inc/template-functions.php:1131
+msgid "Reject"
+msgstr ""
+
+#: jobboard/inc/templates/redux/footer.tpl.php:57
+#: jobboard/inc/templates/redux/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: jobboard/inc/templates/redux/footer.tpl.php:61
+#: jobboard/inc/templates/redux/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr ""
+
+#: jobboard/inc/templates/redux/footer.tpl.php:62
+#: jobboard/inc/templates/redux/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr ""
+
+#: jobboard/inc/templates/redux/footer.tpl.php:67
+#: jobboard/inc/templates/redux/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr ""
+
+#: jobboard/inc/templates/redux/header.tpl.php:11
+#: jobboard/inc/templates/redux/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: jobboard/inc/templates/redux/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: jobboard/inc/templates/redux/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: jobboard/inc/templates/redux/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: jobboard/inc/templates/redux/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: jobboard/inc/templates/redux/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: jobboard/inc/templates/redux/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: jobboard/inc/templates/redux/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:23
+msgid "A date filters box for JobBoard only."
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:25
+msgid "JobBoard Date Filters"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:29
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:65
+msgid "Date Posted"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:50
+msgid "Last 6 Hours"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:51
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:24
+msgid "Last 12 Hours"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:52
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:25
+msgid "Last 24 Hours"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:53
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:26
+msgid "Last 7 Days"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-date-filters.php:54
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:27
+msgid "Last 30 Days"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:28
+msgid "Last 3 Months"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:33
+msgid "Latest"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:35
+msgid "Most Popular"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:39
+msgid "A list of jobs."
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:41
+msgid "JobBoard Jobs List"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:45
+msgid "Featured Jobs"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:51
+msgid "Data Type"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:60
+msgid "Number of jobs to show"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:71
+msgid "Hide Salary"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-jobs.php:76
+msgid "Hide Location"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-salary-filters.php:25
+msgid "A Salary filters box for JobBoard only."
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-salary-filters.php:27
+msgid "JobBoard Salary Filters"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-search.php:23
+msgid "A Search box for JobBoard only."
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:23
+msgid "A Specialism filters box for JobBoard only."
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:25
+msgid "JobBoard Specialism Filters"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:29
+msgid "Sectors"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:35
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:49
+#: jobboard/inc/widgets/class-jb-widget-type.php:49
+msgid "Order by"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:37
+#: jobboard/inc/widgets/class-jb-widget-type.php:51
+msgid "Category Order"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:44
+#: jobboard/inc/widgets/class-jb-widget-type.php:58
+msgid "Show job counts"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:49
+msgid "Hide children"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-filters.php:54
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:63
+#: jobboard/inc/widgets/class-jb-widget-type.php:68
+msgid "Hide empty"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:37
+msgid "A list of jobboard specialisms."
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:39
+msgid "JobBoard Specialism List"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:43
+msgid "Job Sectors"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:51
+msgid "Term Order"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:58
+msgid "Show counts"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-specialism-list.php:109
+msgid "Specialism does not exists."
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-type.php:37
+msgid "A list of job types."
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-type.php:39
+msgid "JobBoard Job Types"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-type.php:43
+msgid "Vacancy Type"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-type.php:63
+msgid "Show type color"
+msgstr ""
+
+#: jobboard/inc/widgets/class-jb-widget-type.php:117
+msgid "Type does not exists."
+msgstr ""
+
+#: jobboard/jobboard.php:331
+msgid "Report issues or New Features."
+msgstr ""
+
+#: jobboard/jobboard.php:331
+msgid "Issues"
+msgstr ""
+
+#: jobboard/templates/apply/apply.php:36
+msgid "Apply For This Job"
+msgstr ""
+
+#: jobboard/templates/apply/other.php:25
+#, php-format
+msgid "Before apply a job, you need to be a candidate. %sSign out%s"
+msgstr ""
+
+#: jobboard/templates/archive/actions/showing.php:23
+#, php-format
+msgid "Showing %s-%s of %s results"
+msgstr ""
+
+#: jobboard/templates/dashboard/candidate/account-applied.php:26
+#, php-format
+msgid "You have applied for %s jobs in the past 30 days."
+msgstr ""
+
+#: jobboard/templates/dashboard/candidate/account-applied.php:27
+msgid "View application"
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/account-applied.php:26
+#, php-format
+msgid "Candidates have applied %s jobs in the past 30 days."
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/account-applied.php:27
+msgid "View applications"
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/add-actions.php:30
+msgid "Post Job"
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/applications-filter.php:24
+msgid "FILTER"
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/applications-filter.php:26
+msgid "Enter user name, user email, application status."
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/applications-filter.php:26
+msgid "Search..."
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/applications-not-found.php:24
+msgid "Applications Not Found !"
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/applications.php:43
+#: jobboard/templates/dashboard/global/table.php:53
+msgid "More details"
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/applications.php:50
+msgid "Download"
+msgstr ""
+
+#: jobboard/templates/dashboard/employer/edit-actions.php:30
+msgid "Update Job"
+msgstr ""
+
+#: jobboard/templates/dashboard/global/account.php:25
+msgid "Account Information"
+msgstr ""
+
+#: jobboard/templates/dashboard/global/other.php:25
+#, php-format
+msgid "Hello %s%s%s"
+msgstr ""
+
+#: jobboard/templates/dashboard/global/other.php:28
+#, php-format
+msgid "You do not have sufficient permissions to access this page %sSign out%s"
+msgstr ""
+
+#: jobboard/templates/dashboard/global/profile-actions.php:30
+msgid "Save changes"
+msgstr ""
+
+#: jobboard/templates/emails/application.php:23
+#: jobboard/templates/emails/candidate-applied.php:23
+#: jobboard/templates/emails/employer-applied.php:23
+#, php-format
+msgid "Hello %s"
+msgstr ""
+
+#: jobboard/templates/emails/application.php:24
+#, php-format
+msgid "Your Application %s !"
+msgstr ""
+
+#: jobboard/templates/emails/application.php:28
+#: jobboard/templates/emails/candidate-applied.php:28
+#: jobboard/templates/emails/employer-applied.php:28
+msgid "Job title"
+msgstr ""
+
+#: jobboard/templates/emails/candidate-applied.php:24
+msgid "You have applied a job."
+msgstr ""
+
+#: jobboard/templates/emails/candidate-applied.php:40
+#: jobboard/templates/emails/employer-applied.php:40
+msgid "Covering"
+msgstr ""
+
+#: jobboard/templates/emails/candidate-applied.php:45
+msgid "View"
+msgstr ""
+
+#: jobboard/templates/emails/employer-applied.php:24
+msgid "A candidate have applied a job."
+msgstr ""
+
+#: jobboard/templates/emails/employer-applied.php:32
+msgid "Applied by"
+msgstr ""
+
+#: jobboard/templates/fields/fields/media.php:25
+#, php-format
+msgid "Uploaded : %s"
+msgstr ""
+
+#: jobboard/templates/fields/fields/media.php:34
+#, php-format
+msgid "Uploaded %s"
+msgstr ""
+
+#: jobboard/templates/fields/fields/media.php:39
+msgid "No image !"
+msgstr ""
+
+#: jobboard/templates/fields/fields/media.php:44
+msgid "No file !"
+msgstr ""
+
+#: jobboard/templates/fields/fields/media.php:48
+#, php-format
+msgid ""
+"File format not supported, you can only upload the following \"%s\" file."
+msgstr ""
+
+#: jobboard/templates/fields/fields/media.php:48
+#, php-format
+msgid "You can not upload files larger than %sKb"
+msgstr ""
+
+#: jobboard/templates/loop/author.php:23
+msgid "By : "
+msgstr ""
+
+#: jobboard/templates/loop/location.php:23
+msgid "Location : "
+msgstr ""
+
+#: jobboard/templates/loop/not-found.php:25
+#: jobboard/templates/users/not-found.php:25
+msgid "Sorry !"
+msgstr ""
+
+#: jobboard/templates/loop/not-found.php:26
+#: jobboard/templates/users/not-found.php:26
+msgid "There are no listings matching your search."
+msgstr ""
+
+#: jobboard/templates/loop/posted.php:23
+#, php-format
+msgid "Posted : %s"
+msgstr ""
+
+#: jobboard/templates/loop/readmore.php:24
+msgid "Read More"
+msgstr ""
+
+#: jobboard/templates/loop/specialism.php:23
+msgid "Specialism :"
+msgstr ""
+
+#: jobboard/templates/loop/type.php:23
+msgid "Type : "
+msgstr ""
+
+#: jobboard/templates/shortcodes/locations-listing.php:18
+msgid "View Jobs"
+msgstr ""
+
+#: jobboard/templates/shortcodes/locations-listing.php:27
+msgid "View all Locations"
+msgstr ""
+
+#: jobboard/templates/single/applied.php:23
+msgid "Job Applied"
+msgstr ""
+
+#: jobboard/templates/single/author.php:23
+msgid "Publisher :"
+msgstr ""
+
+#: jobboard/templates/single/date.php:23
+msgid "Date : "
+msgstr ""
+
+#: jobboard/templates/single/description.php:26
+msgid "Job Description"
+msgstr ""
+
+#: jobboard/templates/single/location.php:23
+#: jobboard/templates/users/location.php:28
+msgid "Location :"
+msgstr ""
+
+#: jobboard/templates/single/map.php:19
+msgid "View on Maps"
+msgstr ""
+
+#: jobboard/templates/user/contact.php:24
+#, php-format
+msgid "Contact %s%s%s"
+msgstr ""
+
+#: jobboard/templates/user/contact.php:28
+msgid "Name *"
+msgstr ""
+
+#: jobboard/templates/user/contact.php:29
+msgid "Email *"
+msgstr ""
+
+#: jobboard/templates/user/contact.php:30
+msgid "Your Message *"
+msgstr ""
+
+#: jobboard/templates/user/contact.php:34
+msgid "Send Message"
+msgstr ""
+
+#: jobboard/templates/user/contact.php:50
+msgid "Call"
+msgstr ""
+
+#: jobboard/templates/user/description.php:24
+#, php-format
+msgid "About %s%s%s"
+msgstr ""
+
+#: jobboard/templates/user/listings.php:23
+#: jobboard/templates/users/listings.php:24
+msgid "View Job Listings"
+msgstr ""
+
+#: jobboard/templates/user/recent.php:24
+#, php-format
+msgid "Recent Jobs by %s%s%s"
+msgstr ""
+
+#: jobboard/templates/user/recent.php:32
+msgid "Recent Jobs Not Found!"
+msgstr ""
+
+#: jobboard/templates/user/social.php:24
+msgid "Social"
+msgstr ""
+
+#: jobboard/templates/users.php:37
+msgid "You need buy a package have this option. "
+msgstr ""
+
+#: jobboard/templates/users.php:38
+msgid "Buy now."
+msgstr ""
+
+#: jobboard/templates/users.php:41
+msgid "You need login to see list."
+msgstr ""
+
+#: jobboard/templates/users/salary.php:28
+msgid "Minimum Salary :"
+msgstr ""
+
+#: jobboard/templates/users/specialism.php:28
+msgid "Specialism : "
+msgstr ""
+
+#: jobboard/templates/users/vacancies.php:28
+msgid "Vacancies : "
+msgstr ""
+
+#: jobboard/templates/widgets/widget-jobs.php:54
+msgid "View All Jobs"
+msgstr ""
+
+#: jobboard/templates/widgets/widget-specialism-filters.php:54
+msgid "More"
+msgstr ""
+
+#: jobboard/update/update-manager.php:231
+msgid " Verify purchase key"
+msgstr ""
+
+#: jobboard/update/update-manager.php:231
+msgid " Edit purchase key"
+msgstr ""
+
+#: jobboard/update/update-manager.php:250
+msgid "Api Key"
+msgstr ""
+
+#: jobboard/update/update-manager.php:251
+msgid "Purchase Key"
+msgstr ""
+
+#: jobboard/update/update-manager.php:252
+msgid "Save"
+msgstr ""
+
+#: jobboard-basket/templates/buttons/loop-add.php:26
+msgid "Add"
+msgstr "123123123LOL"

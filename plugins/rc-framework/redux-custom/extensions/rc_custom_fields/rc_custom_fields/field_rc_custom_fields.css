@@ -1,0 +1,123 @@
+.right{
+    float: right;
+}
+
+.wpl-cf-types{
+    border: 1px solid #ccc;
+    padding: 0 10px 0 10px;
+}
+
+.wpl-cf-types ul{
+    margin: 5px;
+}
+
+.wpl-cf-types ul li{
+    display: inline-block;
+}
+
+.wpl-cf-types ul li i{
+    margin: 0 5px 0 5px;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.wpl-cf-types ul li i:hover{
+    background: #000!important;
+    color: #fff;
+}
+
+.wpl-cf-types ul li i:active{
+    background: #a3b745!important;
+    color: #fff;
+}
+
+.wpl-cf-types ul li i:first-child{
+    background: #ddd;
+}
+
+.wpl-cf-types ul li:first-child{
+    color: #CCCCCC;
+}
+
+/* content */
+.wpl-cf-content ul > li{
+    border: 1px solid #ccc;
+    padding: 10px 15px 10px 15px;
+    cursor: move;
+    margin-bottom: 5px!important;
+    position: relative;
+}
+
+.wpl-cf-content ul > li:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.wpl-cf-content ul > [data-col="6"]:before{
+    width: 50%;
+    border-right: 1px solid #ccc;
+}
+
+.wpl-cf-content ul > [data-col="4"]:before{
+    width: 33.33333333%;
+    border-right: 1px solid #ccc;
+}
+
+.wpl-cf-content ul > [data-col="3"]:before{
+    width: 25%;
+    border-right: 1px solid #ccc;
+}
+
+.wpl-cf-content ul > li:active{
+    background-color: #ddd;
+}
+
+.wpl-cf-content ul > li > i:first-child{
+    margin-right: 20px;
+}
+
+.wpl-cf-content ul > li > i.el-adjust-alt{
+    color: green;
+}
+
+.wpl-cf-content ul > li > i.el-remove{
+    color: red;
+}
+
+.wpl-cf-content ul > li > .actions{
+    cursor: pointer;
+    width: 35px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.wpl-cf-content ul > li > .actions:hover{
+    background-color: #ddd;
+}
+
+.wpl-cf-content ul > li.ui-state{
+    border: 1px dotted #CCCCCC;
+    height: 19px;
+    background-color: #ffffff;
+}
+
+/** field settings. */
+.wpl-cf-large-text {
+    height: 137px;
+    width: 25em!important;
+}
+
+.wpl-cf-select[multiple] {
+    width: 25em!important;
+}
+
+.setting-popup tr .description{
+    display: block;
+    font-weight: 300;
+}

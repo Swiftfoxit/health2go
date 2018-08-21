@@ -1,0 +1,27 @@
+.redux-meta .ui-sortable-handle{
+    border: none;
+}
+
+.redux-meta .redux-container .redux-sidebar{
+    width: 100%;
+    float: inherit;
+    margin-left: 0;
+    min-height: 30px;
+}
+
+.redux-meta .redux-container .redux-sidebar > ul{
+    margin: 0;
+}
+
+.redux-meta .redux-container .redux-sidebar > ul > li{
+    display: inline-block;
+}
+
+.redux-meta .redux-container .redux-main{
+    margin-left: 0px;
+}
+
+.redux-meta .redux-sidebar .redux-group-menu li a{
+    padding-right: 14px;
+    border: none;
+}

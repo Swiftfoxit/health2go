@@ -1,0 +1,47 @@
+.redux-main .regular-business-hours button{
+    margin-top: 0px;
+}
+.redux-main .regular-business-hours select{
+    min-width: 120px;
+}
+
+.redux-main .regular-business-hours li{
+    padding-bottom: 10px!important;
+}
+
+.redux-main .regular-business-hours li > *{
+    margin-bottom: 5px;
+}
+
+.redux-main .regular-business-hours li:last-child{
+    max-width: 455px;
+}
+
+.redux-main .regular-business-hours li span.weekday{
+    width: 150px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.redux-main .regular-business-hours li span.hour-close{
+    margin-right: 50px;
+}
+
+.redux-main .regular-business-hours li span.sp{
+    margin: 0 10px 0 10px;
+}
+
+.redux-main .regular-business-hours li .remove-hour{
+    color: #dd3d36;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    .redux-main .regular-business-hours li span.hour-close{
+        margin-right: 30px;
+    }
+
+    .redux-main .regular-business-hours li span.sp{
+        margin: 0 5px 0 5px;
+    }
+}

@@ -1,0 +1,39 @@
+.jb-bk-title{
+    display: block;
+    cursor: pointer;
+}
+
+.jb-widget-basket, .jb-job-basket > ul li{
+    position: relative;
+}
+
+.jb-job-basket .no-jobs{
+    text-align: center;
+}
+
+.jb-job-basket .no-jobs i{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.jb-bk-items{
+    padding-right: 10px;
+}
+
+.jb-bk-delete{
+    cursor: pointer;
+    float: right;
+    top: 0;
+    position: absolute;
+    right: 0;
+    margin-top: 2px;
+}
+
+.jb-bk-actions{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.jb-bk-actions > * {
+    display: inline-block;
+}

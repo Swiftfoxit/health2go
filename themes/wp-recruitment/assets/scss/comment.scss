@@ -1,0 +1,94 @@
+#comments {
+	padding: 40px 0 47px;
+	.comments-title, #reply-title {
+		font-size: 14px;
+		line-height: 28px;
+		letter-spacing: 0.055em;
+		color: $primary_color;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	.comment-awaiting-moderation {
+		padding-left: 28px;
+	}
+	#respond {
+		margin: 0;
+	}
+	.comment-list {
+		list-style: none;
+		padding: 0;
+		.comment-body {
+			.comment-inner {
+				margin-bottom: 40px;
+			}
+			.comment-author {
+				.avatar {
+					max-width: 80px;
+					@include border-radius(100%);
+					width: 100%;
+					float: left;
+					@include box-shadow(0 1px 3px rgba(0, 0, 0, 0.25));
+				}
+				cite {
+					font-size: 13px;
+					text-transform: uppercase;
+					font-weight: 600;
+					color: $color_dark;
+					font-style: normal;
+				}
+			}
+			.comment-date {
+				line-height: 1;
+				a {
+					color: #bdbdbd;
+				    font-size: 11px;
+				    text-transform: uppercase;
+				    &:hover {
+				    	color: $secondary_color;
+				    }
+				}
+			}
+			.comment-right {
+				padding-left: 110px;
+			}
+			.commetn-text {
+				padding-left: 110px;
+				padding-top: 4px;
+				p {
+					margin-bottom: 4px;
+				}
+			}
+			.reply a {
+				font-size: 12px;
+				color: $primary_color;
+				text-transform: uppercase;
+				&:hover {
+					color: $secondary_color;
+				}
+			}
+		}
+		.children {
+			list-style: none;
+			padding: 0 0 0 75px;
+		}
+	}
+	#commentform {
+		.form-submit {
+			margin-top: 40px;
+			margin-bottom: 0;
+			#submit {
+				padding: 10px 17px 8px;
+			}
+		}
+		.comment-form-comment {
+			margin-bottom: 19px;
+			margin-top: 26px;
+		}
+		.row {
+			margin: 0 -10px;
+			.col-xs-12 {
+				padding: 0 10px;
+			}
+		}
+	}
+}

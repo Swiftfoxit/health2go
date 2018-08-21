@@ -1,0 +1,11 @@
+<wpml-config>
+    <admin-texts>
+        <key name="opt_theme_options">
+            <key name="top_bar_phone" />
+            <key name="top_bar_email" />
+            <key name="cms-copyright" />
+        </key> 
+    </admin-texts>   
+</wpml-config>
+
+

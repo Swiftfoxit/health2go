@@ -1,0 +1,26 @@
+.alerts-form select{
+    width: 100%;
+}
+.alerts-form .alerts-header .minus{
+    display: none;
+}
+
+.alerts-form .alerts-header .plus{
+    display: block;
+}
+
+.alerts-form .sections.active .alerts-header .plus{
+    display: none;
+}
+
+.alerts-form .sections.active .alerts-header .minus{
+    display: block;
+}
+
+.alerts-form .alerts-content{
+    display: none;
+}
+
+.alerts-form .sections.active .alerts-content{
+    display: block;
+}

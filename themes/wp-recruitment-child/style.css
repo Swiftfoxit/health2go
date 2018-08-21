@@ -1,0 +1,16 @@
+/*
+ Theme Name:   WP Recruitment Child
+ Theme URI: http://demo.cmssuperheroes.com/themeforest/wp-recruitment
+ Description: The 2018 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+ Author:       CMSSuperHeroes
+ Author URI: http://themeforest.net/user/CMSSuperHeroes
+ Template:     wp-recruitment
+ Version:      1.1.2
+ Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, accessibility-ready, custom-colors, custom-menu, editor-style, featured-images, footer-widgets, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  wp-recruitment-child
+*/
+
+
+/*
+-------------------------------------------------------------- */
+.menu-main-menu-container{float:right;}

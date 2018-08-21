@@ -1,0 +1,51 @@
+/* remove google map copyright. */
+.gmnoprint.gm-style-cc,
+.gmnoprint .gm-style-cc,
+a[href^="http://www.google.com/maps"],
+a[href^="https://www.google.com/maps"],
+a[href^="http://maps.google.com/maps"],
+a[href^="https://maps.google.com/maps"]{
+    display: none!important;
+}
+
+/* fixed fullscreen-control */
+.gm-fullscreen-control{
+    cursor: zoom-in;
+    z-index: 1;
+}
+
+.pac-container{
+    z-index: 2147483647;
+}
+
+.jobboard-map{
+    position: relative;
+}
+
+.map-content{
+    width: 100%;
+    height: 350px;
+}
+
+.jb_map_sums{
+    color: #ffffff;
+}
+
+.map-search-control{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(78, 0, 122, 0.5);
+}
+
+.map-search-control.active{
+    z-index: 0!important;
+    display: block;
+}
+
+.map-search-form{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

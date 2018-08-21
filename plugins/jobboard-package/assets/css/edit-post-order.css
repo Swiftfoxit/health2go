@@ -1,0 +1,141 @@
+#save-action, #post-body-content, #orders-info .handlediv, #orders-info .ui-sortable-handle{
+    display: none;
+}
+
+.redux-field-container input.regular-text{
+    width: 40%!important;
+}
+
+.redux-meta .handlediv{
+    color: #72777c!important;
+}
+
+.redux-meta .hndle.ui-sortable-handle{
+    background-color: #FFFFFF;
+    color: #72777c!important;
+}
+
+/* status */
+.order-status{
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 0 12px;
+    text-align: center;
+    max-width: 110px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.status-pending th{
+    border-left: 5px solid #ffc107;
+}
+
+.order-status.pending{
+    border: 1px solid #ebb207;
+    background-color: #ffc107;
+}
+
+.status-processing th{
+    border-left: 5px solid #cddc39;
+}
+
+.order-status.processing{
+    border: 1px solid #b8c634;
+    background-color: #cddc39;
+}
+
+.status-completed th{
+    border-left: 5px solid #38b63d;
+}
+
+.order-status.completed{
+    border: 1px solid #34a539;
+    background-color: #38b63d;
+}
+
+.status-on-hold th{
+    border-left: 5px solid #FF5722;
+}
+
+.order-status.on-hold{
+    border: 1px solid #d14a23;
+    background-color: #FF5722;
+}
+
+.status-failed th{
+    border-left: 5px solid #F44336;
+}
+
+.order-status.failed{
+    border: 1px solid #cc3a2e;
+    background-color: #F44336;
+}
+
+.status-cancelled th{
+    border-left: 5px solid #d82020;
+}
+
+.order-status.cancelled{
+    border: 1px solid #bf1c1c;
+    background-color: #d82020;
+}
+
+.status-refunded th{
+    border-left: 5px solid #2d2d2d;
+}
+
+.order-status.refunded{
+    border: 1px solid #000000;
+    background-color: #2d2d2d;
+}
+
+.order-payment{
+    margin: 0;
+    line-height: 1.6em;
+    font-size: 16px;
+    color: #777;
+    font-family: monospace;
+}
+
+.order-table, .order-table table{
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.order-table th{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.order-table td{
+    vertical-align: top;
+}
+
+.order-table tr th:first-child{
+    width: 40%;
+}
+
+.order-table table th{
+    font-size: 11px;
+    color: #777;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.order-table table td{
+    font-style: italic;
+    padding-bottom: 10px;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}

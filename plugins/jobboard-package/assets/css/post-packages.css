@@ -1,0 +1,24 @@
+#featured,
+#applied,
+#jobs,
+#feature,
+#membership{
+    width: 150px;
+}
+
+td.column-applied,
+td.column-jobs,
+td.column-feature,
+td.column-membership{
+    color: #9d9d9d;
+    font-style: italic;
+}
+
+td.column-applied span,
+td.column-jobs span,
+td.column-feature span,
+td.column-membership span{
+    color: #000000;
+    font-family: inherit;
+    font-weight: 600;
+}

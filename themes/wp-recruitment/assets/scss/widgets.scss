@@ -1,0 +1,699 @@
+/*------------------------------------------------------------------
+[All Style Widgets]
+
+  1. Newletter
+  2. Search
+  3. Tags
+  4. Categories
+
+-------------------------------------------------------------------*/
+.wg-title {
+	font-size: 17px;
+	line-height: 1;
+	color: $primary_color;
+	text-transform: capitalize;
+	margin-bottom: 22px;
+}
+#sidebar {
+	.wg-title {
+		text-transform: uppercase;
+	}
+	#widget-area > aside {
+		margin-bottom: 21px;
+		border-bottom: 1px solid #eeeeee;
+		padding-bottom: 22px;
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border: none;
+		}
+	}
+	.cms-feature-jobs {
+		.jb-carousel-meta, .owl-controls, .loop-type {
+			display: none;
+		}
+		.jb-carousel-jobtype {
+			float: none;
+		}
+		.btn {
+			margin-right: 2px;
+		}
+		.jb-carousel-middle-inner > div {
+			display: block;
+		}
+	}
+}
+.sidebar-job {
+    .sidebar-job-border {
+	    > aside {
+	    	padding-left: 15px;
+	    	padding-right: 15px;
+	    	border-bottom: 1px solid #eee;
+		    margin-bottom: 21px;
+		    padding-bottom: 22px;
+		    &:last-child {
+		    	border: medium none;
+			    margin-bottom: 0;
+			    padding-bottom: 0;
+		    }
+	    }
+	}
+	.sidebar-job-default {
+		.wg-title {
+			border-bottom: 1px solid #efefef;
+			padding-bottom: 18px;
+		}
+		> aside {
+			padding-left: 0;
+			padding-right: 0;
+			margin-bottom: 60px;
+			border: none;
+			padding-bottom: 0;
+		}
+	}
+	.sidebar-job-border {
+		padding: 22px 0;
+		font-size: 12px;
+		line-height: 24px;
+		color: #363636;
+		border: 1px solid #eceff1;
+    	@include border-radius(5px);
+    	margin-bottom: 72px;
+		.wg-title {
+			padding-right: 40px;
+    		position: relative;
+    		@include transition(all 300ms linear 0ms);
+    		cursor: pointer;
+			i {
+				cursor: pointer;
+			    font-size: 31px;
+			    height: 30px;
+			    line-height: 30px;
+			    position: absolute;
+			    right: 12px;
+			    text-align: center;
+			    top: 50%;
+			    @include transform(translate(0px, -50%));
+			    width: 30px;
+			    @include transition(all 300ms linear 0ms);
+			}
+		}
+		a {
+			color: #363636;
+			font-weight: 500;
+			&:hover {
+				color: $primary_color;
+			}
+		}
+		label {
+			color: #363636;
+			font-weight: 500;
+			margin: 0;
+		}
+		.sidebar-effect .wg-title {
+			margin-bottom: 0;
+			i:before {
+				content: "\f2f6";
+			}
+		}
+	}
+}
+.widget-jobs {
+	background-color: #fff;
+    border: 1px solid #ebebeb;
+    @include border-radius(5px);
+    @include box-shadow(0 3px 10px rgba(0, 0, 0, 0.06));
+    .wg-title {
+    	border-bottom: 1px solid #ebebeb;
+	    color: #000;
+	    font-size: 26px;
+	    margin: 0;
+	    padding: 28px;
+    }
+	.widget-content {
+		li {
+			border-bottom: 1px solid #ebebeb;
+			padding: 16px 28px 19px;
+			@include transition(all 300ms linear 0ms);
+			position: relative;
+			@include box-shadow(0 4px 0 rgba(0,0,0,0) inset);
+			.loop-title {
+				font-size: 18px;
+				color: #000;
+				font-weight: 600;
+				@include transition(all 300ms linear 0ms);
+			}
+			.loop-salary {
+				margin: 0;
+				font-size: 13px;
+				font-weight: normal;
+				color: #848484;
+			}
+			.loop-readmore {
+				font-size: 15px;
+				color: $primary_color;
+				font-weight: 600;
+				&:hover {
+					color: $color_dark;
+				}
+			}
+			&:hover {
+				background-color: #f6f6f6;
+				@include box-shadow(0 4px 0 $primary_color inset);
+				.loop-title {
+					color: $primary_color;
+				}
+			}
+			&.job-view-all {
+				padding: 25px;
+				background-color: #fff;
+				text-align: center;
+				border: none;
+				&:hover {
+					@include box-shadow(none);
+				}
+			}
+			.loop-link {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			.loop-title , .job-type, .loop-locations a {
+				position: relative;
+				z-index: 1;
+			}
+		}
+	}
+	.job-type:before {
+		content: "\f017";
+		font-family: FontAwesome;
+		padding-right: 7px;
+	}
+	.loop-holder, .loop-meta {
+	    margin: 0 -10px;
+	}
+	.loop-locations, .loop-title, .loop-salary, .loop-type {
+		margin: 0;
+		padding: 0 10px;
+	}
+	.loop-meta {
+		margin-bottom: 4px;
+    	margin-top: 4px;
+	}
+	.loop-content {
+		color: rgba(#373737, 0.68);
+	    font-size: 13px;
+	    line-height: 21px;
+	}
+}
+.wpb_widgetised_column .widget-jobs {
+	@include border-radius(0px);
+	@include box-shadow(none);
+}
+.widget-types {
+	li {
+		padding-right: 40px;
+		padding-left: 40px;
+		position: relative;
+		.color {
+			position: absolute;
+			top: 3px;
+			left: 5px;
+			height: 15px;
+			width: 15px;
+			@include border-radius(6px);
+		}
+		.count {
+			float: right;
+		}
+		&.current-cat a {
+			color: $primary_color;
+			font-weight: 600;
+		}
+	}
+}
+.widget-specialism-filters, .checkbox-style {
+	li {
+		padding-right: 40px;
+		position: relative;
+		input[type="checkbox"] {
+			cursor: pointer;
+		    left: 7px;
+		    margin: 0;
+		    opacity: 0;
+		    position: absolute;
+		    top: 50%;
+			@include transform(translate(0px, -50%));
+		    z-index: 4;
+		    &:checked + label:after {
+		    	content: "\f26b";
+		    	font-family: "Material-Design-Iconic-Font";
+		    	position: absolute;
+		    	top: 50%;
+		    	@include transform(translate(0px, -50%));
+		    	left: 10px;
+		    	font-size: 11px;
+		    	color: $primary_color;
+		    }
+		}
+		label {
+			padding-left: 40px;
+			cursor: pointer;
+			&:before {
+				background-color: #eceff1;
+			    border: 1px solid #cfd8dc;
+			    @include border-radius(2px);
+			    display: block;
+			    height: 13px;
+			    margin: 0;
+			    padding: 0;
+			    width: 13px;
+			    content: "";
+			    left: 7px;
+			    position: absolute;
+			    top: 50%;
+			    @include transform(translate(0px, -50%));
+			    @include box-shadow(0 0 3px rgba(0, 0, 0, 0.07));
+			}
+		}
+		.count {
+			float: right;
+		}
+		.specialism-filter-more {
+			padding-left: 40px;
+			&:after {
+				content: "\f2f2";
+				font-family: "Material-Design-Iconic-Font";
+				font-size: 12px;
+				padding-left: 12px;
+				position: relative;
+				top: 1px;
+			}	
+		}
+	}
+}
+.widget-date-filters, .radio-style {
+	li {
+		padding-right: 40px;
+		position: relative;
+		input[type="radio"] {
+			cursor: pointer;
+		    left: 7px;
+		    margin: 0;
+		    opacity: 0;
+		    position: absolute;
+		    top: 50%;
+			@include transform(translate(0px, -50%));
+		    z-index: 4;
+		    &:checked + label:after {
+		    	content: "";
+		    	height: 5px;
+		    	width: 5px;
+		  		background-color: $primary_color;
+		    	position: absolute;
+		    	top: 50%;
+		    	@include transform(translate(0px, -50%));
+		    	@include border-radius(100%);
+		    	left: 11px;
+		    	font-size: 11px;
+		    	color: $primary_color;
+		    }
+		}
+		label {
+			padding-left: 40px;
+			cursor: pointer;
+			&:before {
+				background-color: #eceff1;
+			    border: 1px solid #cfd8dc;
+			    @include border-radius(100%);
+			    display: block;
+			    height: 13px;
+			    margin: 0;
+			    padding: 0;
+			    width: 13px;
+			    content: "";
+			    left: 7px;
+			    position: absolute;
+			    top: 50%;
+			    @include transform(translate(0px, -50%));
+			    @include box-shadow(0 0 3px rgba(0, 0, 0, 0.07));
+			}
+		}
+	}
+}
+
+/* 
+   [Start] 1. Newletter
+   +-----------------------------------+
+*/
+.wpb_widgetised_column .newsletter-widget {
+	max-width: 515px;
+	margin-left: 0;
+	overflow: hidden;
+	form {
+		padding-right: 95px;
+    	position: relative;
+    	p {
+    		margin: 0;
+    	}
+	}
+	.tnp-email {
+		background-color: rgba(255, 255, 255, 0.5);
+	    border: medium none;
+	    box-shadow: none;
+	    font-size: 10px !important;
+	    height: 35px !important;
+	    line-height: 35px !important;
+	    padding: 0 12px !important; 
+	    text-transform: none !important;
+	    color: #fff;
+	    float: left;
+	}
+	.tnp-submit {
+		border: 2px solid #c07932;
+	    font-size: 10px;
+	    letter-spacing: 0.035em;
+	    line-height: 31px;
+	    padding: 0 16px;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    &:hover {
+	    	background-color: $color_dark;
+	    	color: #fff;
+	    	border-color: $color_dark;
+	    }
+	}
+}
+
+/* 
+   [Start] 2. Search
+   +-----------------------------------+
+*/
+#searchform, .jb-job-search {
+	position: relative;
+	.screen-reader-text {
+		display: none;
+	}
+	> div {
+		&:before {
+			color: #424242;
+		    content: "\f1c3";
+		    font-family:Material-Design-Iconic-Font;
+		    font-size: 15px;
+		    position: absolute;
+		    right: 18px;
+		    top: 50%;
+    		@include transform(translate(0px, -50%));
+		    z-index: 1;
+		}
+	}
+	#jb-job-search-field, input[type="text"] {
+		height: 35px;
+	}
+	#searchsubmit, input[type="submit"] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-color: transparent;
+		opacity: 0;
+		z-index: 2;
+		padding: 0;
+		height: 35px;
+		width: 45px;
+	}
+}
+
+.faq-search {
+	#searchform {
+	    @include border-radius(5px);
+	    margin: auto;
+	    max-width: 870px;
+	    padding: 17px;
+		> div:before {
+			display: none;
+		}
+		input[type="text"] {
+			@include border-radius(5px);
+		    color: #6e6970;
+		    font-size: 15px;
+		    font-weight: normal;
+		    height: 58px;
+		    line-height: 58px;
+		    padding: 10px 20px;
+		    text-transform: none;
+		    width: calc(100% - 220px);
+		    width: -webkit-calc(100% - 220px);
+		}
+		#searchsubmit {
+			position: absolute;
+			top: 17px;
+			right: 17px;
+			background-color: $primary_color;
+			opacity: 1;
+			z-index: 2;
+			padding: 0;
+			height: 58px;
+			width: 200px;
+			text-align: center;
+			font-size: 15px;
+			font-weight: 600;
+			&:hover {
+				border-color: $color_dark;
+				background-color: $color_dark;
+			}
+		}
+	}
+}
+/* 
+   [Start] 3. Tags
+   +-----------------------------------+
+*/
+.tagcloud a {
+	font-size: 12px !important;
+	text-transform: uppercase;
+	color: #424242;
+	line-height: 27px;
+	padding: 1px 14px 0;
+	background-color: #eceff1;
+	border: 1px solid #e5e5e5;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	@include border-radius(4px);
+	font-weight: 400;
+	&:hover {
+		color: $primary_color;
+	}
+}
+
+/* 
+   [Start] 4. Categories
+   +-----------------------------------+
+*/
+.widget_categories {
+	li {
+		line-height: 27px;
+		a {
+			color: #424242;
+			letter-spacing: 0.035em;
+			&:hover {
+				color: $primary_color;
+			}
+		}
+	}
+}
+.widget_product_categories {
+	li {
+		a {
+			color: #424242;
+			+ span {
+				color: #424242;
+				@include transition(all 300ms linear 0ms);
+			}
+			&:hover {
+				color: $primary_color;
+				+ span {
+					color: $primary_color;
+				}
+			}
+		}
+	}
+}
+.widget_price_filter {
+	.wg-title {
+		margin-bottom: 32px;
+	}
+}
+
+.widget_cs_social_widget {
+	li {
+		display: inline-block;
+		a {
+			color: $primary_color;
+			font-size: 22px;
+			padding: 0 11px;
+		}
+	}
+}
+.cms-recent-post {
+	height: 395px;
+    overflow: hidden;
+    position: relative;
+    width: 100% !important;
+    padding-right: 12px !important;
+    padding-left: 0 !important;
+    + div {
+    	width: 8px;
+    	background-color: #e0e0e0;
+    	.vertical-handle {
+    		width: 8px;
+    		background-color: #757575;
+    		@include border-radius(8px);
+    	}
+    }
+	.cms-recent-media {
+		float: left;
+    	max-width: 100px;
+    	a {
+    		background-size: cover;
+		    bottom: 0;
+		    display: block;
+		    height: 100%;
+		    left: 0;
+		    position: absolute;
+		    width: 100px;
+		    @include border-radius(3px 0 0 3px);
+		    background-repeat: no-repeat;
+		    background-position: center;
+    	}
+	}
+	.cms-recent-details  {
+		padding: 10px 10px 10px 120px;
+		.title {
+			font-size: 12px;
+			line-height: 18px;
+			text-transform: uppercase;
+			margin-bottom: 3px;
+			a {
+				color: #212121;
+				&:hover {
+					color: $primary_color;
+				}
+			}
+		}
+		.date {
+			color: #212121;
+		    font-size: 9px;
+		    line-height: 18px;
+		    text-transform: uppercase;
+		    margin-bottom: 10px;
+		}
+		.readmore {
+			line-height: 1;
+			a {
+				font-size: 12px;
+				text-transform: uppercase;
+				color: #2b2e35;
+				&:hover {
+					color: $primary_color;
+				}
+			}
+		}
+	}
+	.item {
+		margin-bottom: 24px;
+		@include border-radius(3px);
+		border-width: 1px;
+		border-color: #f9f9f9 #f3f3f3 #eaeaea #f3f3f3;
+		border-style: solid;
+		position: relative;
+		@include box-shadow(0 1px 4px rgba(0, 0, 0, 0.08));
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.widget_znews-twitter-widget {
+	.bx-wrapper {
+		border: 1px solid #efefef;
+		padding: 30px;
+	}
+	.nt-layout-style-1 {
+		.item-content {
+		    margin-bottom: 11px;
+		    padding-bottom: 13px;
+		    font-size: 14px;
+		    color: #212121;
+			.news-twitter-icon {
+				font-size: 20px;
+				padding-top: 2px;
+				float: left;
+				color: $primary_color;
+			}
+			.news-twitter-item-inner {
+				padding-left: 40px;
+			}
+			&:last-child {
+				padding: 0;
+				margin: 0;
+				border: none;
+			}
+		}
+	}
+}
+
+.widget-basket {
+	.jb-bk-hover {
+		opacity: 0;
+		max-height: 0;
+		overflow: hidden;
+		visibility: hidden;
+		@include transition(all 400ms linear 0ms);
+		cursor: pointer;
+	}
+	.wg-title:hover + .jb-bk-hover {
+		opacity: 1;
+		visibility: visible;
+		overflow: visible;
+		max-height: 1000px;
+	}
+}
+
+.hidden-wg-title .wg-title {
+	display: none;
+}
+
+.widget-specialism-list {
+	.wg-title {
+		font-size: 25px;
+		color: #000000;
+		border-top: 3px solid #efefef;
+		border-bottom: 1px solid #efefef;
+		padding: 18px 0;
+		margin-bottom: 0;
+	}
+	li {
+		border-bottom: 1px solid #efefef;
+		a {
+			font-size: 18px;
+			line-height: normal;
+			font-weight: normal;
+			color: #000;
+			display: block;
+			padding: 10px 0;
+			&:hover {
+				color: $primary_color;
+				padding-left: 20px;
+			}
+		}
+	}
+}
+.widget_archive, .widget_categories {
+	.screen-reader-text {
+		display: none;
+	}
+}
