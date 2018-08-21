@@ -1,0 +1,44 @@
+.jobboard-alphabeta .find-chars ul{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+.jobboard-alphabeta .find-chars ul li{
+    display: inline-block;
+    width: 3%;
+    min-width: 20px;
+    text-align: center;
+}
+.jobboard-alphabeta .alphabeta-listing .listing-group{
+    margin: 0 0 15px 0;
+}
+
+.jobboard-alphabeta .alphabeta-listing .listing-group ul{
+    margin: 10px 0 0 0;;
+}
+
+.jobboard-alphabeta .alphabeta-listing .listing-group ul li{
+    display: inline-table;
+    width: 25%;
+    float: left;
+}
+.jobboard-alphabeta .alphabeta-listing .listing-group ul li span{
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 991px) {
+    .jobboard-alphabeta .alphabeta-listing .listing-group ul li{
+        width: 33.333333333%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .jobboard-alphabeta .alphabeta-listing .listing-group ul li{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .jobboard-alphabeta .alphabeta-listing .listing-group ul li{
+        width: 100%;
+    }
+}

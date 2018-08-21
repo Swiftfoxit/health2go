@@ -1,0 +1,193 @@
+@media screen and (min-width: 480px) {
+    li.ef3-demo {
+        width: 100%;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 768px) {
+    li.ef3-demo {
+        width: 49%;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 992px) {
+    li.ef3-demo {
+        width: 33%;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 1200px) {
+    li.ef3-demo {
+        width: 24%;
+        display: inline-block;
+    }
+}
+
+.ef3-content {
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.ef3-action h3 {
+    font-size: 14px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.ef3-action > div {
+    line-height: 34px;
+    position: relative;
+}
+
+.ef3-action .install-demo, .ef3-action .uninstall-demo{
+    float: right;
+    line-height: 20px;
+}
+
+.ef3-action .delete-demo{
+    padding: 0 2px 0 2px;
+    color: red;
+    padding-top: 3px;
+}
+
+.ef3-opacity-0-5{
+    opacity: 0.5;
+}
+
+/** button */
+.ef3-action .uninstall-demo{
+    color: #FFF;
+    border-color: #d9534f;
+    background: #d9534f;
+    -webkit-box-shadow: 0 1px 0 #d9534f;
+    box-shadow: 0 1px 0 #d9534f;
+    padding-top: 3px;
+    margin-left: 5px;
+}
+
+.ef3-action .uninstall-demo:hover{
+    color: #FFF;
+    border-color: #D83631;
+    background: #D83631;
+    -webkit-box-shadow: 0 1px 0 #D83631;
+    box-shadow: 0 1px 0 #D83631;
+}
+
+.ef3-action .uninstall-demo:focus{
+    color: #FFF;
+    border-color: #D83631;
+    background: #D83631;
+    -webkit-box-shadow: 0 1px 0 #D83631;
+    box-shadow: 0 1px 0 #D83631;
+}
+
+/** server info */
+
+.ef3-server-info th{
+    width: 200px;
+}
+
+.ef3-server-info i.el-check{
+    color: #0099D5;
+    padding-right: 15px;
+}
+.ef3-server-info i.el-remove-circle{
+    color: #D50000;
+    padding-right: 15px;
+}
+
+/* import data */
+
+.ef3-action .select-import-data{
+    line-height: 20px;
+}
+
+.ef3-data-import{
+    height: 100px;
+    max-height: 100px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: absolute;
+    min-width: 250px;
+    background: #fff;
+    z-index: 2;
+}
+.ef3-data-import:not(.active){
+    display: none;
+}
+/** process */
+.ef3-demo-process{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.ef3-demo-process.is-active{
+    display: block;
+}
+
+.ef3-process {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    height: 10px;
+    background-color: #FFF;
+    left: 0;
+    right: 0;
+    margin: 0 5px 0 5px;
+}
+.ef3-demo-process span {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    z-index: 3;
+}
+.ef3-process > div{
+    position: absolute;
+    background: #3cbaea;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+/** admin page */
+#ef3-admin-demo-page .redux-info,#ef3-admin-demo-page .redux-critical{
+    color: #fff;
+    background: #23282d;
+}
+#ef3-admin-demo-page .redux-info .ef3-server-info{
+     border-left: 5px solid #01b78b;
+}
+#ef3-admin-demo-page .redux-critical .ef3-server-info{
+    border-left: 5px solid #ff6262;
+}
+#ef3-admin-demo-page .ef3-server-info th{
+    text-align: right;
+}
+#ef3-admin-demo-page .redux-info-desc{
+    display: none;
+}
+#ef3-admin-demo-page .ef3-thumb img{
+    width: 100%;
+}
+#ef3-admin-demo-page .ef3-content{
+    background-color: #fff;
+}
+#ef3-admin-demo-page .ef3-action h3{
+    border-bottom: 1px solid #ddd;
+}
+#ef3-admin-demo-page .ef3-action form{
+    float: right;
+}
