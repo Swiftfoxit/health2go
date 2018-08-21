@@ -19,7 +19,7 @@ function wp_recruitment_enqueue_styles()
 	wp_register_style('bootstrap-slider', get_stylesheet_directory_uri() . '/css/bootstrap-slider.min.css');
 	wp_register_script('bootstrap-datetimepicker', get_stylesheet_directory_uri() . '/js/bootstrap-datetimepicker.min.js');
 	wp_register_script('bootstrap-slider', get_stylesheet_directory_uri() . '/js/bootstrap-slider.min.js');
-	wp_register_script('zinput', get_stylesheet_directory_uri() . '/js/zInput.js');
+	
 }
 
 add_action('wp_enqueue_scripts', 'wp_recruitment_enqueue_styles');
@@ -184,7 +184,7 @@ function remove_employer_package_menu_item(){
 /*remove package from employer dashboard*/
 
 /*Change post job fields for employer*/
- add_filter('jobboard_add_job_fields','change_jobboard_add_job_fields');
+ //add_filter('jobboard_add_job_fields','change_jobboard_add_job_fields');
 function change_jobboard_add_job_fields($fields){
 		
 	//Regenerate fields
@@ -308,7 +308,7 @@ function change_jobboard_add_job_fields($fields){
 
 
 //Remove theme employer add job form fields and set it as custom in template
-//remove_action('jobboard_form_post', 'jb_template_form_dynamic', 10);
+remove_action('jobboard_form_post', 'jb_template_form_dynamic', 10);
 
 
 /*create job category taxonomy*/
@@ -347,5 +347,38 @@ function create_job_category(){
 			);
 			
 	register_taxonomy( 'jobboard-tax-categories', array( 'jobboard-post-jobs' ), $job_category );
+	
+	$job_board_labels = array(
+				'name'              => esc_html__( 'Boards', JB_TEXT_DOMAIN ),
+				'singular_name'     => esc_html__( 'Board', JB_TEXT_DOMAIN ),
+				'search_items'      => esc_html__( 'Search Boards', JB_TEXT_DOMAIN ),
+				'all_items'         => esc_html__( 'All Boards', JB_TEXT_DOMAIN ),
+				'parent_item'       => esc_html__( 'Parent Board', JB_TEXT_DOMAIN ),
+				'parent_item_colon' => esc_html__( 'Parent Board:', JB_TEXT_DOMAIN ),
+				'edit_item'         => esc_html__( 'Edit Board', JB_TEXT_DOMAIN ),
+				'update_item'       => esc_html__( 'Update Board', JB_TEXT_DOMAIN ),
+				'add_new_item'      => esc_html__( 'Add New Board', JB_TEXT_DOMAIN ),
+				'new_item_name'     => esc_html__( 'New Board', JB_TEXT_DOMAIN ),
+				'menu_name'         => esc_html__( 'Boards', JB_TEXT_DOMAIN ),
+			);
+
+			$job_board = array(
+				'hierarchical'       => false,
+				'labels'             => $job_board_labels,
+				'show_ui'            => true,
+				'show_admin_column'  => false,
+				'query_var'          => true,
+				'show_in_quick_edit' => false,
+				'rewrite'            => array(
+					'slug' => 'jobboard-board'
+				),
+				/* 'capabilities'       => array(
+					'manage_terms' => 'manage_job_category_terms',
+					'edit_terms'   => 'edit_job_category_terms',
+					'delete_terms' => 'delete_job_category_terms',
+					'assign_terms' => 'assign_job_category_terms'
+				) */
+			);
+			register_taxonomy( 'jobboard-tax-boards', array( 'jobboard-post-jobs' ), $job_board );
 }
 /*create job category taxonomy*/
