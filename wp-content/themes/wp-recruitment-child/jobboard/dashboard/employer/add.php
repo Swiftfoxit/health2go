@@ -245,22 +245,15 @@ wp_enqueue_style('zinput');
 				 <div class="field-content">
 					<h5>Work permit</h5>
 					<ul class="checkbox-style field-checkbox">
-													<li><input id="board_282" name="" class="checkbox" value="282" type="checkbox">
-								<label for="board_282">
-								Permit 1</label>
-								</li>
-								
-																<li><input id="board_283" name="boards[]" class="checkbox" value="283" type="checkbox">
-								<label for="board_283">
-								Permit 2</label>
-								</li>
-								
-																<li><input id="board_284" name="boards[]" class="checkbox" value="284" type="checkbox">
-								<label for="board_284">
-								Permit 2</label>
-								</li>
-								
-														</ul>
+						<li>
+						<input id="workpermit_local" name="" class="checkbox" value="local" type="checkbox">
+							<label for="workpermit_local">Local</label>
+						</li>
+						<li>
+						<input id="workpermit_expat" name="" class="checkbox" value="expat" type="checkbox">
+							<label for="workpermit_expat">Expat</label>
+						</li>
+					</ul>
 				 </div>
 			</div>
 		</div>

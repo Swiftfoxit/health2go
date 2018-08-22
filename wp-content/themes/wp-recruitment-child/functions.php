@@ -170,12 +170,13 @@ function remove_employer_package_menu_item(){
 	global $submenu;
 	$key='edit.php?post_type=jobboard-post-jobs';
 	$menu_key=0;
+	if(!empty($submenu[ $key ] )){
 	foreach ( $submenu[ $key ] as $k => $menu ) {
 		if ( $menu[2] == 'edit.php?post_type=jb-package-employer' ) {
 			$menu_key=$k;
 			break;
 		}
-	}
+	}}
 	if(!empty($menu_key))
 		unset($submenu[$key][$menu_key]);
 		
@@ -192,28 +193,28 @@ function change_jobboard_add_job_fields($fields){
 	$fields=array(
 		 array(
             'id'         => 'post-heading',
-            'title'      => esc_html__('Create Job Request', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Make sure you have completed all required fields (*), before job request.', JB_TEXT_DOMAIN ),
+            'title'      => esc_html__('Create Job Request' ),
+            'subtitle'   => esc_html__('Make sure you have completed all required fields (*), before job request.' ),
             'type'       => 'heading',
             'heading'    => 'h3'
         ),
         array (
             'id'         => 'post_title',
-            'title'      => esc_html__('Job Title *', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Enter your job title', JB_TEXT_DOMAIN ),
-            'notice'     => esc_html__('is required !', JB_TEXT_DOMAIN),
+            'title'      => esc_html__('Job Title *' ),
+            'subtitle'   => esc_html__('Enter your job title' ),
+            'notice'     => esc_html__('is required !'),
             'type'       => 'text',
             'require'    => 1,
             'col'        => 12,
-            'placeholder'=> esc_html__('Job Title *', JB_TEXT_DOMAIN )
+            'placeholder'=> esc_html__('Job Title *' )
         ),
 		array (
             'id'         => 'specialisms',
             'name'       => 'specialisms[]',
-            'title'      => esc_html__('Specialisms & Skill', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Select specialisms and skill for job.', JB_TEXT_DOMAIN ),
-            'notice'     => esc_html__('is required !', JB_TEXT_DOMAIN),
-            'placeholder'=> esc_html__('Specialisms & Skill *', JB_TEXT_DOMAIN ),
+            'title'      => esc_html__('Specialisms & Skill' ),
+            'subtitle'   => esc_html__('Select specialisms and skill for job.' ),
+            'notice'     => esc_html__('is required !'),
+            'placeholder'=> esc_html__('Specialisms & Skill *' ),
             'type'       => 'select',
             'multi'      => true,
             'col'        => 12,
@@ -223,10 +224,10 @@ function change_jobboard_add_job_fields($fields){
 		array (
             'id'         => 'specialisms2',
             'name'       => 'specialisms2[]',
-            'title'      => esc_html__('Specialisms & Skill', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Select specialisms and skill for job.', JB_TEXT_DOMAIN ),
-            'notice'     => esc_html__('is required !', JB_TEXT_DOMAIN),
-            'placeholder'=> esc_html__('Specialisms & Skill *', JB_TEXT_DOMAIN ),
+            'title'      => esc_html__('Specialisms & Skill' ),
+            'subtitle'   => esc_html__('Select specialisms and skill for job.' ),
+            'notice'     => esc_html__('is required !'),
+            'placeholder'=> esc_html__('Specialisms & Skill *' ),
             'type'       => 'checkbox',
             'multi'      => true,
             'col'        => 12,
@@ -236,39 +237,39 @@ function change_jobboard_add_job_fields($fields){
 		array(
             'id'         => 'locations',
             'type'       => 'location',
-            'title'      => esc_html__('Job Address', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Select job address.', JB_TEXT_DOMAIN ),
+            'title'      => esc_html__('Job Address' ),
+            'subtitle'   => esc_html__('Select job address.' ),
             'taxonomy'   => 'jobboard-tax-locations',
             'options'    => array(
                 array(
                     'id'            => 'country',
-                    'placeholder'   => esc_html__('Country', JB_TEXT_DOMAIN )
+                    'placeholder'   => esc_html__('Country' )
                 ),
                 array(
                     'id'            => 'city',
-                    'placeholder'   => esc_html__('City', JB_TEXT_DOMAIN )
+                    'placeholder'   => esc_html__('City' )
                 ),
                 array(
                     'id'            => 'district',
-                    'placeholder'   => esc_html__('District', JB_TEXT_DOMAIN )
+                    'placeholder'   => esc_html__('District' )
                 ),
             )
         ),
 		array (
             'id'         => 'gender',
             'name'       => 'gender',
-            'title'      => esc_html__('Gender', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Select your gender.', JB_TEXT_DOMAIN ),
-            'placeholder'=> esc_html__('Gender', JB_TEXT_DOMAIN ),
+            'title'      => esc_html__('Gender' ),
+            'subtitle'   => esc_html__('Select your gender.' ),
+            'placeholder'=> esc_html__('Gender' ),
             'type'       => 'select',
             'col'        => 12,
             'options'    => array('male'=>'Male','female'=>'Female'),
         ),
 		array (
             'id'         => 'types',
-            'title'      => esc_html__('Contract Type *', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Select a job type', JB_TEXT_DOMAIN ),
-            'notice'     => esc_html__('is required !', JB_TEXT_DOMAIN),
+            'title'      => esc_html__('Contract Type *' ),
+            'subtitle'   => esc_html__('Select a job type' ),
+            'notice'     => esc_html__('is required !'),
             'type'       => 'radio',
             'value'      => 2,
             'require'    => 1,
@@ -276,30 +277,30 @@ function change_jobboard_add_job_fields($fields){
         ),
 		array (
             'id'         => 'post_content',
-            'title'      => esc_html__('Job Description *', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Enter your job content.', JB_TEXT_DOMAIN ),
-            'notice'     => esc_html__('is required !', JB_TEXT_DOMAIN),
+            'title'      => esc_html__('Job Description *' ),
+            'subtitle'   => esc_html__('Enter your job content.' ),
+            'notice'     => esc_html__('is required !'),
             'type'       => 'textarea',
             'require'    => 1,
-            'placeholder'=> esc_html__('Job description *', JB_TEXT_DOMAIN )
+            'placeholder'=> esc_html__('Job description *' )
         ),
 		array (
             'id'         => 'time',
-            'title'      => esc_html__('Time', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Enter your time.', JB_TEXT_DOMAIN ),
-            //'notice'     => esc_html__('is required !', JB_TEXT_DOMAIN),
+            'title'      => esc_html__('Time' ),
+            'subtitle'   => esc_html__('Enter your time.' ),
+            //'notice'     => esc_html__('is required !'),
             'type'       => 'time',
             'require'    => 1,
-            'placeholder'=> esc_html__('Select Time', JB_TEXT_DOMAIN )
+            'placeholder'=> esc_html__('Select Time' )
         ),
 		array (
             'id'         => 'slider',
-            'title'      => esc_html__('Time', JB_TEXT_DOMAIN ),
-            'subtitle'   => esc_html__('Enter your time.', JB_TEXT_DOMAIN ),
-            //'notice'     => esc_html__('is required !', JB_TEXT_DOMAIN),
+            'title'      => esc_html__('Time' ),
+            'subtitle'   => esc_html__('Enter your time.' ),
+            //'notice'     => esc_html__('is required !'),
             'type'       => 'slider',
             'require'    => 1,
-            'placeholder'=> esc_html__('Select Time', JB_TEXT_DOMAIN )
+            'placeholder'=> esc_html__('Select Time' )
         ),
 		
 	);
@@ -316,17 +317,17 @@ remove_action('jobboard_form_post', 'jb_template_form_dynamic', 10);
 add_action('init','create_job_category',100);
 function create_job_category(){
 	$job_category_labels = array(
-				'name'              => esc_html__( 'Categories', JB_TEXT_DOMAIN ),
-				'singular_name'     => esc_html__( 'Category', JB_TEXT_DOMAIN ),
-				'search_items'      => esc_html__( 'Search Categories', JB_TEXT_DOMAIN ),
-				'all_items'         => esc_html__( 'All Categories', JB_TEXT_DOMAIN ),
-				'parent_item'       => esc_html__( 'Parent Category', JB_TEXT_DOMAIN ),
-				'parent_item_colon' => esc_html__( 'Parent Category:', JB_TEXT_DOMAIN ),
-				'edit_item'         => esc_html__( 'Edit Category', JB_TEXT_DOMAIN ),
-				'update_item'       => esc_html__( 'Update Category', JB_TEXT_DOMAIN ),
-				'add_new_item'      => esc_html__( 'Add New Category', JB_TEXT_DOMAIN ),
-				'new_item_name'     => esc_html__( 'New Category', JB_TEXT_DOMAIN ),
-				'menu_name'         => esc_html__( 'Categories', JB_TEXT_DOMAIN ),
+				'name'              => esc_html__( 'Categories' ),
+				'singular_name'     => esc_html__( 'Category' ),
+				'search_items'      => esc_html__( 'Search Categories' ),
+				'all_items'         => esc_html__( 'All Categories' ),
+				'parent_item'       => esc_html__( 'Parent Category' ),
+				'parent_item_colon' => esc_html__( 'Parent Category:' ),
+				'edit_item'         => esc_html__( 'Edit Category'),
+				'update_item'       => esc_html__( 'Update Category' ),
+				'add_new_item'      => esc_html__( 'Add New Category' ),
+				'new_item_name'     => esc_html__( 'New Category' ),
+				'menu_name'         => esc_html__( 'Categories' ),
 			);
 
 			$job_category = array(
@@ -350,17 +351,17 @@ function create_job_category(){
 	register_taxonomy( 'jobboard-tax-categories', array( 'jobboard-post-jobs' ), $job_category );
 	
 	$job_board_labels = array(
-				'name'              => esc_html__( 'Boards', JB_TEXT_DOMAIN ),
-				'singular_name'     => esc_html__( 'Board', JB_TEXT_DOMAIN ),
-				'search_items'      => esc_html__( 'Search Boards', JB_TEXT_DOMAIN ),
-				'all_items'         => esc_html__( 'All Boards', JB_TEXT_DOMAIN ),
-				'parent_item'       => esc_html__( 'Parent Board', JB_TEXT_DOMAIN ),
-				'parent_item_colon' => esc_html__( 'Parent Board:', JB_TEXT_DOMAIN ),
-				'edit_item'         => esc_html__( 'Edit Board', JB_TEXT_DOMAIN ),
-				'update_item'       => esc_html__( 'Update Board', JB_TEXT_DOMAIN ),
-				'add_new_item'      => esc_html__( 'Add New Board', JB_TEXT_DOMAIN ),
-				'new_item_name'     => esc_html__( 'New Board', JB_TEXT_DOMAIN ),
-				'menu_name'         => esc_html__( 'Boards', JB_TEXT_DOMAIN ),
+				'name'              => esc_html__( 'Boards' ),
+				'singular_name'     => esc_html__( 'Board' ),
+				'search_items'      => esc_html__( 'Search Boards' ),
+				'all_items'         => esc_html__( 'All Boards' ),
+				'parent_item'       => esc_html__( 'Parent Board'),
+				'parent_item_colon' => esc_html__( 'Parent Board:' ),
+				'edit_item'         => esc_html__( 'Edit Board' ),
+				'update_item'       => esc_html__( 'Update Board' ),
+				'add_new_item'      => esc_html__( 'Add New Board' ),
+				'new_item_name'     => esc_html__( 'New Board' ),
+				'menu_name'         => esc_html__( 'Boards' ),
 			);
 
 			$job_board = array(
