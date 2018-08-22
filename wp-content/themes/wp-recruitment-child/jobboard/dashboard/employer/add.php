@@ -273,19 +273,7 @@ wp_enqueue_script('bootstrap-slider');
       </div>
       
 	  <div id="tab-time" class="tab-pane fade">
-      <!--<div class="row">
-		<div class="field col-xs-2 col-sm-2 col-md-2">				
-		 <div class="field-content">
-		 <h3>Time</h3>
-		 </div>
-		</div>
-    
-      </div>
-        <div class="btnn-bg">                       
-               
-		<a href="javascript:void(0);" onclick="toggle_nav('filter');" class="btn btn-default btn-sm">Previous</a>
-		<a href="javascript:void(0);" onclick="toggle_nav('cost');" class="btn btn-default btn-sm">Next</a>
-		</div>-->
+      
 		<div class="row">
 			<div class="field col-xs-12 col-sm-12 col-md-12">
 				
@@ -316,15 +304,20 @@ wp_enqueue_script('bootstrap-slider');
 					</div>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6">
-					<div>
-					Add Your Offer(<?php echo function_exists('jb_get_currency_symbol')?jb_get_currency_symbol( jb_get_option( 'default-currency', 'USD' ) ):'';?>)
-					<input type="text" id="proposed_price">					
+					<div class="row">
+						<div class="col-xs-4 col-sm-4 col-md-4 align-middle text-right">Add Your Offer</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 "><input type="text" id="proposed_price"></div>	
+						<div class="col-xs-2 col-sm-2 col-md-2 text-left"><?php echo function_exists('jb_get_option')?jb_get_option( 'default-currency', 'USD' ).'/Hour':'';?></div>
 					</div>
-					<div>
-					Total Hours<input type="text" id="total_hours">			
+					<div class="row">
+						<div class="col-xs-4 col-sm-4 col-md-4 align-middle text-right">Total Hours</div>
+						<div class="col-xs-6 col-sm-6 col-md-6"><input type="text" id="total_hours"></div>
+						<div class="col-xs-2 col-sm-2 col-md-2 text-left">Hour</div>
 					</div>
-					<div>
-					Total Service Request<input type="text" id="total_price">					
+					<div class="row">
+						<div class="col-xs-4 col-sm-4 col-md-4 align-middle text-right">Total Service Request</div>
+						<div class="col-xs-6 col-sm-6 col-md-6"><input type="text" id="total_price"></div>
+						<div class="col-xs-2 col-sm-2 col-md-2 text-left"><?php echo function_exists('jb_get_option')?jb_get_option( 'default-currency', 'USD' ):'';?></div>
 					</div>
 				</div>
 			 </div>

@@ -391,3 +391,8 @@ function change_dashboard_page_new_title()
 {
 	return 'Create Job Request';
 }
+add_filter('jobboard_query_endpoint_jobs_title','change_dashboard_page_jobs_title');
+function change_dashboard_page_jobs_title()
+{
+	return 'Request History';
+}

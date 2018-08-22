@@ -54,17 +54,36 @@ form.jobboard-form .nav-tabs li a{font-size:14px; line-height:32px;}
 }
 
 /*Bootstarp range slider css*/
-/* .slider-handle {
-	background: #000000!important;
-} */
 #price_range_slider.slider{
 	width:100%;
 }
 #price_range_slider .slider-selection {
-	background: #FF8282;
+	background: #0b4647;
 	
 }
+#price_range_slider .slider-track-low, #price_range_slider .slider-track-high{
+	background: #0b4647;
+}
 #price_range_slider .slider-handle {
-	background: red;
+	background: #0b4647;
+}
+#price_range_slider .tooltip-inner {
+	background-color: #0b4647;
+}
+#price_range_slider .tooltip.top .tooltip-arrow {
+	border-top-color: #0b4647;
+}
+#price_range_slider.slider.slider-horizontal .slider-track{
+	height:3px;
+	top:75%;
 }
 /*Bootstarp range slider css*/
+
+
+/*Jobboard add request form cost tab fileds*/
+#tab-cost input[type="text"]{
+	height:30px;
+}
+
+
+/*Jobboard add request form cost tab fileds*/
