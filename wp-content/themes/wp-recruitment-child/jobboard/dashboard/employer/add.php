@@ -21,6 +21,8 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
 wp_enqueue_style('zinput');
+wp_enqueue_style('bootstrap-slider');
+wp_enqueue_script('bootstrap-slider');
 ?>
 
 <div style="padding:0 0 20px 0;">
@@ -210,11 +212,16 @@ wp_enqueue_style('zinput');
 			<div class="field col-xs-2 col-sm-2 col-md-2 field-checkbox">				
 				 <div class="field-content">
 					<h5>Experience</h5>
-					<select name="experience">
-						<?php for($i=1;$i<=30;$i++){?>
-						<option value="<?php echo $i;?>"><?php echo $i;?></option>
-						<?php } ?>
-					</select>
+					<ul class="checkbox-style field-checkbox">
+						<li>
+						<input id="experience_new" name="" class="checkbox" value="new" type="checkbox">
+							<label for="experience_new">New</label>
+						</li>
+						<li>
+						<input id="experience_experienced" name="" class="checkbox" value="experienced" type="checkbox">
+							<label for="experience_experienced">Experienced</label>
+						</li>
+					</ul>
 				 </div>
 			</div>
 			<div class="field col-xs-2 col-sm-2 col-md-2 field-checkbox">				
@@ -266,32 +273,66 @@ wp_enqueue_style('zinput');
       </div>
       
 	  <div id="tab-time" class="tab-pane fade">
-      <div class="row">
-      <div class="check-list2">
-		<h3>Menu 1</h3>
-		<p>Some content in menu 1.</p>
-        
+      <!--<div class="row">
+		<div class="field col-xs-2 col-sm-2 col-md-2">				
+		 <div class="field-content">
+		 <h3>Time</h3>
+		 </div>
+		</div>
+    
+      </div>
         <div class="btnn-bg">                       
                
-                <a href="javascript:void(0);" onclick="toggle_nav('filter');" class="btn btn-default btn-sm">Previous</a>
-                <a href="javascript:void(0);" onclick="toggle_nav('cost');" class="btn btn-default btn-sm">Next</a>
-                </div>
-        
-      </div>
-      </div>
-       
+		<a href="javascript:void(0);" onclick="toggle_nav('filter');" class="btn btn-default btn-sm">Previous</a>
+		<a href="javascript:void(0);" onclick="toggle_nav('cost');" class="btn btn-default btn-sm">Next</a>
+		</div>-->
+		<div class="row">
+			<div class="field col-xs-12 col-sm-12 col-md-12">
+				
+				 <div class="field-content check-list">
+
+					<h3>Time</h3>
+                    
+                    <div class="btnn-bg">                       
+               
+					<a href="javascript:void(0);" onclick="toggle_nav('filter');" class="btn btn-default btn-sm">Previous</a>
+					<a href="javascript:void(0);" onclick="toggle_nav('cost');" class="btn btn-default btn-sm">Next</a>
+					</div>
+				</div>                
+			</div>
+		</div>
 	  </div>
 	  <div id="tab-cost" class="tab-pane fade">
       <div class="row">
-      <div class="check-list2">
-		<h3>Menu 1</h3>
-		<p>Some content in menu 1.</p>
-        
-        <div class="btnn-bg"><a href="javascript:void(0);" onclick="toggle_nav('time');" class="btn btn-default btn-sm">Previous</a></div>
-        
-	  </div>
-      </div>
-      
+		<div class="field col-xs-12 col-sm-12 col-md-12">				
+			 <div class="field-content check-list">
+			 <div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6">
+				
+				<input type="text" id="price_range" data-slider-id="price_range_slider" ata-slider-min="90" data-slider-max="380">
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-6"><?php echo function_exists('jb_get_currency_symbol')?jb_get_currency_symbol( jb_get_option( 'default-currency', 'USD' ) ):'';?>90/Hour<br/>MIN</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 text-right"><?php echo function_exists('jb_get_currency_symbol')?jb_get_currency_symbol( jb_get_option( 'default-currency', 'USD' ) ):'';?>380/Hour<br/>MAX</div>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6">
+					<div>
+					Add Your Offer(<?php echo function_exists('jb_get_currency_symbol')?jb_get_currency_symbol( jb_get_option( 'default-currency', 'USD' ) ):'';?>)
+					<input type="text" id="proposed_price">					
+					</div>
+					<div>
+					Total Hours<input type="text" id="total_hours">			
+					</div>
+					<div>
+					Total Service Request<input type="text" id="total_price">					
+					</div>
+				</div>
+			 </div>
+			
+			 <div class="btnn-bg"><a href="javascript:void(0);" onclick="toggle_nav('time');" class="btn btn-default btn-sm">Previous</a></div>
+			 </div>
+		</div>      
+      </div>       
       </div>
 	</div>
 <?php do_action("jobboard_form_post", $fields); ?>
@@ -313,7 +354,49 @@ jQuery(document).ready(function($){
 		if($('#sub_cat_'+val).length)
 			$('#sub_cat_'+val).show();
 	});
+	
+	var price_slider=$("#price_range").slider({
+		step: 1, 
+		tooltip: 'always'
+		}).on('slideStop',function(event){
+			var newVal = $(this).data('slider').getValue();
+			//tooltip handle
+			price_slider_tooltip_text(newVal);
+			
+			$('#proposed_price').val(newVal).trigger('blur');
+			
+		}).on('change',function(event){
+			var newVal = $(this).data('slider').getValue();
+			//tooltip handle
+			price_slider_tooltip_text(newVal);
+		});
+	//tooltip handle
+	price_slider.trigger('change');	
+	
+	$(document).on('keydown','#total_hours,#proposed_price',function(e){
+		var key   = e.keyCode ? e.keyCode : e.which;
+    
+		if (!( [8, 9, 13, 27, 46, 110, 190].indexOf(key) !== -1 ||
+			 (key == 65 && ( e.ctrlKey || e.metaKey  ) ) || 
+			 (key >= 35 && key <= 40) ||
+			 (key >= 48 && key <= 57 && !(e.shiftKey || e.altKey)) ||
+			 (key >= 96 && key <= 105)
+		   )) e.preventDefault();
+	});
+	
+	$(document).on('blur','#total_hours,#proposed_price',function(){
+		var price=parseFloat($('#proposed_price').val());
+		var hour=parseFloat($('#total_hours').val());
+		
+		if(isNaN(price) || isNaN(hour))
+			return false;
+		
+		$('#total_price').val(price*hour);
+	});
 	 
+	 function price_slider_tooltip_text(value){
+		 $('#price_range_slider .tooltip .tooltip-inner').html(value+' <?php echo function_exists('jb_get_currency_symbol')?jb_get_currency_symbol( jb_get_option( 'default-currency', 'USD' ) ):'';?> / Hour');
+	 }
 });
 function toggle_nav(item){
 jQuery('.nav-tabs a[href="#tab-'+item+'"]').tab('show');

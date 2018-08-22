@@ -52,3 +52,19 @@ form.jobboard-form .nav-tabs li a{font-size:14px; line-height:32px;}
       padding-left: 40px!important; }
 	  
 }
+
+/*Bootstarp range slider css*/
+/* .slider-handle {
+	background: #000000!important;
+} */
+#price_range_slider.slider{
+	width:100%;
+}
+#price_range_slider .slider-selection {
+	background: #FF8282;
+	
+}
+#price_range_slider .slider-handle {
+	background: red;
+}
+/*Bootstarp range slider css*/
