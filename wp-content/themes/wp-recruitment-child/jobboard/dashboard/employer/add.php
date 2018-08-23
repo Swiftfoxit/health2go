@@ -299,8 +299,8 @@ wp_enqueue_script('bootstrap-slider');
 				
 				<input type="text" id="price_range" data-slider-id="price_range_slider" ata-slider-min="90" data-slider-max="380">
 					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-6"><?php echo function_exists('jb_get_currency_symbol')?jb_get_currency_symbol( jb_get_option( 'default-currency', 'USD' ) ):'';?>90/Hour<br/>MIN</div>
-						<div class="col-xs-6 col-sm-6 col-md-6 text-right"><?php echo function_exists('jb_get_currency_symbol')?jb_get_currency_symbol( jb_get_option( 'default-currency', 'USD' ) ):'';?>380/Hour<br/>MAX</div>
+						<div class="col-xs-6 col-sm-6 col-md-6"><?php echo function_exists('jb_get_option')?jb_get_option( 'default-currency', 'USD' ):'';?>90/Hour<br/>MIN</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 text-right"><?php echo function_exists('jb_get_option')?jb_get_option( 'default-currency', 'USD' ):'';?>380/Hour<br/>MAX</div>
 					</div>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6">
@@ -388,7 +388,7 @@ jQuery(document).ready(function($){
 	});
 	 
 	 function price_slider_tooltip_text(value){
-		 $('#price_range_slider .tooltip .tooltip-inner').html(value+' <?php echo function_exists('jb_get_currency_symbol')?jb_get_currency_symbol( jb_get_option( 'default-currency', 'USD' ) ):'';?> / Hour');
+		 $('#price_range_slider .tooltip .tooltip-inner').html(value+' <?php echo function_exists('jb_get_option')?jb_get_option( 'default-currency', 'USD' ):'';?> / Hour');
 	 }
 });
 function toggle_nav(item){
