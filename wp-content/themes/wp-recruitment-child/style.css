@@ -13,7 +13,7 @@
 
 /*
 -------------------------------------------------------------- */
-.menu-main-menu-container{float:right;}
+/*.menu-main-menu-container{float:right;}*/
 
 
 form.jobboard-form{}
@@ -42,36 +42,29 @@ form.jobboard-form .nav-tabs li a{font-size:14px; line-height:32px;}
 
 .jobboard-form .radio-style li label, .jobboard-form .checkbox-style li label{font-size:11px!important;}
 
+.time-bg{width:100%; min-height:435px; background:url(images/time.jpg) no-repeat 50% 0;}
+.drag-bg{padding:50px 0 0 50px;}
 
-
-@media screen and (min-width: 1280px) {  
-
-  .is-jobboard .dashboard-navigations {
-    padding-right: 40px!important; }
-    .is-jobboard .dashboard-sidebar {
-      padding-left: 40px!important; }
-	  
-}
 
 /*Bootstarp range slider css*/
 #price_range_slider.slider{
 	width:100%;
 }
 #price_range_slider .slider-selection {
-	background: #0b4647;
+	background: #4e007a;
 	
 }
 #price_range_slider .slider-track-low, #price_range_slider .slider-track-high{
-	background: #0b4647;
+	background: #4e007a;
 }
 #price_range_slider .slider-handle {
-	background: #0b4647;
+	background: #4e007a;
 }
 #price_range_slider .tooltip-inner {
-	background-color: #0b4647;
+	background-color: #4e007a;
 }
 #price_range_slider .tooltip.top .tooltip-arrow {
-	border-top-color: #0b4647;
+	border-top-color: #4e007a;
 }
 #price_range_slider.slider.slider-horizontal .slider-track{
 	height:3px;
@@ -87,3 +80,13 @@ form.jobboard-form .nav-tabs li a{font-size:14px; line-height:32px;}
 
 
 /*Jobboard add request form cost tab fileds*/
+
+
+@media screen and (min-width: 1280px) {  
+
+  .is-jobboard .dashboard-navigations {
+    padding-right: 40px!important; }
+    .is-jobboard .dashboard-sidebar {
+      padding-left: 40px!important; }
+	  
+}

@@ -110,26 +110,9 @@ wp_enqueue_script('bootstrap-slider');
 				
 				 <div class="field-content check-list">
 
-					<ul class="checkbox-style field-checkbox">
-						<?php
-						$specialities = get_terms( 'jobboard-tax-specialisms', array(
-							'hide_empty' => false,
-						) );
-						if(!empty($specialities))
-						{
-							foreach($specialities as $speciality){
-								?>
-								<li><input id="speciality_<?php echo $speciality->term_id?>" name="specialisms[]" class="checkbox" value="<?php echo $speciality->term_id?>" type="checkbox">
-								<label for="speciality_<?php echo $speciality->term_id?>">
-								<?php echo $speciality->name?></label>
-								</li>
-								
-								<?php
-							}
-						}
-						?>
-                    <br clear="all" />
-					</ul>
+					<div id="speciality_on_category">
+					
+					</div>
                     
                     <div class="btnn-bg">                
                     <a href="javascript:void(0);" onclick="toggle_nav('category');" class="btn btn-default btn-sm">Previous</a>
@@ -226,26 +209,17 @@ wp_enqueue_script('bootstrap-slider');
 			</div>
 			<div class="field col-xs-2 col-sm-2 col-md-2 field-checkbox">				
 				 <div class="field-content">
-					<h5>Board</h5>
+					<h5>Availability</h5>
 					<ul class="checkbox-style field-checkbox">
-					<?php
-						$boards = get_terms( 'jobboard-tax-boards', array(
-							'hide_empty' => false
-						) );
-						if(!empty($boards))
-						{
-							foreach($boards as $board){
-								?>
-								<li><input id="board_<?php echo $board->term_id?>" name="boards[]" class="checkbox" value="<?php echo $board->term_id?>" type="checkbox">
-								<label for="board_<?php echo $board->term_id?>">
-								<?php echo $board->name?></label>
-								</li>
-								
-								<?php
-							}
-						}
-						?>
-						</ul>
+						<li>
+						<input id="availability_flexible" name="availability" class="checkbox" value="flexible" type="checkbox">
+							<label for="availability_flexible">Flexible</label>
+						</li>
+						<li>
+						<input id="availability_strict" name="availability" class="checkbox" value="strict" type="checkbox">
+							<label for="availability_strict">Strict</label>
+						</li>
+					</ul>
 				 </div>
 			</div>
 			<div class="field col-xs-2 col-sm-2 col-md-2 field-checkbox">				
@@ -264,11 +238,32 @@ wp_enqueue_script('bootstrap-slider');
 				 </div>
 			</div>
 		</div>
-        
-       			<div class="btnn-bg">                       
-        		<a href="javascript:void(0);" onclick="toggle_nav('speciality');" class="btn btn-default btn-sm">Previous</a>
-                <a href="javascript:void(0);" onclick="toggle_nav('time');" class="btn btn-default btn-sm">Next</a>
-                </div>
+        <div class="row">
+			<div class="field col-xs-6 col-sm-6 col-md-6 field-checkbox">
+				<div class="field-content">					
+					<ul class="checkbox-style field-checkbox">
+						<li>
+						<input id="2_yrs_training" name="" class="checkbox" value="2_yrs_training" type="checkbox">
+							<label for="2_yrs_training">Two years of medical training</label>
+						</li>						
+					</ul>
+				 </div>
+			</div>
+			<div class="field col-xs-6 col-sm-6 col-md-6 field-checkbox">
+				<div class="field-content">					
+					<ul class="checkbox-style field-checkbox">
+						<li>
+						<input id="2_yrs_training_certified" name="" class="checkbox" value="2_yrs_training_certified" type="checkbox">
+							<label for="2_yrs_training">Two years of medical training and board certified</label>
+						</li>						
+					</ul>
+				 </div>
+			</div>
+		</div>
+		<div class="btnn-bg">                       
+		<a href="javascript:void(0);" onclick="toggle_nav('speciality');" class="btn btn-default btn-sm">Previous</a>
+		<a href="javascript:void(0);" onclick="toggle_nav('time');" class="btn btn-default btn-sm">Next</a>
+		</div>
 	  </div>
       </div>
       
@@ -281,8 +276,9 @@ wp_enqueue_script('bootstrap-slider');
 
 					<h3>Time</h3>
                     
-                    <div class="btnn-bg">                       
-               
+                    <div class="time-bg" style="width:100%;"></div>
+                    
+                    <div class="btnn-bg">               
 					<a href="javascript:void(0);" onclick="toggle_nav('filter');" class="btn btn-default btn-sm">Previous</a>
 					<a href="javascript:void(0);" onclick="toggle_nav('cost');" class="btn btn-default btn-sm">Next</a>
 					</div>
@@ -296,12 +292,13 @@ wp_enqueue_script('bootstrap-slider');
 			 <div class="field-content check-list">
 			 <div class="row">
 				<div class="col-xs-6 col-sm-6 col-md-6">
-				
+				<div class="drag-bg">
 				<input type="text" id="price_range" data-slider-id="price_range_slider" ata-slider-min="90" data-slider-max="380">
 					<div class="row">
 						<div class="col-xs-6 col-sm-6 col-md-6"><?php echo function_exists('jb_get_option')?jb_get_option( 'default-currency', 'USD' ):'';?>90/Hour<br/>MIN</div>
 						<div class="col-xs-6 col-sm-6 col-md-6 text-right"><?php echo function_exists('jb_get_option')?jb_get_option( 'default-currency', 'USD' ):'';?>380/Hour<br/>MAX</div>
 					</div>
+                </div>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6">
 					<div class="row">
@@ -341,6 +338,8 @@ jQuery(document).ready(function($){
 		var elem=$(this).find('input[type="radio"]');
 		elem.attr('checked','checked');
 		$(this).addClass('zSelected');
+		
+		$('.nav.nav-tabs').find('a[href=#tab-speciality]').removeClass('loaded');//Speciality tab content load
 		
 		$('.sub_cat').not(elem.closest('.sub_cat')).hide();
 		var val=elem.val();
@@ -386,6 +385,39 @@ jQuery(document).ready(function($){
 		
 		$('#total_price').val(price*hour);
 	});
+	
+	//Speciality tab content load
+	$(".nav.nav-tabs").tab(); // initialize tabs
+	$(".nav.nav-tabs a").on("show.bs.tab", function(e) { 
+		var elem=$(this);
+		if(elem.attr('href')=='#tab-speciality' && !elem.hasClass('loaded')){		
+			var category=$('input[name=category]:checked').val();
+			if(category !== undefined)
+			{	
+				$.ajax({
+				  method: "POST",
+				  url: ajaxurl,
+				  dataType:'json',
+				  data: { action: "speciality_on_category", category: category },
+				  beforeSend: function() {
+						$('#speciality_on_category').html('Loading...');
+					},
+				  success:function(response){
+					  $('#speciality_on_category').html(response.msg);
+					  if(response.error==false)
+					  elem.addClass('loaded');
+				  }
+				});
+			}
+			else{
+				$('#speciality_on_category').html('Please select category');
+			}
+			
+		}
+		
+	});	
+	//Speciality tab content load
+	
 	 
 	 function price_slider_tooltip_text(value){
 		 $('#price_range_slider .tooltip .tooltip-inner').html(value+' <?php echo function_exists('jb_get_option')?jb_get_option( 'default-currency', 'USD' ):'';?> / Hour');

@@ -396,3 +396,79 @@ function change_dashboard_page_jobs_title()
 {
 	return 'Request History';
 }
+/*Change dashboard page title*/
+
+
+/*add additional field to specialism taxonomy*/
+add_filter('jobboard_specialism_sections','add_category_for_specialism');
+function add_category_for_specialism($sections){
+	
+	$category=array(
+		'id'       => '_category',
+		'type'     => 'select',
+		'title'    => __('Select Category'), 
+		'desc'     => __('Select category for this specialism.'),
+		'data' => 'terms',
+		'args' => array(
+			'taxonomies' => array( 'jobboard-tax-categories' ),
+			'hide_empty'=>false
+		),
+	);
+	$sections['basic']['fields'][]=$category;
+	return $sections;
+	//echo '<pre>';print_r($sections['basic']['fields']);die;
+}
+
+/*add additional field to specialism taxonomy*/
+
+/*Call speciality based on category on employer post job form*/
+add_action( 'wp_ajax_speciality_on_category', 'speciality_on_category_func' );
+add_action( 'wp_ajax_nopriv_speciality_on_category', 'speciality_on_category_func' );
+function speciality_on_category_func(){
+	$category=$_POST['category'];
+	
+	$output=array('msg'=>'','error'=>true);
+	if(empty($category))
+	{
+		$output['msg']='Please select category';
+		echo json_encode($output);
+		die;
+	}
+	$args = array(
+		'taxonomy'   => 'jobboard-tax-specialisms',
+		'hide_empty' => false,
+		'meta_query' => array(
+			 array(
+				'key'       => '_category',
+				'value'     => $category,
+				'compare'   => '='
+			 )
+		)
+	);
+	$specialities = get_terms($args);
+	
+	if(is_wp_error($specialities)){
+		$output['msg']='No speciality found';
+		echo json_encode($output);
+		die;
+	}
+	
+	$output['error']=false;
+	
+	$output['msg'].='<ul class="checkbox-style field-checkbox">';
+				
+			foreach($specialities as $speciality){
+				
+				$output['msg'].='<li><input id="speciality_'.$speciality->term_id.'" name="specialisms[]" class="checkbox" value="'.$speciality->term_id.'" type="checkbox">
+				<label for="speciality_'.$speciality->term_id.'">
+				'.$speciality->name.'</label>
+				</li>';
+			}			
+		$output['msg'].='<br clear="all" />
+			</ul>';
+	
+	echo json_encode($output);
+	die;
+}
+
+/*Call speciality based on category on employer post job form*/
