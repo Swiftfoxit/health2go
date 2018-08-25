@@ -14,11 +14,17 @@ function wp_recruitment_enqueue_styles()
         $parent_style
     ));
 	
+	
+	wp_register_style('bootstrap-datepicker', get_stylesheet_directory_uri() . '/css/bootstrap-datepicker.min.css');
 	wp_register_style('bootstrap-datetimepicker', get_stylesheet_directory_uri() . '/css/bootstrap-datetimepicker.min.css');
+	wp_register_style('custom-timepicker', get_stylesheet_directory_uri() . '/css/custom-timepicker.css');
 	wp_register_style('zinput', get_stylesheet_directory_uri() . '/css/zInput_default_stylesheet.css');
 	wp_register_style('bootstrap-slider', get_stylesheet_directory_uri() . '/css/bootstrap-slider.min.css');
+	wp_register_script('bootstrap-datepicker', get_stylesheet_directory_uri() . '/js/bootstrap-datepicker.min.js');
 	wp_register_script('bootstrap-datetimepicker', get_stylesheet_directory_uri() . '/js/bootstrap-datetimepicker.min.js');
+	wp_register_script('custom-timepicker', get_stylesheet_directory_uri() . '/js/custom-timepicker.js');
 	wp_register_script('bootstrap-slider', get_stylesheet_directory_uri() . '/js/bootstrap-slider.min.js');
+	
 	
 }
 

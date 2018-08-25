@@ -21,8 +21,15 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
 wp_enqueue_style('zinput');
+wp_enqueue_style('custom-timepicker');
+//wp_enqueue_style('bootstrap-datetimepicker');
+wp_enqueue_style('bootstrap-datepicker');
+wp_enqueue_script('bootstrap-datepicker');
+wp_enqueue_script('custom-timepicker');
+//wp_enqueue_script('bootstrap-datetimepicker');
 wp_enqueue_style('bootstrap-slider');
 wp_enqueue_script('bootstrap-slider');
+//wp_enqueue_script('moment');
 ?>
 
 <div style="padding:0 0 20px 0;">
@@ -275,9 +282,14 @@ wp_enqueue_script('bootstrap-slider');
 				 <div class="field-content check-list">
 
 					<h3>Time</h3>
+                    <div id="date_time_con">
+					
+					</div>
                     
-                    <div class="time-bg" style="width:100%;"></div>
-                    
+					<!--<div class="time-bg" style="width:100%;">
+					
+					</div>-->
+                    <a href="javascript:void(0);" id='add_dates'>Add Date</a>
                     <div class="btnn-bg">               
 					<a href="javascript:void(0);" onclick="toggle_nav('filter');" class="btn btn-default btn-sm">Previous</a>
 					<a href="javascript:void(0);" onclick="toggle_nav('cost');" class="btn btn-default btn-sm">Next</a>
@@ -422,6 +434,40 @@ jQuery(document).ready(function($){
 	 function price_slider_tooltip_text(value){
 		 $('#price_range_slider .tooltip .tooltip-inner').html(value+' <?php echo function_exists('jb_get_option')?jb_get_option( 'default-currency', 'USD' ):'';?> / Hour');
 	 }
+	 
+	 
+	 $('#add_dates').datepicker({
+		format: "yyyy-mm-dd",
+		minView: "month",
+		minDate:new Date(),
+		autoclose: true,
+		closeOnDateSelect: true,
+		
+	 }).on('changeDate', function(e){
+		 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+		 var date=days[e.date.getDay()]  + " "+e.date.getDate() +","+ (e.date.getMonth()+1) + " " + e.date.getFullYear() ;
+			var id=Math.random().toString(36).substring(7);
+			var html='<p id="'+id+'">';
+			html+=date;			
+			html+='<a href="javascript:void(0);" class="timerange">Add Time</a>';
+			html+='</p>';
+			$('#date_time_con').append(html);
+			
+			
+		});
+		
+		/* $(document).on('click','.time-range',function(){
+			$('.time-range').datetimepicker('show');
+		});
+		$('.time-range').datetimepicker({
+				format: 'HH:mm:ss',
+				defaultDate: moment('11:12:02', 'HH:mm:ss'),
+				minDate: moment('11:12:02', 'HH:mm:ss'),
+				maxDate: moment('11:30:20', 'HH:mm:ss'),
+				keepInvalid: true,
+				autoclose: true,
+				closeOnDateSelect: true,
+			}); */
 });
 function toggle_nav(item){
 jQuery('.nav-tabs a[href="#tab-'+item+'"]').tab('show');
