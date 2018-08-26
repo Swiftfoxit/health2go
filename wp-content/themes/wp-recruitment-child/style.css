@@ -45,6 +45,23 @@ form.jobboard-form .nav-tabs li a{font-size:14px; line-height:32px;}
 .time-bg{width:100%; min-height:435px; background:url(images/time.jpg) no-repeat 50% 0;}
 .drag-bg{padding:50px 0 0 50px;}
 
+#date_time_con{font-size:22px; line-height:34px; margin:15px 0 0 0; }
+#date_time_con a{margin:0 0 0 20px;}
+
+.d-time-bg{border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:10px 15px; background:#fff;}
+
+#date_time_con span.times{font-size:14px; color:#fff; background:#240849; display:inline-block; padding:0px 20px; border-radius:20px; line-height:34px; margin:0 0 0 15px;}
+
+.timerangepicker-container{background:#fff; z-index:1000;}
+
+
+.table-condensed{width:300px;}
+.table-condensed th{text-align:center;}
+.table-condensed td{cursor:pointer; text-align:center;}
+.table-condensed td:hover{background:#f4f4f4;}
+.table-condensed td span{padding:3px 0; display:inline-block; width:42.66px; text-align:center;}
+
+
 
 /*Bootstarp range slider css*/
 #price_range_slider.slider{

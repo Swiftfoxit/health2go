@@ -177,12 +177,12 @@
 		  
 		  /*custom section*/
 		  timerangeContainer.closest('p').find('a.timerange').remove();
-		  timerangeContainer.closest('p').append('<div>'+timeRange.from.hour+":"+
+		  timerangeContainer.closest('p').append('<span class="times">'+timeRange.from.hour+":"+
             timeRange.from.minute+" "+    
             timeRange.from.period+"-"+
             timeRange.to.hour+":"+
             timeRange.to.minute+" "+
-            timeRange.to.period+'<a href="javascript:void(0);" class="timerange"> +</a></div>');
+            timeRange.to.period+'</span><a href="javascript:void(0);" class="timerange"> + </a>');
 		  /*custom section*/
 		  
           timerangeContainer.remove();

@@ -281,7 +281,7 @@ wp_enqueue_script('bootstrap-slider');
 				
 				 <div class="field-content check-list">
 
-					<h3>Time</h3>
+					<h3>ADD YOUR DATE & TIME</h3>
                     <div id="date_time_con">
 					
 					</div>
@@ -289,7 +289,7 @@ wp_enqueue_script('bootstrap-slider');
 					<!--<div class="time-bg" style="width:100%;">
 					
 					</div>-->
-                    <a href="javascript:void(0);" id='add_dates'>Add Date</a>
+                    <a href="javascript:void(0);" id='add_dates' class="btn btn-default">ADD YOUR DATE</a>
                     <div class="btnn-bg">               
 					<a href="javascript:void(0);" onclick="toggle_nav('filter');" class="btn btn-default btn-sm">Previous</a>
 					<a href="javascript:void(0);" onclick="toggle_nav('cost');" class="btn btn-default btn-sm">Next</a>
@@ -447,9 +447,14 @@ jQuery(document).ready(function($){
 		 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 		 var date=days[e.date.getDay()]  + " "+e.date.getDate() +","+ (e.date.getMonth()+1) + " " + e.date.getFullYear() ;
 			var id=Math.random().toString(36).substring(7);
-			var html='<p id="'+id+'">';
-			html+=date;			
-			html+='<a href="javascript:void(0);" class="timerange">Add Time</a>';
+			var html='<p class="d-time-bg" id="'+id+'">';
+			html+=date;
+			
+			/* if($('#'+id).find('.timerange').length)
+				html+='<a href="javascript:void(0);" class="timerange"> +</a>';
+			else */
+				html+='<a href="javascript:void(0);" class="timerange btn btn-default btn-sm">Add Time</a>';
+			
 			html+='</p>';
 			$('#date_time_con').append(html);
 			
